@@ -1,0 +1,58 @@
+<project name="UDS WP3" basedir=".">
+
+  <description>Argumentation Theory</description>
+
+  <target name="map-to-aspic">
+  	<!--  convert a GraphML argument map directly to ASPIC format -->
+  	<xslt in="schemes/wigmore.graphml" out="output/test.aspic" style="xsl/graphml-to-aspic.xsl" force="yes"/>
+  </target>
+ 
+  <target name="map-to-aif">
+  	<!--  convert a GraphML argument map to AIF -->
+    <xslt in="schemes/wigmore.graphml" out="output/test.txt" style="xsl/graphml-to-aif.xsl" force="yes"/>
+  </target>
+
+	 
+  <target name="aif-to-map">
+  	<!--  convert AIF to a GraphML argument map -->
+    <xslt in="output/dump.xml" out="output/dump.graphml" style="xsl/aif-to-graphml.xsl" force="yes"/>
+  </target>
+
+
+  <target name="coref">
+  	<!-- Entity coreference scheme -->
+  	<xslt in="schemes/coreference.graphml" out="output/test.aspic" style="xsl/graphml-to-aspic.xsl" force="yes"/>
+  </target>
+
+  <target name="ACH-ASPIC">
+  	<!--  convert a GraphML argument map directly to ASPIC format -->
+  	<xslt in="schemes/ach-fs-orbat.graphml" out="output/test.aspic" style="xsl/graphml-to-aspic.xsl" force="yes"/>
+  </target>
+	
+  <target name="FS-AIF">
+  	<!--  convert a GraphML argument map to AIF format -->
+  	<xslt in="schemes/ach-fortitude.graphml" out="output/test.txt" style="xsl/graphml-to-aif.xsl" force="yes"/>
+  </target>
+	
+  <target name="ACH-AIF">
+  	<!--  convert a GraphML argument map to AIF format -->
+  	<xslt in="schemes/ach-fortitude.graphml" out="output/test.txt" style="xsl/graphml-to-aif.xsl" force="yes"/>
+  </target>
+
+  <target name="ACH-SKOS">
+  	<!--  convert a GraphML argument map to sKOS format -->
+  	<xslt in="schemes/ach-fortitude.graphml" out="output/test.txt" style="xsl/graphml-to-skos.xsl" force="yes"/>
+  </target>
+	
+  <target name="WISDOM">
+  	<!--  DRDC's Hypothesis example for WISDOM -->
+  	<xslt in="schemes/wisdom.graphml" out="output/test.aspic" style="xsl/graphml-to-aspic.xsl" force="yes"/>
+  </target>
+	
+  <target name="SKOS-HTML">
+  	<!--  Convert ACH example I-nodes from SKOS to HTML -->
+  	<xslt in="output/triples.xml" out="output/test.html" style="../xsl-utils/skos-html.xsl" force="yes"/>
+  </target>
+
+</project>
+
