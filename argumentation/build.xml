@@ -1,0 +1,21 @@
+<project name="Eleatics: Argumentation" basedir=".">
+
+  <description>Argumentation Theory</description>
+
+  <target name="map-to-aif">
+  	<!--  convert a GraphML argument map to AIF -->
+    <xslt in="wigmore.graphml" out="output/test.txt" style="xsl/graphml-to-aif.xsl" force="yes"/>
+  </target>
+
+  <target name="map-to-aspic">
+  	<!--  convert a GraphML argument map directly to ASPIC format -->
+  	<xslt in="wigmore.graphml" out="output/test.aspic" style="xsl/graphml-to-aspic.xsl" force="yes"/>
+  </target>
+	 
+  <target name="map-to-SKOS">
+  	<!--  convert a GraphML argument map to SKOS format -->
+  	<xslt in="wigmore.graphml" out="output/test.txt" style="xsl/graphml-to-skos.xsl" force="yes"/>
+  </target>
+
+</project>
+
