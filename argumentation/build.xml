@@ -14,7 +14,8 @@
 	 
   <target name="map-to-SKOS">
   	<!--  convert a GraphML argument map to SKOS format -->
-  	<xslt in="wigmore.graphml" out="output/test.txt" style="xsl/graphml-to-skos.xsl" force="yes"/>
+  	<xslt in="examples/wigmore.graphml" out="output/test.txt" style="xsl/graphml-to-skos.xsl" force="yes"/>
+  	<xslt in="examples/fortitude.graphml" out="output/fortitude.txt" style="xsl/graphml-to-skos.xsl" force="yes"/>
   </target>
 
 </project>
