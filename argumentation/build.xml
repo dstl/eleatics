@@ -4,19 +4,24 @@
 
   <target name="map-to-aif">
   	<!--  convert a GraphML argument map to AIF -->
-    <xslt in="wigmore.graphml" out="output/test.txt" style="xsl/graphml-to-aif.xsl" force="yes"/>
+    <xslt in="examples/wigmore.graphml" out="output/test.txt" style="xsl/graphml-to-aif.xsl" force="yes"/>
   </target>
 
   <target name="map-to-aspic">
   	<!--  convert a GraphML argument map directly to ASPIC format -->
-  	<xslt in="wigmore.graphml" out="output/test.aspic" style="xsl/graphml-to-aspic.xsl" force="yes"/>
+  	<xslt in="examples/wigmore.graphml" out="output/test.aspic" style="xsl/graphml-to-aspic.xsl" force="yes"/>
   </target>
 	 
   <target name="map-to-SKOS">
   	<!--  convert a GraphML argument map to SKOS format -->
   	<xslt in="examples/wigmore.graphml" out="output/test.txt" style="xsl/graphml-to-skos.xsl" force="yes"/>
-  	<xslt in="examples/fortitude.graphml" out="output/fortitude.txt" style="xsl/graphml-to-skos.xsl" force="yes"/>
   </target>
 
+  <target name="fortitude-south">
+  	<!--  Fortitude South example -->
+    <xslt in="examples/fortitude.graphml" out="output/fortitude-aif.txt" style="xsl/graphml-to-aif.xsl" force="yes"/>
+  	<xslt in="examples/fortitude.graphml" out="output/fortitude-skos.txt" style="xsl/graphml-to-skos.xsl" force="yes"/>
+  </target>
+	
 </project>
 
