@@ -3,7 +3,7 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:exsl="http://exslt.org/common" extension-element-prefixes="exsl">
 
 <xsl:import href="rdf.xsl"/>
-<xsl:import href="textutils.xsl"/>
+<xsl:import href="../xsl-utils/textutils.xsl"/>
 
 <xsl:variable name="ns-aif"  select="'http://www.arg.dundee.ac.uk/aif#'"/>
 <xsl:variable name="ns-map"  select="'http://to.do/'"/>
