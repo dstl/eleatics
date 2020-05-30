@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
-  <!--Created by yEd 3.19-->
+  <!--Created by yEd 3.18.2-->
   <key attr.name="Description" attr.type="string" for="graph" id="d0"/>
   <key for="port" id="d1" yfiles.type="portgraphics"/>
   <key for="port" id="d2" yfiles.type="portgeometry"/>
   <key for="port" id="d3" yfiles.type="portuserdata"/>
   <key attr.name="defeasible" attr.type="boolean" for="node" id="d4">
-    <default>true</default>
+    <default xml:space="preserve">true</default>
   </key>
   <key attr.name="id" attr.type="string" for="node" id="d5">
-    <default/>
+    <default xml:space="preserve"/>
   </key>
   <key attr.name="nodeType" attr.type="string" for="node" id="d6">
-    <default/>
+    <default xml:space="preserve"/>
   </key>
   <key attr.name="known" attr.type="boolean" for="node" id="d7">
-    <default>false</default>
+    <default xml:space="preserve">false</default>
   </key>
   <key attr.name="url" attr.type="string" for="node" id="d8"/>
   <key attr.name="description" attr.type="string" for="node" id="d9"/>
@@ -25,831 +25,687 @@
   <key attr.name="description" attr.type="string" for="edge" id="d13"/>
   <key for="edge" id="d14" yfiles.type="edgegraphics"/>
   <graph edgedefault="directed" id="G">
-    <data key="d0"/>
+    <data key="d0" xml:space="preserve"/>
     <node id="n0">
-      <data key="d5"><![CDATA[x2]]></data>
-      <data key="d6"><![CDATA[CA-node]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[x2]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[CA-node]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
           <y:Geometry height="58.0" width="150.0" x="200.0" y="819.0"/>
           <y:Fill color="#E8EEF7" color2="#FF0000" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="71.8076171875" x="39.09619140625" y="20.87451171875">Default Conflict<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="71.8076171875" x="39.09619140625" xml:space="preserve" y="20.87451171875">Default Conflict<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n1">
-      <data key="d5"><![CDATA[PORT]]></data>
-      <data key="d6"><![CDATA[I-node]]></data>
-      <data key="d7">true</data>
-      <data key="d8"/>
-      <data key="d9"><![CDATA[A major port will be needed to supply invasion forces.]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[PORT]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
+      <data key="d7" xml:space="preserve">true</data>
+      <data key="d8" xml:space="preserve"/>
+      <data key="d9" xml:space="preserve"><![CDATA[A major port will be needed to supply invasion forces.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="46.0" width="150.0" x="237.5" y="678.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="150.0" x="0.0" y="12.453125">A major port is needed</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="150.0" x="0.0" xml:space="preserve" y="12.453125">A major port is needed</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n2">
-      <data key="d5"><![CDATA[CALAIS]]></data>
-      <data key="d6"><![CDATA[I-node]]></data>
-      <data key="d8"/>
-      <data key="d9"><![CDATA[The hypothesis that the main Allied invasion force will land in the Pas de Calais.]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[CALAIS]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
+      <data key="d8" xml:space="preserve"/>
+      <data key="d9" xml:space="preserve"><![CDATA[The hypothesis that the main Allied invasion force will land in the Pas de Calais.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="46.0" width="162.0" x="1454.0" y="960.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" borderDistance="10.0" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="162.0" x="0.0" y="4.90625">The main invasion will land in Pas de Calais</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" borderDistance="10.0" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="162.0" x="0.0" xml:space="preserve" y="4.90625">The main invasion will land in Pas de Calais</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n3">
-      <data key="d5"><![CDATA[NORMANDY]]></data>
-      <data key="d6"><![CDATA[I-node]]></data>
-      <data key="d8"/>
-      <data key="d9"><![CDATA[The hypothesis that main Allied invasion force will land in Normandy.]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[NORMANDY]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
+      <data key="d8" xml:space="preserve"/>
+      <data key="d9" xml:space="preserve"><![CDATA[The hypothesis that main Allied invasion force will land in Normandy.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="52.0" width="174.0" x="368.0" y="957.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="174.0" x="0.0" y="7.90625">The main invasion will land in Normandy</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="174.0" x="0.0" xml:space="preserve" y="7.90625">The main invasion will land in Normandy</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n4">
-      <data key="d4">false</data>
-      <data key="d5"><![CDATA[STRONGPOINT]]></data>
-      <data key="d6"><![CDATA[I-node]]></data>
-      <data key="d7">true</data>
-      <data key="d8"/>
-      <data key="d9"><![CDATA[The Pas de Calais is the strongest point of the Axis defences.]]></data>
+      <data key="d4" xml:space="preserve">false</data>
+      <data key="d5" xml:space="preserve"><![CDATA[STRONGPOINT]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
+      <data key="d7" xml:space="preserve">true</data>
+      <data key="d8" xml:space="preserve"/>
+      <data key="d9" xml:space="preserve"><![CDATA[The Pas de Calais is the strongest point of the Axis defences.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="46.0" width="118.0" x="425.5" y="678.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tr" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.0" x="-4.0" y="4.0">Calais is the strongpoint </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tr" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.0" x="-4.0" xml:space="preserve" y="4.0">Calais is the strongpoint </y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n5">
-      <data key="d5"><![CDATA[x1]]></data>
-      <data key="d6"><![CDATA[CA-node]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[x1]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[CA-node]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
           <y:Geometry height="58.0" width="150.0" x="1100.0" y="819.0"/>
           <y:Fill color="#E8EEF7" color2="#FF0000" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="71.8076171875" x="39.09619140625" y="20.87451171875">Default Conflict<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="71.8076171875" x="39.09619140625" xml:space="preserve" y="20.87451171875">Default Conflict<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n6">
-      <data key="d5"><![CDATA[r3]]></data>
-      <data key="d6"><![CDATA[RA-node]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[r3]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[RA-node]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
           <y:Geometry height="58.0" width="150.0" x="920.0" y="819.0"/>
           <y:Fill color="#E8EEF7" color2="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.1181640625" x="57.44091796875" y="20.87451171875">implies<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.1181640625" x="57.44091796875" xml:space="preserve" y="20.87451171875">implies<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n7">
-      <data key="d5"><![CDATA[FUSAGLOC]]></data>
-      <data key="d6"><![CDATA[I-node]]></data>
-      <data key="d8"/>
-      <data key="d9"><![CDATA[FUSAG is based in Southeast England]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[FUSAGLOC]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
+      <data key="d8" xml:space="preserve"/>
+      <data key="d9" xml:space="preserve"><![CDATA[FUSAG is based in Southeast England]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="44.650495126705664" width="140.41439688109153" x="542.000341241994" y="405.67475243664717"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="140.41439688109153" x="0.0" y="11.778372563352832">FUSAG location</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="140.41439688109153" x="0.0" xml:space="preserve" y="11.778372563352832">FUSAG location</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n8">
-      <data key="d5"><![CDATA[r2]]></data>
-      <data key="d6"><![CDATA[RA-node]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[r2]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[RA-node]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
           <y:Geometry height="58.0" width="150.0" x="1280.0" y="819.0"/>
           <y:Fill color="#E8EEF7" color2="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.1181640625" x="57.44091796875" y="20.87451171875">implies<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.1181640625" x="57.44091796875" xml:space="preserve" y="20.87451171875">implies<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n9">
-      <data key="d5"><![CDATA[x4]]></data>
-      <data key="d6"><![CDATA[CA-node]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[x4]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[CA-node]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
           <y:Geometry height="58.0" width="150.0" x="560.0" y="819.0"/>
           <y:Fill color="#E8EEF7" color2="#FF0000" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="71.8076171875" x="39.09619140625" y="20.87451171875">Default Conflict<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="71.8076171875" x="39.09619140625" xml:space="preserve" y="20.87451171875">Default Conflict<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n10">
-      <data key="d5"><![CDATA[r1]]></data>
-      <data key="d6"><![CDATA[RA-node]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[r1]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[RA-node]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
           <y:Geometry height="58.0" width="150.0" x="380.0" y="819.0"/>
           <y:Fill color="#E8EEF7" color2="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.1181640625" x="57.44091796875" y="20.87451171875">implies<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.1181640625" x="57.44091796875" xml:space="preserve" y="20.87451171875">implies<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n11">
-      <data key="d4">false</data>
-      <data key="d5"><![CDATA[MULBERRY]]></data>
-      <data key="d6"><![CDATA[I-node]]></data>
-      <data key="d8"><![CDATA[http://dbpedia.org/resource/Mulberry_harbour]]></data>
-      <data key="d9"><![CDATA[Two prefabricated harbours to be taken in sections across the English Channel from Britain with the invading army and assembled off Omaha Beach (Mulberry "A") and Gold Beach (Mulberry "B").]]></data>
+      <data key="d4" xml:space="preserve">false</data>
+      <data key="d5" xml:space="preserve"><![CDATA[MULBERRY]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[http://dbpedia.org/resource/Mulberry_harbour]]></data>
+      <data key="d9" xml:space="preserve"><![CDATA[Two prefabricated harbours to be taken in sections across the English Channel from Britain with the invading army and assembled off Omaha Beach (Mulberry "A") and Gold Beach (Mulberry "B").]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="46.0" width="103.0" x="261.0" y="405.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="103.0" x="0.0" y="4.90625">Mulberry Harbours</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="103.0" x="0.0" xml:space="preserve" y="4.90625">Mulberry Harbours</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n12">
-      <data key="d4">false</data>
-      <data key="d5"><![CDATA[xm]]></data>
-      <data key="d6"><![CDATA[CA-node]]></data>
-      <data key="d9"><![CDATA[portable harbour]]></data>
+      <data key="d4" xml:space="preserve">false</data>
+      <data key="d5" xml:space="preserve"><![CDATA[xm]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[CA-node]]></data>
+      <data key="d9" xml:space="preserve"><![CDATA[portable harbour]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
           <y:Geometry height="58.0" width="150.0" x="237.5" y="534.0"/>
           <y:Fill color="#E8EEF7" color2="#FF0000" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="26.7783203125" x="61.61083984375" y="20.87451171875">Strict<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="26.7783203125" x="61.61083984375" xml:space="preserve" y="20.87451171875">Strict<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n13">
-      <data key="d5"><![CDATA[PATTON]]></data>
-      <data key="d6"><![CDATA[I-node]]></data>
-      <data key="d7">true</data>
-      <data key="d8"/>
-      <data key="d9"><![CDATA[Patton is the most likely commander for an Allied invadion, and Patton commands FUSAG.]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[PATTON]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
+      <data key="d7" xml:space="preserve">true</data>
+      <data key="d8" xml:space="preserve"/>
+      <data key="d9" xml:space="preserve"><![CDATA[Patton is the most likely commander for an Allied invadion, and Patton commands FUSAG.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="46.0" width="118.0" x="394.0" y="405.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.0" x="0.0" y="12.453125">Patton</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.0" x="0.0" xml:space="preserve" y="12.453125">Patton</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n14">
-      <data key="d5"><![CDATA[DIVERSION]]></data>
-      <data key="d6"><![CDATA[I-node]]></data>
-      <data key="d8"/>
-      <data key="d9"><![CDATA[The assumption that the Normandy landings are merely a diversion.]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[DIVERSION]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
+      <data key="d8" xml:space="preserve"/>
+      <data key="d9" xml:space="preserve"><![CDATA[The assumption that the Normandy landings are merely a diversion.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="46.0" width="162.0" x="1344.7857142857142" y="678.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" borderDistance="10.0" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="162.0" x="0.0" y="4.90625">Normandy landings are a diversion</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" borderDistance="10.0" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="162.0" x="0.0" xml:space="preserve" y="4.90625">Normandy landings are a diversion</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n15">
-      <data key="d5"><![CDATA[rd2]]></data>
-      <data key="d6"><![CDATA[RA-node]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[rd2]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[RA-node]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
           <y:Geometry height="58.0" width="150.0" x="1460.0" y="819.0"/>
           <y:Fill color="#E8EEF7" color2="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.1181640625" x="57.44091796875" y="20.87451171875">implies<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.1181640625" x="57.44091796875" xml:space="preserve" y="20.87451171875">implies<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n16">
-      <data key="d5"><![CDATA[LANDING]]></data>
-      <data key="d6"><![CDATA[I-node]]></data>
-      <data key="d8"/>
-      <data key="d9"><![CDATA[Reports of Allied landings on the Normandy coast.]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[LANDING]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
+      <data key="d8" xml:space="preserve"/>
+      <data key="d9" xml:space="preserve"><![CDATA[Reports of Allied landings on the Normandy coast.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="46.0" width="162.0" x="1152.7857142857142" y="678.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" borderDistance="10.0" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="162.0" x="0.0" y="4.90625">A force has landed at Normandy</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" borderDistance="10.0" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="162.0" x="0.0" xml:space="preserve" y="4.90625">A force has landed at Normandy</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n17">
-      <data key="d5"><![CDATA[rd3]]></data>
-      <data key="d6"><![CDATA[RA-node]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[rd3]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[RA-node]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
           <y:Geometry height="58.0" width="150.0" x="740.0" y="819.0"/>
           <y:Fill color="#E8EEF7" color2="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.1181640625" x="57.44091796875" y="20.87451171875">implies<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.1181640625" x="57.44091796875" xml:space="preserve" y="20.87451171875">implies<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n18">
-      <data key="d5"><![CDATA[SIGINT]]></data>
-      <data key="d6"><![CDATA[I-node]]></data>
-      <data key="d7">true</data>
-      <data key="d8"/>
-      <data key="d9"><![CDATA[Axis Signals Intelligence.]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[SIGINT]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
+      <data key="d7" xml:space="preserve">true</data>
+      <data key="d8" xml:space="preserve"/>
+      <data key="d9" xml:space="preserve"><![CDATA[Axis Signals Intelligence.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="46.0" width="136.0" x="506.70753968253973" y="132.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="136.0" x="0.0" y="12.453125">Signals Intelligence</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="136.0" x="0.0" xml:space="preserve" y="12.453125">Signals Intelligence</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n19">
-      <data key="d5"><![CDATA[rs1]]></data>
-      <data key="d6"><![CDATA[RA-node]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[rs1]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[RA-node]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
           <y:Geometry height="58.0" width="150.0" x="537.2075396825397" y="264.0"/>
           <y:Fill color="#E8EEF7" color2="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.1181640625" x="57.44091796875" y="20.87451171875">implies<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.1181640625" x="57.44091796875" xml:space="preserve" y="20.87451171875">implies<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n20">
-      <data key="d5"><![CDATA[RECON]]></data>
-      <data key="d6"><![CDATA[I-node]]></data>
-      <data key="d7">true</data>
-      <data key="d8"/>
-      <data key="d9"><![CDATA[Reports from Axis aerial reconnaissance.]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[RECON]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
+      <data key="d7" xml:space="preserve">true</data>
+      <data key="d8" xml:space="preserve"/>
+      <data key="d9" xml:space="preserve"><![CDATA[Reports from Axis aerial reconnaissance.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="52.0" width="174.0" x="852.7075396825397" y="129.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="174.0" x="0.0" y="15.453125">Aerial Reconnaissance</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="174.0" x="0.0" xml:space="preserve" y="15.453125">Aerial Reconnaissance</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n21">
-      <data key="d5"><![CDATA[rs2]]></data>
-      <data key="d6"><![CDATA[RA-node]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[rs2]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[RA-node]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
           <y:Geometry height="58.0" width="150.0" x="1075.4575396825396" y="264.0"/>
           <y:Fill color="#E8EEF7" color2="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.1181640625" x="57.44091796875" y="20.87451171875">implies<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.1181640625" x="57.44091796875" xml:space="preserve" y="20.87451171875">implies<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n22">
-      <data key="d5"><![CDATA[SPIES]]></data>
-      <data key="d6"><![CDATA[I-node]]></data>
-      <data key="d7">true</data>
-      <data key="d8"/>
-      <data key="d9"><![CDATA[Reports from Axis spies in England.]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[SPIES]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
+      <data key="d7" xml:space="preserve">true</data>
+      <data key="d8" xml:space="preserve"/>
+      <data key="d9" xml:space="preserve"><![CDATA[Reports from Axis spies in England.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="46.0" width="79.05094736842102" x="397.65627234753555" y="132.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="79.05094736842102" x="0.0" y="12.453125">Spies</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="79.05094736842102" x="0.0" xml:space="preserve" y="12.453125">Spies</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n23">
-      <data key="d5"><![CDATA[rs3]]></data>
-      <data key="d6"><![CDATA[RA-node]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[rs3]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[RA-node]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
           <y:Geometry height="58.0" width="150.0" x="324.68174603174606" y="264.0"/>
           <y:Fill color="#E8EEF7" color2="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.1181640625" x="57.44091796875" y="20.87451171875">implies<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.1181640625" x="57.44091796875" xml:space="preserve" y="20.87451171875">implies<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n24">
-      <data key="d5"><![CDATA[XX]]></data>
-      <data key="d6"><![CDATA[I-node]]></data>
-      <data key="d8"><![CDATA[http://dbpedia.org/resource/Double-Cross_System]]></data>
-      <data key="d9"><![CDATA[The Double-Cross system for counter-espionage and deception.]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[XX]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[http://dbpedia.org/resource/Double-Cross_System]]></data>
+      <data key="d9" xml:space="preserve"><![CDATA[The Double-Cross system for counter-espionage and deception.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="46.0" width="118.0" x="233.65595238095239" y="0.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.0" x="0.0" y="12.453125">Double-Cross</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.0" x="0.0" xml:space="preserve" y="12.453125">Double-Cross</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n25">
-      <data key="d4">false</data>
-      <data key="d5"><![CDATA[xs1]]></data>
-      <data key="d6"><![CDATA[CA-node]]></data>
-      <data key="d9"><![CDATA[double agents]]></data>
+      <data key="d4" xml:space="preserve">false</data>
+      <data key="d5" xml:space="preserve"><![CDATA[xs1]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[CA-node]]></data>
+      <data key="d9" xml:space="preserve"><![CDATA[double agents]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
           <y:Geometry height="58.0" width="150.0" x="217.65595238095239" y="126.0"/>
           <y:Fill color="#E8EEF7" color2="#FF0000" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="26.7783203125" x="61.61083984375" y="20.87451171875">Strict<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="26.7783203125" x="61.61083984375" xml:space="preserve" y="20.87451171875">Strict<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n26">
-      <data key="d5"><![CDATA[QUICKSILVER2]]></data>
-      <data key="d6"><![CDATA[I-node]]></data>
-      <data key="d8"><![CDATA[http://dbpedia.org/resource/Operation_Quicksilver#2]]></data>
-      <data key="d9"><![CDATA[the radio deception plan of Quicksilver, involving the apparent movement of units from their true locations to eastern and southeastern England.]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[QUICKSILVER2]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[http://dbpedia.org/resource/Operation_Quicksilver#2]]></data>
+      <data key="d9" xml:space="preserve"><![CDATA[the radio deception plan of Quicksilver, involving the apparent movement of units from their true locations to eastern and southeastern England.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="46.0" width="118.0" x="688.7075396825397" y="0.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.0" x="0.0" y="4.90625">Quicksilver II: Radio deception</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.0" x="0.0" xml:space="preserve" y="4.90625">Quicksilver II: Radio deception</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n27">
-      <data key="d5"><![CDATA[FUSAG]]></data>
-      <data key="d6"><![CDATA[I-node]]></data>
-      <data key="d7">true</data>
-      <data key="d8"><![CDATA[http://dbpedia.org/resource/First_United_States_Army_Group]]></data>
-      <data key="d9"><![CDATA[First US Army Group. Apparently larger than 21st Army Group.]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[FUSAG]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
+      <data key="d7" xml:space="preserve">true</data>
+      <data key="d8" xml:space="preserve"><![CDATA[http://dbpedia.org/resource/First_United_States_Army_Group]]></data>
+      <data key="d9" xml:space="preserve"><![CDATA[First US Army Group. Apparently larger than 21st Army Group.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="46.0" width="118.0" x="712.4150793650794" y="405.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.0" x="0.0" y="12.453125">FUSAG</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.0" x="0.0" xml:space="preserve" y="12.453125">FUSAG</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n28">
-      <data key="d5"><![CDATA[AIRPLAN]]></data>
-      <data key="d6"><![CDATA[I-node]]></data>
-      <data key="d7">true</data>
-      <data key="d8"/>
-      <data key="d9"><![CDATA[The Axis view of the Allied air plan.]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[AIRPLAN]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
+      <data key="d7" xml:space="preserve">true</data>
+      <data key="d8" xml:space="preserve"/>
+      <data key="d9" xml:space="preserve"><![CDATA[The Axis view of the Allied air plan.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="46.0" width="118.0" x="1536.7857142857142" y="678.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.0" x="0.0" y="12.453125">Allied Air plan</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.0" x="0.0" xml:space="preserve" y="12.453125">Allied Air plan</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n29">
-      <data key="d5"><![CDATA[QUICKSILVER3]]></data>
-      <data key="d6"><![CDATA[I-node]]></data>
-      <data key="d8"><![CDATA[http://dbpedia.org/resource/Operation_Quicksilver#3]]></data>
-      <data key="d9"><![CDATA[The display of dummy landing craft, including associated simulated wireless traffic and signing of roads and special areas.]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[QUICKSILVER3]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[http://dbpedia.org/resource/Operation_Quicksilver#3]]></data>
+      <data key="d9" xml:space="preserve"><![CDATA[The display of dummy landing craft, including associated simulated wireless traffic and signing of roads and special areas.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="46.0" width="118.0" x="1072.7075396825396" y="0.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.0" x="0.0" y="4.90625">Quicksilver III: Dummy craft</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.0" x="0.0" xml:space="preserve" y="4.90625">Quicksilver III: Dummy craft</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n30">
-      <data key="d5"><![CDATA[QUICKSILVER5]]></data>
-      <data key="d6"><![CDATA[I-node]]></data>
-      <data key="d8"><![CDATA[http://dbpedia.org/resource/Operation_Quicksilver#5]]></data>
-      <data key="d9"><![CDATA[Increased activity around Dover to suggest embarkation preparations.]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[QUICKSILVER5]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[http://dbpedia.org/resource/Operation_Quicksilver#5]]></data>
+      <data key="d9" xml:space="preserve"><![CDATA[Increased activity around Dover to suggest embarkation preparations.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="46.0" width="118.0" x="1252.7075396825396" y="0.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.0" x="0.0" y="4.90625">Quicksilver V: Dover activity</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.0" x="0.0" xml:space="preserve" y="4.90625">Quicksilver V: Dover activity</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n31">
-      <data key="d5"><![CDATA[QUICKSILVER6]]></data>
-      <data key="d6"><![CDATA[I-node]]></data>
-      <data key="d8"><![CDATA[http://dbpedia.org/resource/Operation_Quicksilver#6]]></data>
-      <data key="d9"><![CDATA[Night lighting to simulate activity at night where dummy landing craft were situated.]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[QUICKSILVER6]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[http://dbpedia.org/resource/Operation_Quicksilver#6]]></data>
+      <data key="d9" xml:space="preserve"><![CDATA[Night lighting to simulate activity at night where dummy landing craft were situated.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="46.0" width="118.0" x="1432.7075396825396" y="0.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.0" x="0.0" y="4.90625">Quicksilver VI: Night lights</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.0" x="0.0" xml:space="preserve" y="4.90625">Quicksilver VI: Night lights</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n32">
-      <data key="d4">false</data>
-      <data key="d5"><![CDATA[xqs2]]></data>
-      <data key="d6"><![CDATA[CA-node]]></data>
-      <data key="d9"><![CDATA[radio deception]]></data>
+      <data key="d4" xml:space="preserve">false</data>
+      <data key="d5" xml:space="preserve"><![CDATA[xqs2]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[CA-node]]></data>
+      <data key="d9" xml:space="preserve"><![CDATA[radio deception]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
           <y:Geometry height="58.0" width="150.0" x="672.7075396825397" y="126.0"/>
           <y:Fill color="#E8EEF7" color2="#FF0000" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="26.7783203125" x="61.61083984375" y="20.87451171875">Strict<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="26.7783203125" x="61.61083984375" xml:space="preserve" y="20.87451171875">Strict<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n33">
-      <data key="d4">false</data>
-      <data key="d5"><![CDATA[xqs3]]></data>
-      <data key="d6"><![CDATA[CA-node]]></data>
-      <data key="d9"><![CDATA[dummy craft]]></data>
+      <data key="d4" xml:space="preserve">false</data>
+      <data key="d5" xml:space="preserve"><![CDATA[xqs3]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[CA-node]]></data>
+      <data key="d9" xml:space="preserve"><![CDATA[dummy craft]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
           <y:Geometry height="58.0" width="150.0" x="1056.7075396825396" y="126.0"/>
           <y:Fill color="#E8EEF7" color2="#FF0000" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="26.7783203125" x="61.61083984375" y="20.87451171875">Strict<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="26.7783203125" x="61.61083984375" xml:space="preserve" y="20.87451171875">Strict<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n34">
-      <data key="d5"><![CDATA[rair]]></data>
-      <data key="d6"><![CDATA[RA-node]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[rair]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[RA-node]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
           <y:Geometry height="58.0" width="150.0" x="1640.0" y="819.0"/>
           <y:Fill color="#E8EEF7" color2="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.1181640625" x="57.44091796875" y="20.87451171875">implies<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.1181640625" x="57.44091796875" xml:space="preserve" y="20.87451171875">implies<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n35">
-      <data key="d5"><![CDATA[QUICKSILVER4]]></data>
-      <data key="d6"><![CDATA[I-node]]></data>
-      <data key="d8"><![CDATA[http://dbpedia.org/resource/Operation_Quicksilver#4]]></data>
-      <data key="d9"><![CDATA[The air plan for Quicksilver, including bombing of the Pas-de-Calais beach area and tactical railway bombing immediately before D-Day.]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[QUICKSILVER4]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[http://dbpedia.org/resource/Operation_Quicksilver#4]]></data>
+      <data key="d9" xml:space="preserve"><![CDATA[The air plan for Quicksilver, including bombing of the Pas-de-Calais beach area and tactical railway bombing immediately before D-Day.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="46.0" width="118.0" x="1700.7857142857142" y="540.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.0" x="0.0" y="4.90625">Quicksilver IV: Air plan</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.0" x="0.0" xml:space="preserve" y="4.90625">Quicksilver IV: Air plan</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n36">
-      <data key="d4">false</data>
-      <data key="d5"><![CDATA[xqs4]]></data>
-      <data key="d6"><![CDATA[CA-node]]></data>
-      <data key="d9"><![CDATA[air plan]]></data>
+      <data key="d4" xml:space="preserve">false</data>
+      <data key="d5" xml:space="preserve"><![CDATA[xqs4]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[CA-node]]></data>
+      <data key="d9" xml:space="preserve"><![CDATA[air plan]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
           <y:Geometry height="58.0" width="150.0" x="1684.7857142857142" y="672.0"/>
           <y:Fill color="#E8EEF7" color2="#FF0000" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="26.7783203125" x="61.61083984375" y="20.87451171875">Strict<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="26.7783203125" x="61.61083984375" xml:space="preserve" y="20.87451171875">Strict<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n37">
-      <data key="d4">false</data>
-      <data key="d5"><![CDATA[xqs5]]></data>
-      <data key="d6"><![CDATA[CA-node]]></data>
-      <data key="d9"><![CDATA[dover activity]]></data>
+      <data key="d4" xml:space="preserve">false</data>
+      <data key="d5" xml:space="preserve"><![CDATA[xqs5]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[CA-node]]></data>
+      <data key="d9" xml:space="preserve"><![CDATA[dover activity]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
           <y:Geometry height="58.0" width="150.0" x="1236.7075396825396" y="126.0"/>
           <y:Fill color="#E8EEF7" color2="#FF0000" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="26.7783203125" x="61.61083984375" y="20.87451171875">Strict<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="26.7783203125" x="61.61083984375" xml:space="preserve" y="20.87451171875">Strict<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n38">
-      <data key="d4">false</data>
-      <data key="d5"><![CDATA[xqs6]]></data>
-      <data key="d6"><![CDATA[CA-node]]></data>
-      <data key="d9"><![CDATA[night lights]]></data>
+      <data key="d4" xml:space="preserve">false</data>
+      <data key="d5" xml:space="preserve"><![CDATA[xqs6]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[CA-node]]></data>
+      <data key="d9" xml:space="preserve"><![CDATA[night lights]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
           <y:Geometry height="58.0" width="150.0" x="1416.7075396825396" y="126.0"/>
           <y:Fill color="#E8EEF7" color2="#FF0000" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="26.7783203125" x="61.61083984375" y="20.87451171875">Strict<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="26.7783203125" x="61.61083984375" xml:space="preserve" y="20.87451171875">Strict<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n39">
-      <data key="d5"><![CDATA[21AG]]></data>
-      <data key="d6"><![CDATA[I-node]]></data>
-      <data key="d7">true</data>
-      <data key="d8"><![CDATA[http://dbpedia.org/resource/21st_Army_Group]]></data>
-      <data key="d9"><![CDATA[A British headquarters formation, in command of two field armies and other supporting units, consisting primarily of the British Second Army and the First Canadian Army. Established in London during July 1943, under the command of Supreme Headquarters Allied Expeditionary Force (SHAEF).]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[21AG]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
+      <data key="d7" xml:space="preserve">true</data>
+      <data key="d8" xml:space="preserve"><![CDATA[http://dbpedia.org/resource/21st_Army_Group]]></data>
+      <data key="d9" xml:space="preserve"><![CDATA[A British headquarters formation, in command of two field armies and other supporting units, consisting primarily of the British Second Army and the First Canadian Army. Established in London during July 1943, under the command of Supreme Headquarters Allied Expeditionary Force (SHAEF).]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="46.0" width="118.0" x="860.4150793650794" y="405.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.0" x="0.0" y="12.453125">21st Army Group</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.0" x="0.0" xml:space="preserve" y="12.453125">21st Army Group</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n40">
-      <data key="d4">false</data>
-      <data key="d5"><![CDATA[SHORTEST]]></data>
-      <data key="d6"><![CDATA[I-node]]></data>
-      <data key="d7">true</data>
-      <data key="d8"/>
-      <data key="d9"><![CDATA[The Pas de Calais affords the shortest crossing from Britain to mainland Europe.]]></data>
+      <data key="d4" xml:space="preserve">false</data>
+      <data key="d5" xml:space="preserve"><![CDATA[SHORTEST]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
+      <data key="d7" xml:space="preserve">true</data>
+      <data key="d8" xml:space="preserve"/>
+      <data key="d9" xml:space="preserve"><![CDATA[The Pas de Calais affords the shortest crossing from Britain to mainland Europe.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="37.30099025341133" width="108.21361403508786" x="1868.786050125313" y="682.3495048732943"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tr" textColor="#000000" verticalTextPosition="bottom" visible="true" width="108.21361403508786" x="-4.0" y="4.0">Calais is nearest</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="108.21361403508786" x="0.0" xml:space="preserve" y="8.103620126705664">Calais is nearest</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n41">
-      <data key="d5"><![CDATA[rnr1]]></data>
-      <data key="d6"><![CDATA[RA-node]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[rnr1]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[RA-node]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
           <y:Geometry height="58.0" width="150.0" x="1820.0" y="819.0"/>
           <y:Fill color="#E8EEF7" color2="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.1181640625" x="57.44091796875" y="20.87451171875">implies<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.1181640625" x="57.44091796875" xml:space="preserve" y="20.87451171875">implies<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n42">
-      <data key="d5"><![CDATA[VSITES]]></data>
-      <data key="d6"><![CDATA[I-node]]></data>
-      <data key="d8"/>
-      <data key="d9"><![CDATA[Pas de Calais is the nearest landing point to the V1 and V2 launch sites.]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[VSITES]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
+      <data key="d8" xml:space="preserve"/>
+      <data key="d9" xml:space="preserve"><![CDATA[Pas de Calais is the nearest landing point to the V1 and V2 launch sites.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="52.0" width="136.0" x="2007.0" y="675.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" borderDistance="10.0" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="136.0" x="0.0" y="15.453125">V-weapon sites</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" borderDistance="10.0" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="136.0" x="0.0" xml:space="preserve" y="15.453125">V-weapon sites</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n43">
-      <data key="d5"><![CDATA[rvw]]></data>
-      <data key="d6"><![CDATA[RA-node]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[rvw]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[RA-node]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
           <y:Geometry height="58.0" width="150.0" x="2000.0" y="819.0"/>
           <y:Fill color="#E8EEF7" color2="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.1181640625" x="57.44091796875" y="20.87451171875">implies<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.1181640625" x="57.44091796875" xml:space="preserve" y="20.87451171875">implies<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n44">
-      <data key="d4">false</data>
-      <data key="d5"><![CDATA[EXPANSION]]></data>
-      <data key="d6"><![CDATA[I-node]]></data>
-      <data key="d7">true</data>
-      <data key="d8"/>
-      <data key="d9"><![CDATA[Better opporunities for expansion - e.g. link-up with Operation Dragoon.]]></data>
+      <data key="d4" xml:space="preserve">false</data>
+      <data key="d5" xml:space="preserve"><![CDATA[EXPANSION]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
+      <data key="d7" xml:space="preserve">true</data>
+      <data key="d8" xml:space="preserve"/>
+      <data key="d9" xml:space="preserve"><![CDATA[Better opporunities for expansion - e.g. link-up with Operation Dragoon.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="37.30099025341133" width="108.21361403508786" x="40.89319298245607" y="682.3495048732943"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tr" textColor="#000000" verticalTextPosition="bottom" visible="true" width="108.21361403508786" x="-4.0" y="4.0">Easier exansion</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="108.21361403508786" x="0.0" xml:space="preserve" y="8.103620126705664">Easier expansion</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n45">
-      <data key="d5"><![CDATA[rexp]]></data>
-      <data key="d6"><![CDATA[RA-node]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[rexp]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[RA-node]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
           <y:Geometry height="58.0" width="150.0" x="20.0" y="819.0"/>
           <y:Fill color="#E8EEF7" color2="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.1181640625" x="57.44091796875" y="20.87451171875">implies<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.1181640625" x="57.44091796875" xml:space="preserve" y="20.87451171875">implies<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n46">
-      <data key="d5"><![CDATA[rorbat]]></data>
-      <data key="d6"><![CDATA[RA-node]]></data>
-      <data key="d8"/>
+      <data key="d5" xml:space="preserve"><![CDATA[rorbat]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[RA-node]]></data>
+      <data key="d8" xml:space="preserve"/>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
           <y:Geometry height="58.0" width="150.0" x="589.5" y="534.0"/>
           <y:Fill color="#E8EEF7" color2="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="21.1513671875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="53.7724609375" x="48.11376953125" y="18.42431640625">ORBAT<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="21.1513671875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="53.7724609375" x="48.11376953125" xml:space="preserve" y="18.42431640625">ORBAT<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n47">
-      <data key="d5"><![CDATA[ORBAT]]></data>
-      <data key="d6"><![CDATA[I-node]]></data>
-      <data key="d7">true</data>
-      <data key="d8"/>
-      <data key="d9"><![CDATA[The Allied Order of Battle in England.]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[ORBAT]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
+      <data key="d7" xml:space="preserve">true</data>
+      <data key="d8" xml:space="preserve"/>
+      <data key="d9" xml:space="preserve"><![CDATA[The Allied Order of Battle in England.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="46.0" width="118.0" x="605.5" y="678.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.0" x="0.0" y="12.453125">Order of Battle</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.0" x="0.0" xml:space="preserve" y="12.453125">Order of Battle</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n48">
-      <data key="d5"><![CDATA[VCOMMENT]]></data>
-      <data key="d6"><![CDATA[I-node]]></data>
-      <data key="d8"/>
-      <data key="d9"><![CDATA[The earliest destruction of V-weapon sites is desirable, but not an overriding concern.]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[VCOMMENT]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
+      <data key="d8" xml:space="preserve"/>
+      <data key="d9" xml:space="preserve"><![CDATA[The earliest destruction of V-weapon sites is desirable, but not an overriding concern.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="52.0" width="136.0" x="2007.0" y="402.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" borderDistance="10.0" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="136.0" x="0.0" y="15.453125">V-weapon relevance</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" borderDistance="10.0" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="136.0" x="0.0" xml:space="preserve" y="15.453125">V-weapon relevance</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n49">
-      <data key="d5"><![CDATA[xv1]]></data>
-      <data key="d6"><![CDATA[CA-node]]></data>
+      <data key="d5" xml:space="preserve"><![CDATA[xv1]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[CA-node]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
           <y:Geometry height="58.0" width="150.0" x="2000.0" y="534.0"/>
           <y:Fill color="#E8EEF7" color2="#FF0000" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="71.8076171875" x="39.09619140625" y="20.87451171875">Default Conflict<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="71.8076171875" x="39.09619140625" xml:space="preserve" y="20.87451171875">Default Conflict<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
