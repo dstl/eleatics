@@ -17,11 +17,11 @@
   	<xslt in="examples/toulmin.graphml" out="output/toulmin-skos.txt" style="xsl/graphml-to-skos.xsl" force="yes"/>
   </target>
 
-  <target name="FORTITUDE SOUTH">
+  <target name="Fortitude South">
   	<!--  Fortitude South example -->
-    <xslt in="examples/ACH/fortitude-south.graphml" out="output/fortitude-aif.txt" style="xsl/graphml-to-aif.xsl" force="yes"/>
-  	<xslt in="examples/ACH/fortitude-south.graphml" out="output/fortitude-skos.txt" style="xsl/graphml-to-skos.xsl" force="yes"/>
-    <xslt in="examples/ACH/orbat.graphml" out="output/orbat.txt" style="xsl/graphml-to-aif.xsl" force="yes"/>
+    <xslt in="examples/fortitude/fortitude-south.graphml" out="output/fortitude-aif.txt" style="xsl/graphml-to-aif.xsl" force="yes"/>
+  	<xslt in="examples/fortitude/fortitude-south.graphml" out="output/fortitude-skos.txt" style="xsl/graphml-to-skos.xsl" force="yes"/>
+    <xslt in="examples/fortitude/orbat.graphml" out="output/orbat.txt" style="xsl/graphml-to-aif.xsl" force="yes"/>
   </target>
 	
 </project>
