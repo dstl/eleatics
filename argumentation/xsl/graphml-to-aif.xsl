@@ -98,7 +98,7 @@
 	<xsl:variable name="source"><xsl:apply-templates select="../graphml:node[./@id = current()/@source]" mode="uri"/></xsl:variable>
 	<xsl:variable name="target"><xsl:apply-templates select="../graphml:node[./@id = current()/@target]" mode="uri"/></xsl:variable>
 	<xsl:value-of select="$target"/><xsl:text> </xsl:text>
-	<xsl:value-of select="'&lt;http://www.arg.dundee.ac.uk/aif#hasPremise&gt;'"/><xsl:text> </xsl:text>
+	<xsl:value-of select="'&lt;http://www.arg.dundee.ac.uk/aif#Premise&gt;'"/><xsl:text> </xsl:text>
 	<xsl:value-of select="$source"/><xsl:text> </xsl:text>
 	<xsl:text> .</xsl:text>
 	<xsl:text>&#13;</xsl:text>
@@ -109,7 +109,7 @@
 	<xsl:variable name="source"><xsl:apply-templates select="../graphml:node[./@id = current()/@source]" mode="uri"/></xsl:variable>
 	<xsl:variable name="target"><xsl:apply-templates select="../graphml:node[./@id = current()/@target]" mode="uri"/></xsl:variable>
 	<xsl:value-of select="$source"/><xsl:text> </xsl:text>
-	<xsl:value-of select="'&lt;http://www.arg.dundee.ac.uk/aif#hasConclusion&gt;'"/><xsl:text> </xsl:text>
+	<xsl:value-of select="'&lt;http://www.arg.dundee.ac.uk/aif#Conclusion&gt;'"/><xsl:text> </xsl:text>
 	<xsl:value-of select="$target"/><xsl:text> </xsl:text>
 	<xsl:text> .</xsl:text>
 	<xsl:text>&#13;</xsl:text>
