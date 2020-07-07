@@ -1,0 +1,152 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:aif="http://www.arg.dundee.ac.uk/aif#" xmlns:this="https://dstl.github.io/eleatics/argumentation/examples/ach/heur.xhtml">
+<head>
+<title>Iraq WMD</title>
+<style type="text/css">
+
+table {
+	width: 70%;
+	background: lightgrey;
+	padding: 1em;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	font-size: large;
+	padding-bottom: 1em;
+}
+
+th.evidencecol {
+	width: 60%;
+}
+
+th[scope=row], th[scope=col] {
+	font-size: large;
+	padding:10px;  
+}
+
+th[scope=row] {
+	font-weight: normal;
+	#font-style: italic;
+	text-align: left;
+}
+
+th[scope=col] {
+	font-weight: bold;
+	text-align: center;
+}
+
+
+td {
+	text-align: center;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: center;
+	background: lightgrey;
+}
+
+.plus {
+	font-size: 2.5em;
+	color: green;
+	background: palegreen;
+}
+
+td.minus {
+	font-size: 2.5em;
+	color: red;
+	background: pink;
+}
+
+span.enum {
+	font-weight: bold;
+}
+
+p.intro {
+	font-style: italic;
+}
+
+</style>
+
+</head>
+<body>
+
+<p class="intro">
+	This example is drawn from Heur's <a href="https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/books-and-monographs/psychology-of-intelligence-analysis/art11.html">Analysis of Competing Hypotheses</a> 
+	method (<a href="https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/books-and-monographs/psychology-of-intelligence-analysis/fig15.gif/image.gif">Figure 15</a>). 
+	
+</p>
+
+<h2>Question: Will Iraq Retaliate for US Bombing of Its Intelligence Headquarters?</h2>
+
+<h3>Hypotheses:</h3>
+
+<dl about="urn:eleatics:hypothesis" typeof="skos:Concept" rel="skos:narrower">
+	<dt>H1</dt>
+	<dd about="this:#H1" typeof="skos:Concept" property="skos:definition">Iraq will not retaliate.</dd>
+	<dt>H2</dt>
+	<dd about="this:#H2" typeof="skos:Concept" property="skos:definition">It will sponsor some minor terrorist actions.</dd>
+	<dt>H3</dt>
+	<dd about="this:#H3" typeof="skos:Concept" property="skos:definition">Iraq is planning a major terrorist attack, perhaps against one or more CIA installations.</dd>
+
+</dl>
+
+<h3>Matrix:</h3>
+
+<table>
+	
+	<tr>
+		<th class="evidencecol"/>
+		<th scope="col" about="this:#H1">H1</th>
+		<th scope="col" about="this:#H2">H2</th>
+		<th scope="col" about="this:#H3">H3</th>
+	</tr>
+	
+	<tr about="urn:eleatics:evidence" typeof="skos:Concept" rel="skos:narrower">
+		<th scope="row" about="this:#E1" typeof="skos:Concept"><span class="enum">E1</span>. <span property="skos:definition">Saddam public statement of intent not to retaliate.</span></th>
+		<td class="plus">+</td>
+		<td class="plus">+</td>
+		<td class="plus">+</td>
+	</tr>
+	
+	<tr about="urn:eleatics:evidence" typeof="skos:Concept" rel="skos:narrower">
+		<th scope="row" about="this:#E2" typeof="skos:Concept"><span class="enum">E2</span>. <span property="skos:definition">Absence of terrorist offensive during the 1991 Gulf War.</span></th>
+		<td class="plus">+</td>
+		<td class="plus">+</td>
+		<td class="minus">-</td>
+	</tr>
+	
+	<tr about="urn:eleatics:evidence" typeof="skos:Concept" rel="skos:narrower">
+		<th scope="row" about="this:#E3" typeof="skos:Concept"><span class="enum">E3</span>. <span property="skos:definition">Assumption that Iraq would not want to provoke another US attack.</span></th>
+		<td class="plus">+</td>
+		<td class="plus">+</td>
+		<td class="minus">-</td>
+	</tr>
+	
+	<tr about="urn:eleatics:evidence" typeof="skos:Concept" rel="skos:narrower">
+		<th scope="row" about="this:#E4" typeof="skos:Concept"><span class="enum">E4</span>. <span property="skos:definition">Increase in frequency/length of monitored Iraqi agent radio broadcasts.</span></th>
+		<td class="minus">-</td>
+		<td class="plus">+</td>
+		<td class="plus">+</td>
+	</tr>
+	
+	<tr about="urn:eleatics:evidence" typeof="skos:Concept" rel="skos:narrower">
+		<th scope="row" about="this:#E5" typeof="skos:Concept"><span class="enum">E5</span>. <span property="skos:definition">Iraqi embassies instructed to take increased security precautions.</span></th>
+		<td class="minus">-</td>
+		<td class="plus">+</td>
+		<td class="plus">+</td>
+	</tr>
+	
+	<tr about="urn:eleatics:evidence" typeof="skos:Concept" rel="skos:narrower">
+		<th scope="row" about="this:#E6" typeof="skos:Concept"><span class="enum">E6</span>. <span property="skos:definition">Assumption that failure to retaliate would be unacceptable loss of face for Saddam.</span></th>
+		<td class="minus">--</td>
+		<td class="plus">+</td>
+		<td class="plus">+</td>
+	</tr>
+
+</table>
+
+</body>
+</html>
