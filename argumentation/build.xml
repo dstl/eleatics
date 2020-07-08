@@ -16,6 +16,11 @@
   	<!--  convert a GraphML argument map to SKOS format -->
   	<xslt in="examples/toulmin.graphml" out="output/toulmin-skos.txt" style="xsl/graphml-to-skos.xsl" force="yes"/>
   </target>
+	 
+ <target name="ACH">
+ 	<!--  convert a GraphML argument map to SKOS format -->
+ 	<xslt in="examples/ach/heur.xhtml" out="output/ach.txt" style="xsl/ach-to-aif.xsl" force="yes"/>
+ </target>
 
   <target name="Fortitude South">
   	<!--  Fortitude South example -->
