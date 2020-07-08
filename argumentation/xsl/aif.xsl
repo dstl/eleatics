@@ -82,9 +82,50 @@
 	<xsl:param name="premises"/>
 	<xsl:param name="conclusion"/>
 	
+	<xsl:call-template name="aif-snode">
+		<xsl:with-param name="nodeid" select="$nodeid"/>
+		<xsl:with-param name="nodetype" select="$ranode"/>
+		<xsl:with-param name="claimText" select="$claimText"/>
+		<xsl:with-param name="graphName" select="$graphName"/>
+		<xsl:with-param name="premises" select="$premises"/>
+		<xsl:with-param name="conclusion" select="$conclusion"/>
+	</xsl:call-template>
+		
+</xsl:template>
+
+
+<xsl:template name="aif-canode">
+
+	<xsl:param name="nodeid"/>
+	<xsl:param name="claimText"/>
+	<xsl:param name="graphName"/>
+	<xsl:param name="premises"/>
+	<xsl:param name="conclusion"/>
+	
+	<xsl:call-template name="aif-snode">
+		<xsl:with-param name="nodeid" select="$nodeid"/>
+		<xsl:with-param name="nodetype" select="$canode"/>
+		<xsl:with-param name="claimText" select="$claimText"/>
+		<xsl:with-param name="graphName" select="$graphName"/>
+		<xsl:with-param name="premises" select="$premises"/>
+		<xsl:with-param name="conclusion" select="$conclusion"/>
+	</xsl:call-template>
+		
+</xsl:template>
+
+
+<xsl:template name="aif-snode">
+
+	<xsl:param name="nodeid"/>
+	<xsl:param name="nodetype"/>
+	<xsl:param name="claimText"/>
+	<xsl:param name="graphName"/>
+	<xsl:param name="premises"/>
+	<xsl:param name="conclusion"/>
+	
 	<xsl:value-of select="$nodeid"/><xsl:text> </xsl:text>
 	<xsl:value-of select="$rdf-type"/><xsl:text> </xsl:text>
-	<xsl:value-of select="$ranode"/>
+	<xsl:value-of select="$nodetype"/>
 	<xsl:if test="$graphName">
 		<xsl:text> </xsl:text><xsl:value-of select="$graphName"/>
 	</xsl:if>	
@@ -125,5 +166,6 @@
 	<xsl:text> .&#13;</xsl:text>
 		
 </xsl:template>
+
 
 </xsl:stylesheet>
