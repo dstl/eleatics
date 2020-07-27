@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:this="https://dstl.github.io/eleatics/argumentation/examples/fortitude/sites.xhtml#" xmlns:aif="http://www.arg.dundee.ac.uk/aif#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+	<head>
+		<link rel="stylesheet" href="hypothesis.css"/>
+		<title>Fortitude (South)</title>
+	</head>
+	<body>
+		<p>
+		This is testing the application of argumentation to <a href="https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/books-and-monographs/psychology-of-intelligence-analysis/art11.html">Analysis of Competing Hypotheses (ACH)</a>, using the WW2 operation <a href="https://en.wikipedia.org/wiki/Operation_Fortitude#Fortitude_South_2">Fortitude South</a> as an example. 
+		</p>
+		<p>Following the method...</p>
+		
+		<h1>Where will the main Allied invasion land?</h1>
+
+		<article>
+
+			<h2>Step 1 - Identify the possible hypotheses to be considered</h2>
+
+			<h3>Hypotheses:</h3>
+
+			<dl class="hypothesis" about="urn:eleatics:hypothesis" typeof="skos:Concept" rel="skos:narrower">
+			
+				<dt about="this:h1" typeof="skos:Concept" property="skos:prefLabel">Pas de Calais</dt>
+				<dd><p about="this:h1" property="skos:definition">The main invasion will land in Pas de Calais.</p></dd>
+				
+				<dt about="this:h2" typeof="skos:Concept" property="skos:prefLabel">Normandy</dt>
+				<dd><p about="this:h2" property="skos:definition">The main invasion will land in Normandy.</p></dd>
+				
+				<dt about="this:h3" typeof="skos:Concept" property="skos:prefLabel">Brittany</dt>
+				<dd><p about="this:h3" property="skos:definition">The main invasion will land in Brittany.</p></dd>
+				
+				<dt about="this:h4" typeof="skos:Concept" property="skos:prefLabel">Cotentin Peninsula</dt>
+				<dd><p about="this:h4" property="skos:definition">The main invasion will land on the Cotentin Peninsula.</p></dd>
+				
+				<dt about="this:h5" typeof="skos:Concept" property="skos:prefLabel">Elsewhere</dt>
+				<dd about="this:h5"><p property="skos:definition">The main invasion will land outside the range of close air support.</p></dd>
+				
+			</dl>
+
+			<h3>Assumptions:</h3>
+
+			<dl class="evidence" about="urn:eleatics:evidence" typeof="skos:Concept" rel="skos:narrower">
+			
+				<dt about="this:cas" property="skos:prefLabel">Close air support</dt>
+				<dd about="this:cas"><p property="skos:definition">The invasion <span class="axiom" property="skos:defeasible" content="false">must</span> have close air support.</p></dd>
+				
+				<dt about="this:port" property="skos:prefLabel">Port needed</dt>
+				<dd about="this:port"><p property="skos:definition">A major port will be needed to supply invasion forces.</p></dd>
+				
+				<dt about="this:peninsula" property="skos:prefLabel">Peninsula</dt>
+				<dd about="this:peninsula"><p property="skos:definition">Forces landing on a peninsula can be cut off on a narrow front.</p></dd>
+				
+				<dt about="this:shortest" property="skos:prefLabel">Shortest crossing</dt>
+				<dd about="this:shortest"><p property="skos:definition">The Pas de Calais affords the shortest crossing from Britain to mainland Europe.</p></dd>
+				
+				<dt about="this:strongpoint" property="skos:prefLabel">Strongpoint</dt>
+				<dd about="this:strongpoint"><p property="skos:definition">The Pas de Calais is the strongest point of the Axis defences.</p></dd>
+				
+				<dt about="this:expansion" property="skos:prefLabel">Expansion</dt>
+				<dd about="this:expansion"><p property="skos:definition">A landing site must offer opportunities for expansion.</p></dd>
+				
+			</dl>
+			
+			
+			<h3>Arguments</h3>
+			
+			<p about="this:testing" typeof="aif:CA-node">
+			<span class="hypothesis" resource="this:h5" rel="aif:Conclusion">Elsewhere</span> is ruled out by the need for <span resource="this:cas" rel="aif:Premise">close air support</span>. 
+			<p about="this:peninsula" rev="aif:Premise">
+			The risk of getting cut off on a peninsula is unacceptable, ruling out <span about="this:pen2" typeof="aif:CA-node" rel="aif:Conclusion" resource="this:h4" class="hypothesis">Brittany</span> and the <span about="this:pen1" typeof="aif:CA-node" rel="aif:Conclusion" resource="this:h3" class="hypothesis">Cotentin Peninsula</span>.
+			</p>
+			</p>
+
+		</article>
+
+		<article>
+		
+		<table>
+               
+			<tr>
+	            <th/>
+	            <th about="this:h3" scope="col">Brittany</th>
+	            <th about="this:h4" scope="col">Cotentin<br/>Peninsula</th>
+	            <th about="this:h2" scope="col">Normandy</th>
+	            <th about="this:h1" scope="col">Pas de Calais</th>
+	            <th about="this:h5" scope="col">Elsewhere</th>
+			</tr>
+			
+			<tr>
+	            <th scope="row" about="this:port">Port needed</th>
+	            <td class="plus">+</td>
+	            <td class="plus">+</td>
+	            <td class="minus">-</td>
+	            <td class="plus">+</td>
+	            <td class="minus">-</td>
+			</tr>
+			
+			<tr>
+	            <th scope="row" about="this:strongpoint">Strongpoint</th>
+	            <td class="plus">+</td>
+	            <td class="plus">+</td>
+	            <td class="plus">+</td>
+	            <td class="minus">-</td>
+	            <td class="plus">+</td>
+			</tr>
+			
+			<tr>
+	            <th scope="row" about="this:shortest">Shortest crossing</th>
+	            <td class="minus">-</td>
+	            <td class="minus">-</td>
+	            <td class="minus">-</td>
+	            <td class="plus">+</td>
+	            <td class="minus">-</td>
+			</tr>
+			
+			<tr>
+	            <th scope="row" about="this:expansion">Expansion</th>
+	            <td class="minus">-</td>
+	            <td class="minus">-</td>
+	            <td class="plus">+</td>
+	            <td class="plus">+</td>
+	            <td class="minus">-</td>
+			</tr>
+			
+			<tr>
+	            <th scope="row" about="this:cas">Close air support</th>
+	            <td class="plus">+</td>
+	            <td class="plus">+</td>
+	            <td class="plus">+</td>
+	            <td class="plus">+</td>
+	            <td class="minus">-</td>
+			</tr>
+
+			<tr>
+	            <th scope="row" about="this:peninsula">Peninsula</th>
+	            <td class="minus">-</td>
+	            <td class="minus">-</td>
+	            <td class="plus">+</td>
+	            <td class="plus">+</td>
+	            <td class="plus">+</td>
+			</tr>
+			
+		</table>
+		
+		</article>
+
+		<article>
+		
+<!-- 
+ 		<table>
+               
+			<tr>
+	            <th/>
+	            <th scope="col">Normandy</th>
+	            <th scope="col">Pas de Calais</th>
+			</tr>
+			
+			<tr>
+	            <th scope="row" about="this:port">Port needed</th>
+	            <td class="minus">-</td>
+	            <td class="plus">+</td>
+			</tr>
+			
+			<tr>
+	            <th scope="row">Strongpoint</th>
+	            <td class="plus">+</td>
+	            <td class="minus">-</td>
+			</tr>
+			
+			<tr>
+	            <th scope="row" about="this:port">Shortest crossing</th>
+	            <td class="minus">-</td>
+	            <td class="plus">+</td>
+			</tr>
+			
+			<tr>
+	            <th scope="row" about="this:port">Expansion</th>
+	            <td class="plus">+</td>
+	            <td class="minus">-</td>
+			</tr>
+			
+		</table>
+ -->
+		
+		</article>
+	
+	</body>
+</html>
