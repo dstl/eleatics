@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:this="https://dstl.github.io/eleatics/argumentation/examples/fortitude/hypotheses.xhtml#" xmlns:aif="http://www.arg.dundee.ac.uk/aif#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+	<head>
+		<link rel="stylesheet" href="hypothesis.css"/>
+		<title>Hypotheses</title>
+	</head>
+	<body>
+
+		<h1>Where will the main Allied invasion land?</h1>
+
+		<article>
+
+			<h2>Step 1 - Identify the possible hypotheses to be considered</h2>
+
+			<h3>Hypotheses:</h3>
+
+			<dl class="hypothesis" about="urn:eleatics:hypothesis" typeof="skos:Concept" rel="skos:narrower">
+			
+				<dt about="this:h1" typeof="skos:Concept aif:I-node" property="skos:prefLabel">Pas de Calais</dt>
+				<dd><p about="this:h1" property="skos:definition">The main invasion will land in Pas de Calais.</p></dd>
+				
+				<dt about="this:h2" typeof="skos:Concept aif:I-node" property="skos:prefLabel">Normandy</dt>
+				<dd><p about="this:h2" property="skos:definition">The main invasion will land in Normandy.</p></dd>
+				
+				<dt about="this:h3" typeof="skos:Concept aif:I-node" property="skos:prefLabel">Brittany</dt>
+				<dd><p about="this:h3" property="skos:definition">The main invasion will land in Brittany.</p></dd>
+				
+				<dt about="this:h4" typeof="skos:Concept aif:I-node" property="skos:prefLabel">Cotentin Peninsula</dt>
+				<dd><p about="this:h4" property="skos:definition">The main invasion will land on the Cotentin Peninsula.</p></dd>
+				
+				<dt about="this:h5" typeof="skos:Concept aif:I-node" property="skos:prefLabel">Elsewhere</dt>
+				<dd about="this:h5"><p property="skos:definition">The main invasion will land outside the range of close air support.</p></dd>
+				
+			</dl>
+
+			<h3>Assumptions:</h3>
+
+			<dl class="evidence" about="urn:eleatics:evidence" typeof="skos:Concept" rel="skos:narrower">
+			
+				<dt about="http://dbpedia.org/resource/Close_air_support" typeof="aif:I-node" property="skos:prefLabel">Close air support</dt>
+				<dd about="http://dbpedia.org/resource/Close_air_support"><p property="skos:definition">The invasion <span class="axiom" property="skos:defeasible" content="false">must</span> have close air support.</p></dd>
+				
+				<dt about="this:peninsula" typeof="aif:I-node" property="skos:prefLabel">Peninsula</dt>
+				<dd about="this:peninsula"><p property="skos:definition">Forces landing on a peninsula can be cut off on a narrow front.</p></dd>
+				
+			</dl>
+			
+			
+			<h3>Conclusions</h3>
+			
+			<ol>
+				<li>
+				<p about="this:notelsewhere" typeof="aif:CA-node">
+				<span class="hypothesis" resource="this:h5" rel="aif:Conclusion">Elsewhere</span> is ruled out by the need for <span resource="http://dbpedia.org/resource/Close_air_support" rel="aif:Premise">close air support</span>. 
+				</p>
+				</li>
+				<li>
+				<p about="this:peninsula" rev="aif:Premise">
+				The risk of getting cut off on a peninsula is unacceptable, ruling out <span about="this:pen2" typeof="aif:CA-node" rel="aif:Conclusion" resource="this:h4" class="hypothesis">Brittany</span> and the <span about="this:pen1" typeof="aif:CA-node" rel="aif:Conclusion" resource="this:h3" class="hypothesis">Cotentin Peninsula</span>.
+				</p>
+				</li>
+				<li>
+				<p about="this:options" typeof="aif:I-node" rev="aif:Premise" property="aif:claimText" content="Possible landing sites">
+				<span about="this:r1" typeof="aif:RA-node" rel="aif:Conclusion" resource="this:h1" class="hypothesis">Pas de Calais</span> and <span about="this:r2" typeof="aif:RA-node" rel="aif:Conclusion" resource="this:h2" class="hypothesis">Normandy</span> are the only reasonable options.
+				</p>
+				</li>
+			</ol>
+
+		</article>
+	
+	</body>
+</html>

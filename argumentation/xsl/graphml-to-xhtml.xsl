@@ -8,7 +8,10 @@
 
 <xsl:template match="graphml:graphml">
 	<html>
-	<head></head>
+	<head>
+		<title>Info</title>
+		<link rel="stylesheet" href="hypothesis.css"/>
+	</head>
 	<body>
 		<dl>
 			<xsl:apply-templates select=".//graphml:node"/>
@@ -25,7 +28,7 @@
 	</xsl:variable>
 	
 	<xsl:variable name="rdfnodeid">
-		<xsl:apply-templates select="." mode="uri"/>
+		<xsl:apply-templates select="." mode="url"/>
 	</xsl:variable>
 	
 	<xsl:if test="$type = 'I-node'">
@@ -38,9 +41,9 @@
 			<xsl:apply-templates select="." mode="yed-label"/>
 		</xsl:variable>
 
-		<dt about="{$rdfnodeid}" typeof="skos:Concept" property="skos:prefLabel"><xsl:value-of select="normalize-space($label)"/></dt>
-		<dt about="{$rdfnodeid}" typeof="skos:Concept" property="skos:notation"><xsl:value-of select="normalize-space($nodeid)"/></dt>
-		<dd about="{$rdfnodeid}" typeof="skos:Concept" property="skos:definition"><xsl:apply-templates select="." mode="claimtext"/></dd>
+		<dt about="{$rdfnodeid}" typeof="skos:Concept" property="skos:prefLabel" class="label"><p><xsl:value-of select="normalize-space($label)"/></p></dt>
+		<dt about="{$rdfnodeid}" typeof="skos:Concept" property="skos:notation" class="notation"><p><xsl:value-of select="normalize-space($nodeid)"/></p></dt>
+		<dd about="{$rdfnodeid}" typeof="skos:Concept" property="skos:definition"><p><xsl:apply-templates select="." mode="claimtext"/></p></dd>
 			
 	</xsl:if>
 
