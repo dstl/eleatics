@@ -44,6 +44,18 @@
 	</xsl:choose>
 </xsl:template>
 
+<xsl:template match="graphml:node" mode="url">
+	<xsl:variable name="url" select="graphml:data[@key = $nodeUrlKey]"/>
+	<xsl:choose>
+		<xsl:when test="$url and string-length($url) &gt; 0">
+			<xsl:value-of select="$url"/>
+		</xsl:when>
+		<xsl:otherwise>
+			<xsl:value-of select="concat('_:', @id)"/>
+		</xsl:otherwise>
+	</xsl:choose>
+</xsl:template>
+
 
 <xsl:template match="graphml:node" mode="getData">
 	<xsl:param name="key"/>
