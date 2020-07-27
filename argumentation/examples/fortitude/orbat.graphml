@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
-  <!--Created by yEd 3.18.2-->
+  <!--Created by yEd 3.20-->
   <key attr.name="Description" attr.type="string" for="graph" id="d0"/>
   <key for="port" id="d1" yfiles.type="portgraphics"/>
   <key for="port" id="d2" yfiles.type="portgeometry"/>
@@ -33,7 +33,7 @@
       <data key="d9" xml:space="preserve"><![CDATA[The hypothesis that the main Allied invasion force will land in the Pas de Calais.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="46.0" width="162.0" x="522.0" y="255.8740478232619"/>
+          <y:Geometry height="46.0" width="162.0" x="670.0" y="256.6240478232619"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="node_width" borderDistance="10.0" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="162.0" x="0.0" xml:space="preserve" y="4.90625">The main invasion will land in Pas de Calais</y:NodeLabel>
@@ -47,7 +47,7 @@
       <data key="d9" xml:space="preserve"><![CDATA[The hypothesis that main Allied invasion force will land in Normandy.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="52.0" width="174.0" x="51.5" y="362.9990478232619"/>
+          <y:Geometry height="52.0" width="174.0" x="51.5" y="395.3740478232619"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="174.0" x="0.0" xml:space="preserve" y="7.90625">The main invasion will land in Normandy</y:NodeLabel>
@@ -74,7 +74,7 @@
       <data key="d6" xml:space="preserve"><![CDATA[RA-node]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
-          <y:Geometry height="58.0" width="150.0" x="528.0" y="143.1240478232619"/>
+          <y:Geometry height="58.0" width="150.0" x="676.0" y="143.1240478232619"/>
           <y:Fill color="#E8EEF7" color2="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.1181640625" x="57.44091796875" xml:space="preserve" y="20.87451171875">implies<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -101,7 +101,7 @@
       <data key="d9" xml:space="preserve"><![CDATA[Patton is the most likely commander for an Allied invadion, and Patton commands FUSAG.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="46.0" width="118.0" x="544.0" y="0.0"/>
+          <y:Geometry height="46.0" width="118.0" x="692.0" y="0.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.0" x="0.0" xml:space="preserve" y="12.453125">Patton</y:NodeLabel>
@@ -116,7 +116,7 @@
       <data key="d9" xml:space="preserve"><![CDATA[First US Army Group. Apparently larger than 21st Army Group.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="46.0" width="118.0" x="692.0" y="0.0"/>
+          <y:Geometry height="46.0" width="118.0" x="840.0" y="0.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.0" x="0.0" xml:space="preserve" y="12.453125">FUSAG</y:NodeLabel>
@@ -143,7 +143,7 @@
       <data key="d6" xml:space="preserve"><![CDATA[RA-node]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
-          <y:Geometry height="58.0" width="150.0" x="221.5" y="249.8740478232619"/>
+          <y:Geometry height="58.0" width="150.0" x="348.0" y="250.6240478232619"/>
           <y:Fill color="#E8EEF7" color2="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.1181640625" x="57.44091796875" xml:space="preserve" y="20.87451171875">implies<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -158,6 +158,21 @@
           <y:Fill color="#E8EEF7" color2="#FF0000" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="71.8076171875" x="39.09619140625" xml:space="preserve" y="20.87451171875">Default Conflict<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n10">
+      <data key="d5" xml:space="preserve"><![CDATA[21AGLOC]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
+      <data key="d7" xml:space="preserve">true</data>
+      <data key="d8" xml:space="preserve"><![CDATA[http://dbpedia.org/resource/21st_Army_Group]]></data>
+      <data key="d9" xml:space="preserve"><![CDATA[21st Army Group located in southern England.]]></data>
+      <data key="d10">
+        <y:GenericNode configuration="com.yworks.flowchart.process">
+          <y:Geometry height="46.0" width="118.0" x="528.0" y="149.1240478232619"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.0" x="0.0" xml:space="preserve" y="4.90625">21st Army Group location</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
@@ -197,7 +212,10 @@
     <edge id="e3" source="n7" target="n8">
       <data key="d14">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="23.0" tx="-37.5" ty="-14.53125"/>
+          <y:Path sx="0.0" sy="23.0" tx="-50.0" ty="-9.65625">
+            <y:Point x="259.0" y="205.6240478232619"/>
+            <y:Point x="373.0" y="235.1240478232619"/>
+          </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
@@ -208,8 +226,8 @@
       <data key="d14">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="29.0" tx="43.5" ty="-26.0">
-            <y:Point x="296.5" y="318.3740478232619"/>
-            <y:Point x="182.0" y="347.4990478232619"/>
+            <y:Point x="423.0" y="319.1240478232619"/>
+            <y:Point x="182.0" y="379.8740478232619"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -222,7 +240,7 @@
         <y:PolyLineEdge>
           <y:Path sx="46.80479896036384" sy="22.325247563352832" tx="-50.0" ty="-9.65625">
             <y:Point x="469.8047989603638" y="55.82524756335283"/>
-            <y:Point x="553.0" y="127.62404782326188"/>
+            <y:Point x="701.0" y="127.62404782326188"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -244,8 +262,8 @@
       <data key="d14">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="23.0" tx="50.0" ty="-9.65625">
-            <y:Point x="751.0" y="56.5"/>
-            <y:Point x="653.0" y="127.62404782326188"/>
+            <y:Point x="899.0" y="56.5"/>
+            <y:Point x="801.0" y="127.62404782326188"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -266,9 +284,19 @@
     <edge id="e9" source="n9" target="n8">
       <data key="d14">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="29.0" tx="37.5" ty="-14.53125">
-            <y:Point x="423.0" y="211.6240478232619"/>
-            <y:Point x="334.0" y="234.3740478232619"/>
+          <y:Path sx="0.0" sy="29.0" tx="0.0" ty="-29.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e10" source="n10" target="n8">
+      <data key="d14">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="23.0" tx="50.0" ty="-9.65625">
+            <y:Point x="587.0" y="205.6240478232619"/>
+            <y:Point x="473.0" y="235.1240478232619"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
