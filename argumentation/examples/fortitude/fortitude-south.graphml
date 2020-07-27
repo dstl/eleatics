@@ -633,7 +633,7 @@
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
       <data key="d7" xml:space="preserve">true</data>
       <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/examples/fortitude/evidence.xhtml#expansion]]></data>
-      <data key="d9" xml:space="preserve"><![CDATA[Better opporunities for expansion - e.g. link-up with Operation Dragoon.]]></data>
+      <data key="d9" xml:space="preserve"><![CDATA[Better opportunities for expansion - e.g. link-up with Operation Dragoon.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="37.30099025341133" width="108.21361403508786" x="831.3507326649958" y="844.014822537826"/>
@@ -672,7 +672,7 @@
       <data key="d5" xml:space="preserve"><![CDATA[ORBAT]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
       <data key="d7" xml:space="preserve">true</data>
-      <data key="d8" xml:space="preserve"/>
+      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/examples/fortitude/evidence.xhtml#orbat]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[The Allied Order of Battle in England.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
