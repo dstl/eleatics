@@ -165,7 +165,7 @@
       <data key="d5" xml:space="preserve"><![CDATA[21AGLOC]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
       <data key="d7" xml:space="preserve">true</data>
-      <data key="d8" xml:space="preserve"><![CDATA[http://dbpedia.org/resource/21st_Army_Group]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/examples/fortitude/evidence.xhtml#21AGloc]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[21st Army Group located in southern England.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
