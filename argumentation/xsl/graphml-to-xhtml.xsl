@@ -41,9 +41,9 @@
 			<xsl:apply-templates select="." mode="yed-label"/>
 		</xsl:variable>
 
-		<dt about="{$rdfnodeid}" typeof="skos:Concept" property="skos:prefLabel" class="label"><p><xsl:value-of select="normalize-space($label)"/></p></dt>
-		<dt about="{$rdfnodeid}" typeof="skos:Concept" property="skos:notation" class="notation"><p><xsl:value-of select="normalize-space($nodeid)"/></p></dt>
-		<dd about="{$rdfnodeid}" typeof="skos:Concept" property="skos:definition"><p><xsl:apply-templates select="." mode="claimtext"/></p></dd>
+		<dt about="{$rdfnodeid}" typeof="skos:Concept" class="label"><p property="skos:prefLabel"><xsl:value-of select="normalize-space($label)"/></p></dt>
+		<dt about="{$rdfnodeid}" typeof="skos:Concept" class="notation"><p property="skos:notation"><xsl:value-of select="normalize-space($nodeid)"/></p></dt>
+		<dd about="{$rdfnodeid}" typeof="skos:Concept"><p property="skos:definition"><xsl:apply-templates select="." mode="claimtext"/></p></dd>
 			
 	</xsl:if>
 
