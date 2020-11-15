@@ -21,6 +21,13 @@
  	<!--  convert XHTML+RDFa to SKOS format -->
  	<xslt in="examples/ach/heur.xhtml" out="output/ach.txt" style="xsl/ach-to-aif.xsl" force="yes"/>
  </target>
+	 
+  <target name="RDFa">
+	<!--  Straightforward RDFa mark-up of HTML -->
+	<xslt in="/C:/workspaces/development/HTML/demo/jesuits-rephrase.xhtml" out="output/rdfa1.txt" style="../xsl-utils/rdfa-ntriples.xsl" force="yes"/>
+	<!--  Conventions for generating AIF argumenation from RDFa mark-up of HTML -->
+	<xslt in="/C:/workspaces/development/HTML/demo/jesuits-rephrase.xhtml" out="output/rdfa2.txt" style="xsl/rdfa-tricks.xsl" force="yes"/>
+  </target>
 	
 </project>
 
