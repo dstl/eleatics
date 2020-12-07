@@ -1,6 +1,8 @@
 <?xml version="1.0"?>
 <xsl:stylesheet version="1.0" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:schema="http://schema.org/" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:exsl="http://exslt.org/common" extension-element-prefixes="exsl">
 
+<xsl:import href="expand-iri.xsl"/>
+
 <xsl:output method="text" encoding="UTF-8" />
 
 <xsl:param name="source" select="'_:'"/>
@@ -155,15 +157,6 @@
 	<xsl:value-of select="concat($vocab, $property)"/>
 	<xsl:text>&gt;</xsl:text>
 </xsl:template>
-
-<!-- 
-<xsl:template name="getPropertyRev">
-	<xsl:variable name="vocab" select="ancestor-or-self::*[@vocab]/@vocab"/>
-	<xsl:text>&lt;</xsl:text>
-	<xsl:value-of select="concat($vocab, @rev)"/>
-	<xsl:text>&gt;</xsl:text>
-</xsl:template>
- -->
 
 <xsl:template name="getPropertyValue">
 	<xsl:choose>
