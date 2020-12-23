@@ -14,6 +14,7 @@
 	<xsl:apply-templates select="//*[@typeof]" mode="type"/>
 	<xsl:apply-templates select="//*[@property]" mode="property"/>
 	<xsl:apply-templates select="//*[@rev]" mode="rev"/>
+	<xsl:apply-templates select="//*[@rel]" mode="rel"/>
 </xsl:template>
 
 
@@ -62,6 +63,38 @@
 	<xsl:text> </xsl:text>
 	<xsl:call-template name="expandIRI">
 		<xsl:with-param name="name" select="ancestor-or-self::*[@about][1]/@about"/>
+	</xsl:call-template>
+	<xsl:text> .&#13;</xsl:text>
+</xsl:template>
+
+
+<xsl:template match="*[@rel]" mode="rel">
+	<xsl:variable name="property">
+		<xsl:call-template name="getProperty">
+		<xsl:with-param name="property" select="@rel"/>
+	</xsl:call-template>
+	</xsl:variable>
+	<xsl:variable name="subject">
+		<xsl:call-template name="expandIRI">
+			<xsl:with-param name="name" select="@about"/>
+		</xsl:call-template>
+	</xsl:variable>
+	<xsl:apply-templates select="./*[@about]" mode="relobject">
+		<xsl:with-param name="subject" select="$subject"/>
+		<xsl:with-param name="property" select="$property"/>
+	</xsl:apply-templates>
+</xsl:template>
+
+
+<xsl:template match="*[@about]" mode="relobject">
+	<xsl:param name="subject"/>
+	<xsl:param name="property"/>
+	<xsl:value-of select="$subject"/>
+	<xsl:text> </xsl:text>
+	<xsl:value-of select="$property"/>
+	<xsl:text> </xsl:text>
+	<xsl:call-template name="expandIRI">
+		<xsl:with-param name="name" select="@about"/>
 	</xsl:call-template>
 	<xsl:text> .&#13;</xsl:text>
 </xsl:template>
@@ -153,9 +186,18 @@
 <xsl:template name="getProperty">
 	<xsl:param name="property" select="@property"/>
 	<xsl:variable name="vocab" select="ancestor-or-self::*[@vocab]/@vocab"/>
-	<xsl:text>&lt;</xsl:text>
-	<xsl:value-of select="concat($vocab, $property)"/>
-	<xsl:text>&gt;</xsl:text>
+	<xsl:choose>
+		<xsl:when test="contains($property, ':')">
+			<xsl:call-template name="expandIRI">
+				<xsl:with-param name="name" select="$property"/>
+			</xsl:call-template>
+		</xsl:when>
+		<xsl:otherwise>
+			<xsl:text>&lt;</xsl:text>
+			<xsl:value-of select="concat($vocab, $property)"/>
+			<xsl:text>&gt;</xsl:text>
+		</xsl:otherwise>
+	</xsl:choose>		
 </xsl:template>
 
 <xsl:template name="getPropertyValue">
