@@ -1,0 +1,94 @@
+
+<html xmlns:aif="http://www.arg.dundee.ac.uk/aif#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<head>
+<title>Argumentation Schemes</title>
+<link href="css/schemes.css" rel="stylesheet"/>
+</head>
+<body vocab="http://www.arg.dundee.ac.uk/aif#">
+
+<h2>Argumentation Schemes</h2>
+
+<p>
+Argumentation schemes capture stereotypical patterns of argument. They describe classes of argument where some reasoning step allows a particular conclusion to be
+drawn given a suitable set of premises. We're mostly interested in <em>presumptive</em> arguments, where the conclusion generally applies, but not always; and a presumptive 
+argument scheme describes <em>exceptions</em> as well as premises and conclusions.
+</p>
+
+<p>
+For our purposes, we draw on ...
+</p>
+
+<article about="aif:PositionToKnow_Scheme" typeof="aif:PresumptiveInference_Scheme">
+<h4 property="rdfs:label">Argument from Position to Know</h4>
+<p>
+A claim made by some person or organization may be considered as an <span class="scheme">Argument from Position to Know</span>.
+This scheme describes a <span class="premise" property="aif:Premise_Desc" resource="aif:PositionToHaveKnowlege_Desc">Position to Have Knowledge</span> premise 
+and a <span class="exception" property="aif:Exception_Desc" resource="aif:LackOfReliability_Desc">Lack of Reliability</span> exception.
+These cover the cases where a claim might be ill-informed, biased, or even malicious.
+</p>
+</article>
+
+<article about="aif:ExpertOpinion_Scheme" typeof="aif:PresumptiveInference_Scheme">
+<h4 property="rdfs:label">Argument from Expert Opinion</h4>
+<p>
+This is broadly similar to <span class="scheme">Argument from Position to Know</span>, but considers expert opinion that needs to be backed up
+by relevant evidence and credentials. To that end, it includes 
+<span class="premise" property="aif:Premise_Desc" resource="aif:ExpertiseBackUpEvidence_Desc">Expertise Backup Evidence</span> 
+and <span class="premise" property="aif:Premise_Desc" resource="FieldExpertise_Desc">Field Expertise</span> premises. It can be attacked with the same 
+<span class="exception" property="aif:Exception_Desc" resource="aif:LackOfReliability_Desc">Lack of Reliability</span> exception, or with an 
+<span class="exception" property="aif:Exception_Desc" resource="aif:ExpertiseInconsistency_Desc">Expertise Inconsistency</span> exception if the
+expert's opinion differs from others in the same field.
+</p>
+
+<article about="aif:CauseToEffect_Scheme" typeof="aif:PresumptiveInference_Scheme">
+<h4 property="rdfs:label">Argument from Cause to Effect</h4>
+<p>
+This scheme covers plausible (abductive) reasoning from cause to effect. It includes a 
+<span class="premise" property="aif:Premise_Desc" resource="aif:Causal_Desc">Causal Description</span> premise stating that the 
+link is indeed causal.
+</p>
+</article>
+
+<article about="aif:EvidenceToHypothesis_Scheme" typeof="aif:PresumptiveInference_Scheme">
+<h4 property="rdfs:label">Argument from Evidence to Hypothesis</h4>
+<p>
+<span class="scheme">Argument from Evidence to Hypothesis</span> says the if the hypothesis were true, the evidence would be observable; so if the evidence is observed, 
+then the hypothesis is plausibly true. This is broadly similar to <span class="scheme">Argument from Cause to Effect</span>, but there doesn't have 
+to be a causal link, and the reasoning is inductive rather than abductive.
+</p>
+</article>
+
+<article about="aif:FalsificationOfHypothesis_Scheme" typeof="aif:PresumptiveInference_Scheme">
+<h4 property="rdfs:label">Falsification of Hypothesis</h4>
+<p>
+This scheme says the if the hypothesis were true, then some piece of evidence would be observable; so if the evidence is <em>not</em> observed, 
+then the hypothesis is false.
+</p>
+</article>
+
+<article>
+<h4>Argument from Consequences</h4>
+<p about="aif:OppositeConsequences_Desc" rev="aif:Exception_Desc">
+Walton's <span class="scheme">Argument from Consequences</span> scheme says that a particular course of action results in positive consequences or avoids negative ones. 
+AIF splits this scheme into two: <span class="scheme" about="aif:PositiveConsequences_Scheme" typeof="aif:PresumptiveInference_Scheme" property="rdfs:label">Argument from Positive Consequences</span> and
+<span class="scheme" about="aif:NegativeConsequences_Scheme" typeof="aif:PresumptiveInference_Scheme" property="rdfs:label">Argument from Negative Consequences</span>. 
+Both are open to an <span class="exception">Opposite Consequences</span> exception arguing that the benefits (or costs) are outweighed by other considerations.
+</p>
+</article>
+
+<article about="aif:EstablishedRule_Scheme" typeof="aif:PresumptiveInference_Scheme">
+<h4 property="rdfs:label">Argument from Established Rule</h4>
+<p>
+</p>
+</article>
+
+</article>
+
+
+<h2>Applying Schemes</h2>
+
+<p>
+</p>
+
+</body>
+</html>
