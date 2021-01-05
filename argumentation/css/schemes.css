@@ -1,0 +1,10 @@
+
+body {
+	
+	font-family: Arial;
+}
+
+.scheme, .premise, .conclusion, .exception {
+	font-style: italic;
+	#font-weight: bold;
+}
