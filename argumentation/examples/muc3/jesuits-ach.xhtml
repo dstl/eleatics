@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:skos="http://www.w3.org/2004/02/skos/core#"  xmlns:context="http://dstl.github.io/muc3/demo/jesuits-rephrase.xhtml#" xmlns:aif="http://www.arg.dundee.ac.uk/aif#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+	<head>
+		<link rel="stylesheet" href="css/hypothesis.css"/>
+		<title>Initial matrix</title>
+	</head>
+	<body>
+
+		<h2>Who murdered the Jesuit Priests?</h2>
+
+		<article>
+		
+		<h3>Hypotheses</h3>
+		<ol about="urn:eleatics:hypothesis" typeof="skos:Concept" rel="skos:narrower">
+			<li about="context:fmlndidit" typeof="skos:Concept" property="skos:definition">The FMLN are responsible.</li>
+			<li about="context:armydidit" typeof="skos:Concept" property="skos:definition">The Salvadoran Army are responsible.</li>
+		</ol>
+				
+		<div style="display: grid; width: 60%; padding: 1em; background-color: whitesmoke">
+
+ 		<table>
+               
+			<tr>
+	            <th style="width:40%"/>
+	            <th style="width:30%" scope="col" about="context:fmlndidit" property="skos:prefLabel">The FMLN</th>
+	            <th style="width:30%" scope="col" about="context:armydidit" property="skos:prefLabel">The Salvadoran Army</th>
+			</tr>
+			
+			<tr about="urn:eleatics:evidence" typeof="skos:Concept" rel="skos:narrower">
+	            <th scope="row" class="p2k" about="context:2" typeof="skos:Concept" property="skos:definition">FMLN: The Salvadoran Army are responsible.</th>
+	            <td class="minus">-</td>
+	            <td class="plus">+</td>
+			</tr>
+
+			<tr about="urn:eleatics:evidence" typeof="skos:Concept" rel="skos:narrower">
+	            <th scope="row" class="p2k" about="context:1" typeof="skos:Concept" property="skos:definition">Salvadoran Army: The FMLN are responsible.</th>
+	            <td class="plus">+</td>
+	            <td class="minus">-</td>
+			</tr>
+			
+			<tr about="urn:eleatics:evidence" typeof="skos:Concept" rel="skos:narrower">
+	            <th scope="row" class="p2k" about="context:7" typeof="skos:Concept" property="skos:definition">Castro: "Ultra-leftist groups" were responsible.</th>
+	            <td class="plus">+</td>
+	            <td class="minus">-</td>
+			</tr>
+			
+			<tr about="urn:eleatics:evidence" typeof="skos:Concept" rel="skos:narrower">
+	            <th scope="row" class="afs" about="context:curfew" typeof="skos:Concept" property="skos:definition">The murders took place during curfew.</th>
+	            <td class="minus">-</td>
+	            <td about="context:rcurfew" class="plus">+</td>
+			</tr>
+			
+			<tr about="urn:eleatics:evidence" typeof="skos:Concept" rel="skos:narrower">
+	            <th scope="row" class="e2h" about="context:3" typeof="skos:Concept" property="skos:definition">Cerra: The murderers were "between 30 and 40 unidentified men wearing military uniforms".</th>
+	            <td class="minus">-</td>
+	            <td about="context:runiforms" class="plus">+</td>
+			</tr>
+			
+		</table>
+		</div>
+			
+		</article>
+	
+	</body>
+</html>

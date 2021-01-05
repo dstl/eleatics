@@ -1,0 +1,20 @@
+<project name="MUC-3 Examples" basedir=".">
+
+  <description>Argumentation examples drawn from the MUC-3 corpus (https://github.com/dstl/muc3)</description>
+
+  <property file="ant.properties"/>
+
+  <target name="Jesuits Massacre">
+  <!--
+  	Jesuit Massacre example:
+  		https://en.wikipedia.org/wiki/1989_murders_of_Jesuits_in_El_Salvador
+  -->
+ 	<xslt in="jesuits-ach.xhtml" out="output/ach.txt" style="${xsl-ach}/ach-to-aif.xsl" force="yes"/>
+ 	<xslt in="jesuits-ach.xhtml" out="output/ach-rdfa.txt" style="${xsl-utils}/rdfa-ntriples.xsl" force="yes"/>
+ 	<xslt in="jesuits-information.xhtml" out="output/achinfo.txt" style="${xsl-utils}/rdfa-ntriples.xsl" force="yes"/>
+ 	<xslt in="jesuits-rephrase.xhtml" out="output/rephrase.txt" style="${xsl-utils}/rdfa-ntriples.xsl" force="yes"/>
+ 	<xslt in="jesuits-rephrase.xhtml" out="output/tricks.txt" style="${xsl-ach}/rdfa-tricks.xsl" force="yes"/>
+  </target>
+	
+</project>
+
