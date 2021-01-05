@@ -53,17 +53,34 @@
 
 
 <xsl:template match="*[@rev]" mode="rev">
+	<xsl:variable name="object">
+		<xsl:call-template name="expandIRI">
+			<xsl:with-param name="name" select="@about"/>
+		</xsl:call-template>
+	</xsl:variable>
+	<xsl:text> </xsl:text>
+	<xsl:variable name="property">
+		<xsl:call-template name="getProperty">
+			<xsl:with-param name="property" select="@rev"/>
+		</xsl:call-template>
+	</xsl:variable>
+	<xsl:apply-templates select="./*[@about]" mode="revsubject">
+		<xsl:with-param name="object" select="$object"/>
+		<xsl:with-param name="property" select="$property"/>
+	</xsl:apply-templates>
+</xsl:template>
+
+
+<xsl:template match="*[@about]" mode="revsubject">
+	<xsl:param name="object"/>
+	<xsl:param name="property"/>
 	<xsl:call-template name="expandIRI">
-		<xsl:with-param name="name" select="@resource"/>
+		<xsl:with-param name="name" select="@about"/>
 	</xsl:call-template>
 	<xsl:text> </xsl:text>
-	<xsl:call-template name="getProperty">
-		<xsl:with-param name="property" select="@rev"/>
-	</xsl:call-template>
+	<xsl:value-of select="$property"/>
 	<xsl:text> </xsl:text>
-	<xsl:call-template name="expandIRI">
-		<xsl:with-param name="name" select="ancestor-or-self::*[@about][1]/@about"/>
-	</xsl:call-template>
+	<xsl:value-of select="$object"/>
 	<xsl:text> .&#13;</xsl:text>
 </xsl:template>
 
