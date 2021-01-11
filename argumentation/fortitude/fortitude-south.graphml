@@ -42,7 +42,7 @@
       <data key="d5" xml:space="preserve"><![CDATA[PORT]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
       <data key="d7" xml:space="preserve">true</data>
-      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/examples/fortitude/evidence.xhtml#port]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/fortitude/evidence.xhtml#port]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[A major port will be needed to supply invasion forces.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
@@ -56,7 +56,7 @@
     <node id="n2">
       <data key="d5" xml:space="preserve"><![CDATA[CALAIS]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
-      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/examples/fortitude/hypotheses.xhtml#h1]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/fortitude/hypotheses.xhtml#h1]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[The hypothesis that the main Allied invasion force will land in the Pas de Calais.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
@@ -70,7 +70,7 @@
     <node id="n3">
       <data key="d5" xml:space="preserve"><![CDATA[NORMANDY]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
-      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/examples/fortitude/hypotheses.xhtml#h2]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/fortitude/hypotheses.xhtml#h2]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[The hypothesis that main Allied invasion force will land in Normandy.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
@@ -86,7 +86,7 @@
       <data key="d5" xml:space="preserve"><![CDATA[STRONGPOINT]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
       <data key="d7" xml:space="preserve">true</data>
-      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/examples/fortitude/evidence.xhtml#strongpoint]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/fortitude/evidence.xhtml#strongpoint]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[The Pas de Calais is the strongest point of the Axis defences.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
@@ -124,7 +124,7 @@
     <node id="n7">
       <data key="d5" xml:space="preserve"><![CDATA[FUSAGLOC]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
-      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/examples/fortitude/evidence.xhtml#fusag]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/fortitude/evidence.xhtml#fusag]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[FUSAG is based in Southeast England]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
@@ -218,7 +218,7 @@
     <node id="n14">
       <data key="d5" xml:space="preserve"><![CDATA[DIVERSION]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
-      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/examples/fortitude/evidence.xhtml#diversion]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/fortitude/evidence.xhtml#diversion]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[The assumption that the Normandy landings are merely a diversion.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
@@ -244,7 +244,7 @@
     <node id="n16">
       <data key="d5" xml:space="preserve"><![CDATA[LANDING]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
-      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/examples/fortitude/evidence.xhtml#landing]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/fortitude/evidence.xhtml#landing]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[Reports of Allied landings on the Normandy coast.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
@@ -271,7 +271,7 @@
       <data key="d5" xml:space="preserve"><![CDATA[SIGINT]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
       <data key="d7" xml:space="preserve">true</data>
-      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/examples/fortitude/evidence.xhtml#sigint]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/fortitude/evidence.xhtml#sigint]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[Axis Signals Intelligence.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
@@ -298,7 +298,7 @@
       <data key="d5" xml:space="preserve"><![CDATA[RECON]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
       <data key="d7" xml:space="preserve">true</data>
-      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/examples/fortitude/evidence.xhtml#recon]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/fortitude/evidence.xhtml#recon]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[Reports from Axis aerial reconnaissance.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
@@ -325,7 +325,7 @@
       <data key="d5" xml:space="preserve"><![CDATA[SPIES]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
       <data key="d7" xml:space="preserve">true</data>
-      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/examples/fortitude/evidence.xhtml#spies]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/fortitude/evidence.xhtml#spies]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[Reports from Axis spies in England.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
@@ -409,7 +409,7 @@
       <data key="d5" xml:space="preserve"><![CDATA[AIRPLAN]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
       <data key="d7" xml:space="preserve">true</data>
-      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/examples/fortitude/evidence.xhtml#airplan]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/fortitude/evidence.xhtml#airplan]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[The Axis view of the Allied air plan.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
@@ -578,7 +578,7 @@
       <data key="d5" xml:space="preserve"><![CDATA[SHORTEST]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
       <data key="d7" xml:space="preserve">true</data>
-      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/examples/fortitude/evidence.xhtml#shortest]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/fortitude/evidence.xhtml#shortest]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[The Pas de Calais affords the shortest crossing from Britain to mainland Europe.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
@@ -604,7 +604,7 @@
     <node id="n42">
       <data key="d5" xml:space="preserve"><![CDATA[VSITES]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
-      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/examples/fortitude/evidence.xhtml#vweapons]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/fortitude/evidence.xhtml#vweapons]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[Pas de Calais is the nearest landing point to the V1 and V2 launch sites.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
@@ -632,7 +632,7 @@
       <data key="d5" xml:space="preserve"><![CDATA[EXPANSION]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
       <data key="d7" xml:space="preserve">true</data>
-      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/examples/fortitude/evidence.xhtml#expansion]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/fortitude/evidence.xhtml#expansion]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[Better opportunities for expansion - e.g. link-up with Operation Dragoon.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
@@ -672,7 +672,7 @@
       <data key="d5" xml:space="preserve"><![CDATA[ORBAT]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
       <data key="d7" xml:space="preserve">true</data>
-      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/examples/fortitude/evidence.xhtml#orbat]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/fortitude/evidence.xhtml#orbat]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[The Allied Order of Battle in England.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
@@ -686,7 +686,7 @@
     <node id="n48">
       <data key="d5" xml:space="preserve"><![CDATA[VCOMMENT]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
-      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/examples/fortitude/evidence.xhtml#vwrelevance]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/fortitude/evidence.xhtml#vwrelevance]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[The earliest destruction of V-weapon sites is desirable, but not an overriding concern.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
@@ -712,7 +712,7 @@
     <node id="n50">
       <data key="d5" xml:space="preserve"><![CDATA[BRITTANY]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
-      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/examples/fortitude/hypotheses.xhtml#h3]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/fortitude/hypotheses.xhtml#h3]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[The hypothesis that main Allied invasion force will land in Brittany.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
@@ -726,7 +726,7 @@
     <node id="n51">
       <data key="d5" xml:space="preserve"><![CDATA[ELSEWHERE]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
-      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/examples/fortitude/hypotheses.xhtml#h5]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/fortitude/hypotheses.xhtml#h5]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[The hypothesis that main Allied invasion force will land elsewhere.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
@@ -740,7 +740,7 @@
     <node id="n52">
       <data key="d5" xml:space="preserve"><![CDATA[COTENTIN]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
-      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/examples/fortitude/hypotheses.xhtml#h4]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/fortitude/hypotheses.xhtml#h4]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[The hypothesis that main Allied invasion force will land on the Cotentin Peninsula.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
@@ -798,7 +798,7 @@
       <data key="d5" xml:space="preserve"><![CDATA[PENINSULA]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
       <data key="d7" xml:space="preserve">true</data>
-      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/examples/fortitude/hypotheses.xhtml#peninsula]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/fortitude/hypotheses.xhtml#peninsula]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[Forces landing on a peninsula can be cut off on a narrow front.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
@@ -827,7 +827,7 @@
       <data key="d5" xml:space="preserve"><![CDATA[21AGLOC]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
       <data key="d7" xml:space="preserve">true</data>
-      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/examples/fortitude/evidence.xhtml#21agloc]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/fortitude/evidence.xhtml#21agloc]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[21st Army Group located in southern England.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">

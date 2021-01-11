@@ -14,6 +14,7 @@
  </target>
 	
   <target name="Hypotheses">
+  	<xslt in="matrix-at-4.xhtml" out="output/hypotheses-at-4.txt" style="${xsl-utils}/rdfa-ntriples.xsl" force="yes"/>
   	<xslt in="hypotheses.xhtml" out="output/hypotheses.txt" style="${xsl-utils}/rdfa-ntriples.xsl" force="yes"/>
   </target>
 	

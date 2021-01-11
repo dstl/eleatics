@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:this="https://dstl.github.io/eleatics/argumentation/examples/fortitude/sites.xhtml#" xmlns:aif="http://www.arg.dundee.ac.uk/aif#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:this="https://dstl.github.io/eleatics/argumentation/examples/sites.xhtml#" xmlns:aif="http://www.arg.dundee.ac.uk/aif#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
 	<head>
 		<link rel="stylesheet" href="hypothesis.css"/>
 		<title>Refined matrix</title>
@@ -9,60 +9,68 @@
 		<h2>Step 4 - Refine the matrix</h2>
 
 		<article>		
+
+		<h3>Hypotheses</h3>
+
+		<ol about="urn:eleatics:hypothesis" typeof="skos:Concept" rel="skos:narrower">
+			<li about="https://dstl.github.io/eleatics/argumentation/fortitude/hypotheses.xhtml#h1" typeof="skos:Concept" property="skos:definition">The main invasion will land in Pas de Calais.</li>
+			<li about="https://dstl.github.io/eleatics/argumentation/fortitude/hypotheses.xhtml#h2" typeof="skos:Concept" property="skos:definition">The main invasion will land in Normandy.</li>
+		</ol>
+
 		<div style="display: grid; width: 40%; padding: 1em; background-color: whitesmoke">
 
  		<table id="matrix">
                
 			<tr>
 	            <th style="width:40%"/>
-	            <th style="width:30%" scope="col" about="https://dstl.github.io/eleatics/argumentation/examples/fortitude/hypotheses.xhtml#h2" typeof="skos:Concept" property="skos:definition">Normandy</th>
-	            <th style="width:30%" scope="col" about="https://dstl.github.io/eleatics/argumentation/examples/fortitude/hypotheses.xhtml#h1" typeof="skos:Concept" property="skos:definition">Pas de Calais</th>
+	            <th style="width:30%" scope="col" about="https://dstl.github.io/eleatics/argumentation/fortitude/hypotheses.xhtml#h2" typeof="skos:Concept" property="skos:definition">Normandy</th>
+	            <th style="width:30%" scope="col" about="https://dstl.github.io/eleatics/argumentation/fortitude/hypotheses.xhtml#h1" typeof="skos:Concept" property="skos:definition">Pas de Calais</th>
 			</tr>
 			
 			<tr about="urn:eleatics:evidence" typeof="skos:Concept" rel="skos:narrower">
-	            <th scope="row" about="https://dstl.github.io/eleatics/argumentation/examples/fortitude/evidence.xhtml#port" typeof="skos:Concept"><span property="skos:definition">PORT</span></th>
+	            <th scope="row" about="https://dstl.github.io/eleatics/argumentation/fortitude/evidence.xhtml#port" typeof="skos:Concept"><span property="skos:definition">PORT</span></th>
 	            <td class="minus">-</td>
 	            <td class="plus">+</td>
 			</tr>
 			
 			<tr about="urn:eleatics:evidence" typeof="skos:Concept" rel="skos:narrower">
-	            <th scope="row" about="https://dstl.github.io/eleatics/argumentation/examples/fortitude/evidence.xhtml#strongpoint" typeof="skos:Concept"><span property="skos:definition">STRONGPOINT</span></th>
+	            <th scope="row" about="https://dstl.github.io/eleatics/argumentation/fortitude/evidence.xhtml#strongpoint" typeof="skos:Concept"><span property="skos:definition">STRONGPOINT</span></th>
 	            <td class="plus">+</td>
 	            <td class="minus">-</td>
 			</tr>
 			
 			<tr about="urn:eleatics:evidence" typeof="skos:Concept" rel="skos:narrower">
-	            <th scope="row" about="https://dstl.github.io/eleatics/argumentation/examples/fortitude/evidence.xhtml#shortest" typeof="skos:Concept"><span property="skos:definition">SHORTEST</span></th>
+	            <th scope="row" about="https://dstl.github.io/eleatics/argumentation/fortitude/evidence.xhtml#shortest" typeof="skos:Concept"><span property="skos:definition">SHORTEST</span></th>
 	            <td class="minus">-</td>
 	            <td class="plus">+</td>
 			</tr>
 			
 			<tr about="urn:eleatics:evidence" typeof="skos:Concept" rel="skos:narrower">
-	            <th scope="row" about="https://dstl.github.io/eleatics/argumentation/examples/fortitude/evidence.xhtml#expansion" typeof="skos:Concept"><span property="skos:definition">EXPANSION</span></th>
+	            <th scope="row" about="https://dstl.github.io/eleatics/argumentation/fortitude/evidence.xhtml#expansion" typeof="skos:Concept"><span property="skos:definition">EXPANSION</span></th>
 	            <td class="plus">+</td>
 	            <td class="minus">-</td>
 			</tr>
 
 			<tr about="urn:eleatics:evidence" typeof="skos:Concept" rel="skos:narrower">
-	            <th scope="row" about="https://dstl.github.io/eleatics/argumentation/examples/fortitude/evidence.xhtml#sigint" typeof="skos:Concept"><span property="skos:definition">SIGINT</span></th>
+	            <th scope="row" about="https://dstl.github.io/eleatics/argumentation/fortitude/evidence.xhtml#sigint" typeof="skos:Concept"><span property="skos:definition">SIGINT</span></th>
 	            <td class="minus">-</td>
 	            <td class="plus">+</td>
 			</tr>
 			
 			<tr about="urn:eleatics:evidence" typeof="skos:Concept" rel="skos:narrower">
-	            <th scope="row" about="https://dstl.github.io/eleatics/argumentation/examples/fortitude/evidence.xhtml#orbat" typeof="skos:Concept"><span property="skos:definition">ORBAT</span></th>
+	            <th scope="row" about="https://dstl.github.io/eleatics/argumentation/fortitude/evidence.xhtml#orbat" typeof="skos:Concept"><span property="skos:definition">ORBAT</span></th>
 	            <td class="minus">-</td>
 	            <td class="plus">+</td>
 			</tr>
 			
 			<tr about="urn:eleatics:evidence" typeof="skos:Concept" rel="skos:narrower">
-	            <th scope="row" about="https://dstl.github.io/eleatics/argumentation/examples/fortitude/evidence.xhtml#spies" typeof="skos:Concept"><span property="skos:definition">SPIES</span></th>
+	            <th scope="row" about="https://dstl.github.io/eleatics/argumentation/fortitude/evidence.xhtml#spies" typeof="skos:Concept"><span property="skos:definition">SPIES</span></th>
 	            <td class="minus">-</td>
 	            <td class="plus">+</td>
 			</tr>
 			
 			<tr about="urn:eleatics:evidence" typeof="skos:Concept" rel="skos:narrower">
-	            <th scope="row" about="https://dstl.github.io/eleatics/argumentation/examples/fortitude/evidence.xhtml#airplan" typeof="skos:Concept"><span property="skos:definition">AIRPLAN</span></th>
+	            <th scope="row" about="https://dstl.github.io/eleatics/argumentation/fortitude/evidence.xhtml#airplan" typeof="skos:Concept"><span property="skos:definition">AIRPLAN</span></th>
 	            <td class="minus">-</td>
 	            <td class="plus">+</td>
 			</tr>
