@@ -205,7 +205,7 @@
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
       <data key="d7" xml:space="preserve">true</data>
       <data key="d8" xml:space="preserve"><![CDATA[http://dbpedia.org/resource/George_S._Patton]]></data>
-      <data key="d9" xml:space="preserve"><![CDATA[Patton is the most likely commander for an Allied invadion, and Patton commands FUSAG.]]></data>
+      <data key="d9" xml:space="preserve"><![CDATA[Patton is the most likely commander for an Allied invasion, and Patton commands FUSAG.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="46.0" width="118.0" x="588.0424603174603" y="567.0615478232619"/>
