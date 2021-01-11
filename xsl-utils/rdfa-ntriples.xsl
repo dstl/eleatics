@@ -133,6 +133,22 @@
 </xsl:template>
 
 
+<xsl:template match="*[@rel][@resource]" mode="rel">
+	<xsl:call-template name="expandIRI">
+		<xsl:with-param name="name" select="ancestor-or-self::*[@about][1]/@about"/>
+	</xsl:call-template>
+	<xsl:text> </xsl:text>
+	<xsl:call-template name="getProperty">
+		<xsl:with-param name="property" select="@rel"/>
+	</xsl:call-template>
+	<xsl:text> </xsl:text>
+	<xsl:call-template name="expandIRI">
+		<xsl:with-param name="name" select="@resource"/>
+	</xsl:call-template>
+	<xsl:text> .&#13;</xsl:text>
+</xsl:template>
+
+
 <xsl:template name="getSubject">
 	<xsl:variable name="about" select="ancestor-or-self::*[@about][1]/@about"/>
 	<xsl:choose>
