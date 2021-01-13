@@ -1,37 +1,34 @@
 <project name="Eleatics: Argumentation" basedir=".">
 
-  <description>Argumentation Theory examples</description>
+  <description>Argumentation Theory reference examples</description>
+	
+  <property file="ant.properties"/>
 
-  <target name="map-to-aif">
-  	<!--  convert a GraphML argument map to AIF -->
-    <xslt in="examples/toulmin.graphml" out="output/toulmin-aif.txt" style="xsl/graphml-to-aif.xsl" force="yes"/>
+  <target name="map-to-AIF">
+  	<!-- Convert a GraphML argument map to AIF -->
+    <xslt in="examples/toulmin.graphml" out="output/toulmin-aif.txt" style="${xsl-map}/graphml-to-aif.xsl" force="yes"/>
   </target>
 
-  <target name="map-to-aspic">
-  	<!--  convert a GraphML argument map directly to ASPIC format -->
-  	<xslt in="examples/toulmin.graphml" out="output/toulmin-aspic.txt" style="xsl/graphml-to-aspic.xsl" force="yes"/>
+  <target name="map-to-ASPIC">
+  	<!-- Convert a GraphML argument map directly to ASPIC format -->
+  	<xslt in="examples/toulmin.graphml" out="output/toulmin-aspic.txt" style="${xsl-map}/graphml-to-aspic.xsl" force="yes"/>
   </target>
 	 
   <target name="map-to-SKOS">
-  	<!--  convert a GraphML argument map to SKOS format -->
-  	<xslt in="examples/toulmin.graphml" out="output/toulmin-skos.txt" style="xsl/graphml-to-skos.xsl" force="yes"/>
+  	<!-- Convert a GraphML argument map to SKOS format -->
+  	<xslt in="examples/toulmin.graphml" out="output/toulmin-skos.txt" style="${xsl-map}/graphml-to-skos.xsl" force="yes"/>
   </target>
 	 
  <target name="ACH">
- 	<!--  convert XHTML+RDFa to SKOS format -->
- 	<xslt in="examples/ach/heur.xhtml" out="output/ach.txt" style="xsl/ach-to-aif.xsl" force="yes"/>
+ 	<!-- Create an AIF argument map from XHTML+RDFa (SKOS)  -->
+ 	<xslt in="examples/ach/heur.xhtml" out="output/ach.txt" style="${xsl-ach}/ach-to-aif.xsl" force="yes"/>
+ 	<!-- Extract the SKOS resources (which include concepts for the hypotheses) -->
+ 	<xslt in="examples/ach/heur.xhtml" out="output/ach-h.txt" style="${xsl-utils}/rdfa-ntriples.xsl" force="yes"/>
  </target>
 	 
-  <target name="RDFa">
-	<!--  Straightforward RDFa mark-up of HTML -->
-	<xslt in="/C:/workspaces/development/HTML/demo/jesuits-rephrase.xhtml" out="output/rdfa1.txt" style="../xsl-utils/rdfa-ntriples.xsl" force="yes"/>
-	<!--  Conventions for generating AIF argumenation from RDFa mark-up of HTML -->
-	<xslt in="/C:/workspaces/development/HTML/demo/jesuits-rephrase.xhtml" out="output/rdfa2.txt" style="xsl/rdfa-tricks.xsl" force="yes"/>
-  </target>
-	 
  <target name="Schemes">
-	<!--  Extract Argumentation Schemes as AIF from XHTML+RDFa -->
-	<xslt in="schemes.xhtml" out="output/schemes.txt" style="../xsl-utils/rdfa-ntriples.xsl" force="yes"/>
+	<!-- Extract Argumentation Schemes as AIF from XHTML+RDFa -->
+	<xslt in="schemes.xhtml" out="output/schemes.txt" style="${xsl-utils}/rdfa-ntriples.xsl" force="yes"/>
  </target>
 	
 </project>
