@@ -23,21 +23,9 @@
 		</xsl:call-template>
 	</xsl:variable>
 	
-	<xsl:variable name="isPremise">
-		<xsl:choose>
-			<xsl:when test="ancestor::*[@rel = 'skos:narrower'][1]/@about = 'urn:eleatics:evidence'">
-				<xsl:value-of select="'true'"/>
-			</xsl:when>
-			<xsl:otherwise>
-				<xsl:value-of select="'false'"/>
-			</xsl:otherwise>
-		</xsl:choose>
-	</xsl:variable>
-	
 	<xsl:call-template name="aif-inode">
 		<xsl:with-param name="nodeid" select="$nodeid"/>
 		<xsl:with-param name="claimText"><xsl:value-of select="."/></xsl:with-param>
-		<xsl:with-param name="premise" select="$isPremise"/>
 	</xsl:call-template>
 	
 </xsl:template>
@@ -57,12 +45,6 @@
 			<xsl:with-param name="name" select="$hypotheses[$index]"/>
 		</xsl:call-template>
 	</xsl:variable>
-	
-<!-- 
- 	<xsl:variable name="nodeid">
-		<xsl:value-of select="concat('_:', generate-id())"/>
-	</xsl:variable>
- -->
 
 	<xsl:variable name="nodeid">
 		<xsl:call-template name="expandIRI">
