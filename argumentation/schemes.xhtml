@@ -61,8 +61,11 @@ to be a causal link, and the reasoning is inductive rather than abductive.
 <article about="aif:Sign_Scheme" typeof="aif:PresumptiveInference_Scheme">
 <h4 property="rdfs:label">Argument from Sign</h4>
 <p>
-<span class="scheme">Argument from Sign</span> says the premise is a sign that generally indicates the premise. This is a weaker version of <span class="scheme">Argument from Cause to Effect</span>: correlation, 
- but without any claim to causation.
+<span class="scheme">Argument from Sign</span> says the premise is a sign that generally indicates the conclusion. This is a weaker version of 
+both <span class="scheme">Argument from Cause to Effect</span> and <span class="scheme">Argument from Evidence to Hypothesis</span>. 
+It claims correlation without causation, and the premise is <em>generally</em> rather than <em>necessarily</em> associated with the conclusion. 
+A <span class="exception" property="aif:Exception_Desc" resource="aif:SignFromOtherEvents_Desc">Sign From Other Events</span> exception attacks the 
+argument by suggesting an alternative reason for the sign.
 </p>
 </article>
 
@@ -87,6 +90,8 @@ Both are open to an <span class="exception">Opposite Consequences</span> excepti
 <article about="aif:EstablishedRule_Scheme" typeof="aif:PresumptiveInference_Scheme">
 <h4 property="rdfs:label">Argument from Established Rule</h4>
 <p>
+This scheme suggests that given the prevailing circumstances as a premise, we can conclude that some actor must take a particular course of action (or 
+face a penalty). 
 </p>
 </article>
 
@@ -94,9 +99,25 @@ Both are open to an <span class="exception">Opposite Consequences</span> excepti
 
 
 <h2>Applying Schemes</h2>
-
 <p>
+Schemes can either be applied in various ways:
 </p>
+<ol>
+<li>When constructing an Argumentation Theory from an argument map (e.g. establishing preferences).</li>
+<li>In evaluating the "strength" of arguments through assessing the set of schemes that apply in a stable extension.</li>
+<li>In conducting meta-arguments between stable extensions that support different hypotheses.</li>
+<li>In suggesting lines of attack on stable extension to support dialogue.</li>
+</ol>
+<p>
+We'll explore these in relation to the ACH method. 
+</p>
+<p>...</p>
+
+<h2>Technical details</h2>
+<p>
+This document includes RDFa mark-up that generates a subset of the AIF ontology covering these schemes.
+</p>
+<p>...</p>
 
 </body>
 </html>
