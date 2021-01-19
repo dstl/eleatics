@@ -7,5 +7,5 @@ Interfaces and data exchange formats let disparate organisations collaborate in 
 The general principle is to exploit existing methods as much as possible, develop best practice, and demonstrate through worked examples. Data transformation utilities are published in the GitHub repository and described in the corresponding technical [wiki](https://github.com/dstl/eleatics/wiki). The repository is published under the [MIT licence](https://github.com/dstl/eleatics/blob/master/LICENSE).
 
 * [Argumentation](argumentation)
-* [Structured Anaysis Techniques](SAT)
+* [Structured Analytic Techniques](sat)
 * [Examples](examples)
