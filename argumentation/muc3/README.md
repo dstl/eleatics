@@ -1,4 +1,4 @@
-These are examples drawn from the MUC-3 corpus.
+These are examples drawn from the [MUC-3 corpus](https://github.com/dstl/muc3).
 
 * [excerpts](https://dstl.github.io/eleatics/argumentation/muc3/jesuits-excerpts.xhtml)
 * [information](https://dstl.github.io/eleatics/argumentation/muc3/jesuits-information.xhtml)
