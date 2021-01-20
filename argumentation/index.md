@@ -21,7 +21,7 @@ We want arguments that make sense to both humans and machines. An argument can b
 
 [Argumentation schemes](https://en.wikipedia.org/wiki/Argumentation_scheme) are patterns describing particular classes or types of argument. They are useful in evaluating arguments, explaining the conclusions reached by an argument, and arguing about arguments.
 
-We maintain a working document describing the schemes used within **eleatics**, which is both human and machine readable (along the lines discussed in the [Knowledge Representation](/KR) section).
+We maintain a working document describing the schemes used within **eleatics**, which is both human and machine readable (along the lines discussed in the [Knowledge Representation](/eleatics/KR) section).
 
 * [Argumentation Schemes - working document](https://dstl.github.io/eleatics/argumentation/schemes.xhtml)
 * Wiki: [Argumentation Schemes](https://github.com/dstl/eleatics/wiki/Argumentation-Schemes)
