@@ -1,6 +1,6 @@
 # Knowledge Representation
 
-"*Collaborative and distributed knowledge representation*" could be a job description for [linked data](https://en.wikipedia.org/wiki/Linked_data). Linked data models are eminently suitable for [automated reasoning](https://en.wikipedia.org/wiki/Automated_reasoning), but some consideration needs to be given to representing these same models for people as well. 
+*Collaborative and distributed knowledge representation* is essentially the job description for [linked data](https://en.wikipedia.org/wiki/Linked_data). Linked data models are eminently suitable for [automated reasoning](https://en.wikipedia.org/wiki/Automated_reasoning), but some consideration needs to be given to representing these same models for people as well. 
 
 ## Concepts
 It will be necessary to classify concepts for the purpose of reasoning. For example, we might want to consider some of the premises in an argument as *evidence*, and some of the conclusions as *hypotheses*. We'll use [SKOS](https://www.w3.org/TR/skos-primer/) for this purpose.
