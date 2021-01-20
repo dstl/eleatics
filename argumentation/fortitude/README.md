@@ -4,7 +4,7 @@
 
 ## The Analyst Perspective
 
-We start with a [walk-through](https://dstl.github.io/eleatics/argumentation/examples/fortitude/fortitude.xhtml) the steps of the ACH method.
+We start with a [walk-through](https://dstl.github.io/eleatics/argumentation/fortitude/fortitude.xhtml) the steps of the ACH method.
 
 ## The Technical Perspective
 

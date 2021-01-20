@@ -14,5 +14,5 @@ The general principle is to exploit existing methods as much as possible, develo
 
 ## Worked Examples
 
-1. [Fortitude South](argumentation/fortitude)
-1. [The Jesuits Massacre](argumentation/muc3/jesuits)
+* [Fortitude South](argumentation/fortitude)
+* [The Jesuits Massacre](argumentation/muc3/jesuits)
