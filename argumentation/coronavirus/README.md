@@ -8,4 +8,4 @@ used as I-nodes in an AIF argument map. For example this argument map aims to re
 
 [![argument map](origin.svg)](origin.graphml)
 
-See the project's [*Argumentation*](/argumentation) page for instructions on extracting AIF from this GraphML.
+See the project's [*Argumentation*](/eleatics/argumentation) page for instructions on extracting AIF from this GraphML.
