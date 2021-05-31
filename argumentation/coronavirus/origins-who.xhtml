@@ -15,6 +15,8 @@
 	<!-- 
 	https://www.who.int/health-topics/coronavirus/origins-of-the-virus
 	https://link.springer.com/article/10.1007/s10311-021-01211-0
+	
+	javascript:location.href='http://rdf-translator.appspot.com/convert/rdfa/pretty-xml/html/'+encodeURIComponent(location.href);
 	 -->
 	<body>
 	
@@ -96,23 +98,24 @@
 
 	<article>
 		<h3>Direct transmission</h3>
-		<p>The arguments in favour of direct zoonotic transmission are:</p>
-		<ul>
-		<li><p>
-		The majority of emerging diseases originate from animal reservoirs and there is strong evidence that most of the current human coronaviruses have originated from animals.</p>
+		<p>The arguments in favour of <span about="context:direct" property="aif:claimText">direct zoonotic transmission</span> are:</p>
+		<ul about="context:direct" typeof="aif:I-node" rev="aif:conclusion">
+		<li about="context:dra1" typeof="aif:RA-node" rel="aif:premise">
+		<p>
+		The <span about="context:pastexperience" class="premise">majority of emerging diseases originate from animal reservoirs</span> and there is strong evidence that most of the current human coronaviruses have originated from animals.</p>
 		</li>
-		<li>
-		<p>Seeding of SARS-CoV-2 in mink populations has shown that these animals are highly susceptible as well and the current evidence available cannot rule out the possibility for minks as the primary source of SARS-CoV-2.</p>
+		<li about="context:dra2" typeof="aif:RA-node" rel="aif:premise">
+		<p>Seeding of SARS-CoV-2 in mink populations has shown that <span about="context:mink" class="premise">these animals are highly susceptible</span> as well and the current evidence available cannot rule out the possibility for minks as the primary source of SARS-CoV-2.</p>
 		</li>
-		<li>
-		<p>Bats are a known reservoir for many zoonotic viruses (with high virus diversity globally); they have the highest proportion of projected zoonotic viruses of any mammalian order. In addition, bat ecology favours virus circulation (large populations, birthing waves, and closely spaced communities).</p>
+		<li about="context:dra3" typeof="aif:RA-node" rel="aif:premise">
+		<p><span about="context:resevoirbat" class="premise">Bats are a known reservoir for many zoonotic viruses</span> (with high virus diversity globally); they have the highest proportion of projected zoonotic viruses of any mammalian order. In addition, bat ecology favours virus circulation (large populations, birthing waves, and closely spaced communities).</p>
 		</li>
 		</ul>
-		<p>
-		Also, SARSr-CoV strains have been found in pangolins and various bats; and these do bind to hACE2. However, because several contact residues between the bat and pangolin viruses and the hACE2 receptor are distinct from those in SARS-CoV-2, the affinity is low, and the viruses are genetically still quite distinct from SARS–CoV-2.
+		<p about="context:dra4" typeof="aif:RA-node">
+		<span property="aif:conclusion" resource="context:direct">Also</span>, <span property="aif:premise" resource="context:similar" class="premise">SARSr-CoV strains have been found in pangolins and various bats</span>; and <span property="aif:premise" resource="context:hace" class="premise">these do bind to hACE2</span>. <span class="undercut">However</span>, because several contact residues between the bat and pangolin viruses and the hACE2 receptor are distinct from those in SARS-CoV-2, the affinity is low, and <span about="context:distinct" class="contrary-premise">the viruses are genetically still quite distinct from SARS–CoV-2</span>.
 		</p>
-		<p>
-		An argument against direct zoonotic transmission is the fact that both these putative hosts are infrequently in contact with humans, and an intermediary step involving an amplifying host has been observed for several other emerging viruses (Henipaviruses, influenzaviruses, SARS-CoV and MERS-CoV).
+		<p about="context:dca2" typeof="aif:CA-node">
+		An argument <span class="contradiction">against</span> <span property="aif:conclusion" resource="context:direct" class="conclusion">direct zoonotic transmission</span> is the fact that both these putative hosts are infrequently in contact with humans, and <span property="aif:premise" resource="context:otheramplifiers" class="premise">an intermediary step involving an amplifying host</span> has been observed for several other emerging viruses (Henipaviruses, influenzaviruses, SARS-CoV and MERS-CoV).
 		</p>
 	</article>
 		

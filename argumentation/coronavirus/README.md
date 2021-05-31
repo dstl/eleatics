@@ -8,9 +8,10 @@ used as I-nodes in an AIF argument map. For example this argument map aims to re
 
 [![argument map](origin.svg)](origin.graphml)
 
-See the project's [*Argumentation*](/eleatics/argumentation) page for instructions on extracting AIF from this GraphML, and the same page 
-also discusses embedding AIF in arguments expressed as text rather than drawn.
+See the project's [*Argumentation*](/eleatics/argumentation) page for instructions on extracting AIF from this GraphML.
 
-The [information list](information.xhtml) is represented as an HTML *description list*; so that each I-node is represented as a term that gives a 
-label to the description that is its _claimText_ property. The intention here is that the term labels can be used in sentences that string together 
-premises and conclusions to make arguments. The [WHO arguments](origins-who.xhtml) are an example.
+An argument may be easier to follow if expressed as text rather than drawn. To that end, the [information list](information.xhtml) is represented as an 
+HTML *description list*, so that each I-node is a term giving a label to the description that is its _claimText_ property. The intention 
+here is that the term labels can be used in sentences that string together premises and conclusions to make arguments. The [WHO arguments](origins-who.xhtml) 
+are an example of AIF argument map constructed this way. It is equivalent to the argument map depicted above.
+
