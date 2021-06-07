@@ -6,17 +6,17 @@
 
   <target name="map-to-AIF">
   	<!-- Convert a GraphML argument map to AIF -->
-    <xslt in="examples/toulmin.graphml" out="output/toulmin-aif.txt" style="${xsl-map}/graphml-to-aif.xsl" force="yes"/>
+    <xslt in="examples/toulmin/toulmin-aif.graphml" out="output/toulmin-aif.txt" style="${xsl-map}/graphml-to-aif.xsl" force="yes"/>
   </target>
 
   <target name="map-to-ASPIC">
   	<!-- Convert a GraphML argument map directly to ASPIC format -->
-  	<xslt in="examples/toulmin.graphml" out="output/toulmin-aspic.txt" style="${xsl-map}/graphml-to-aspic.xsl" force="yes"/>
+  	<xslt in="examples/toulmin/toulmin-aif.graphml" out="output/toulmin-aspic.txt" style="${xsl-map}/graphml-to-aspic.xsl" force="yes"/>
   </target>
 	 
   <target name="map-to-SKOS">
   	<!-- Convert a GraphML argument map to SKOS format -->
-  	<xslt in="examples/toulmin.graphml" out="output/toulmin-skos.txt" style="${xsl-map}/graphml-to-skos.xsl" force="yes"/>
+  	<xslt in="examples/toulmin/toulmin-aif.graphml" out="output/toulmin-skos.txt" style="${xsl-map}/graphml-to-skos.xsl" force="yes"/>
   </target>
 	 
  <target name="ACH">
