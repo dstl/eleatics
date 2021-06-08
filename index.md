@@ -16,3 +16,4 @@ The general principle is to exploit existing methods as much as possible, develo
 
 * [Fortitude South](argumentation/fortitude)
 * [The Jesuits Massacre](argumentation/muc3/jesuits)
+* [The Origins of SARS-CoV-2](argumentation/coronavirus)
