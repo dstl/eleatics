@@ -1,6 +1,6 @@
 # Baleen XML
 
-This is an XML format for capturing the results of natural language processing. It is fully described in the [Baleen XML Schema definition](baleen.xsd).
+This is an XML format for capturing the results of natural language processing. It is fully described in the **Baleen XML** schema definition file: [*baleen.xsd*](baleen.xsd).
 
 The schema is designed so that the most elements are optional, and the format can describe the results at any stage of a text processing pipeline. 
 For instance, a document is valid with just a *text* element (plain text extraction); with just text and empty *sentence* elements (sentence segmentation); 
