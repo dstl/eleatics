@@ -1,0 +1,16 @@
+<project name="Eleatics: Argumentation - Coronavirus" basedir=".">
+
+  <description>SARS-CoV-2 origins</description>
+
+  <property file="ant.properties"/>
+	
+  <target name="information">
+    <xslt in="information.xml" out="information.xhtml" style="info-to-xhtml.xsl" force="yes"/>
+  </target>
+	
+  <target name="graphml">
+    <xslt in="origin.graphml" out="../output/origin.txt" style="../xsl/graphml-to-aif.xsl" force="yes"/>
+  </target>
+
+</project>
+
