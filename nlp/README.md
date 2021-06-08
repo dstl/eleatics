@@ -16,6 +16,5 @@ Dependency grammar parsers are supported by the *dependent* element.
 The *annotation* elements allow for arbitrary labels to be applied to spans of text that do not necessarily respect the token boundaries. 
 For processes like phrase-chunking, which operate on existing tokenization, it is a matter of choice to record the results as nested tokens or annotations.
 
-The particular examples show here were generated using [Baleen](https://github.com/dstl/baleen), with OpenNLP language parser, WordNet lemmatizer and some gazetteers for 
-named entity recognition. The CAS for each processed document was serialized to XMI, and the serialized CAS XSL transformed to Baleen XML format. Note however, 
-that the XML format itself is independent of the Baleen/Annot8 framework, or any other NLP framework.
+The particular examples show here were generated using [Baleen](https://github.com/dstl/baleen), with OpenNLP language parser, WordNet lemmatizer, MaltParser dependency parser 
+and some gazetteers for named entity recognition. The CAS for each processed document was serialized to XMI, and the serialized CAS XSL-transformed to Baleen XML format. Note however, that the XML format itself is independent of the Baleen/Annot8 framework, or any other NLP framework.
