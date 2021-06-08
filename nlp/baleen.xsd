@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://uk.gov.dstl/baleen/parse" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:nlp="http://uk.gov.dstl/baleen/parse">
+
+    <element name="document" type="nlp:documentType">
+    	<annotation>
+    		<documentation>Captures all the information relating to the parsing of a single document.</documentation>
+    	</annotation></element>
+
+
+    <complexType name="tokenType">
+        <annotation>
+        	<documentation>A token. The @begin and @end attributes must the the offsets of the start and end of the token within the "text" element. 
+The @start and @finish elements are optional. They allow for processes that might operate over a range of tokens rather than characters. The initial tokenization of 
+a sentence will assign a one-up number to each token in the sentence, and the @start and @finish values will be the same on each token. Processes that produce 
+compund tokens should assign @start and @finish values that are the same as the @start of the first child token and the @finish of the last child token.</documentation>
+        </annotation>
+        <sequence>
+    		<element name="surface" type="string" maxOccurs="1"
+    			minOccurs="0">
+                <annotation>
+                	<documentation>The surface form of the parent token.</documentation>
+                </annotation>
+    		</element>
+    		<element name="lemma" type="nlp:lemmaType"
+    			maxOccurs="unbounded" minOccurs="0">
+                <annotation>
+                	<documentation>A lemma form of the parent token.</documentation>
+                </annotation>
+    		</element>
+    		<element name="token" type="nlp:tokenType" minOccurs="0"
+    			maxOccurs="unbounded">
+                <annotation>
+                	<documentation>A simple token, or a compound-token (a phrase say) formed from nested tokens.</documentation>
+                </annotation>
+    		</element>
+    		<element name="dependent" type="nlp:dependentType"
+    			maxOccurs="1" minOccurs="0">
+                <annotation>
+                	<documentation>An optional element used to capture token linkages from dependency parsing.</documentation>
+                </annotation>
+    		</element>
+    	</sequence>
+    	<attribute name="begin" type="int" use="required"></attribute>
+    	<attribute name="end" type="int" use="required"></attribute>
+    	<attribute name="start" type="int">
+    		<annotation>
+    			<documentation></documentation>
+    		</annotation></attribute>
+    	<attribute name="finish" type="int"></attribute>
+    	<attribute name="govid" type="string">
+    		<annotation>
+    			<documentation>An optional identifier for dependency parsing. A @govid attribute is the target of a @governor attribute on a "dependent" element.</documentation>
+    		</annotation></attribute>
+    </complexType>
+
+    <complexType name="sentenceType">
+        <annotation>
+        	<documentation>May be used to collect tokens into sentences.</documentation>
+        </annotation>
+        <sequence>
+    		<element name="token" type="nlp:tokenType"
+    			maxOccurs="unbounded" minOccurs="0">
+    		</element>
+
+    	</sequence>
+    	<attribute name="begin" type="int"></attribute>
+    	<attribute name="end" type="int"></attribute>
+    </complexType>
+
+    <element name="sentence" type="nlp:sentenceType"></element>
+
+    <complexType name="documentType">
+    	<sequence>
+
+    		<element name="text" type="nlp:textType" maxOccurs="1"
+    			minOccurs="1">
+                <annotation>
+                	<documentation>The document plain text, stripped of any mark-up or formatting.</documentation>
+                </annotation>
+    		</element>
+    		<element name="markup" type="nlp:markupType" maxOccurs="1" minOccurs="0">
+    			<annotation>
+    				<documentation>An optional element that can be used to capture the original document mark-up, or describe a new mark-up. The expectation is that the mark-up language will be SGML-like (such as HTML for example).</documentation>
+    			</annotation></element>
+    		<choice minOccurs="0">
+    			<element name="paragraph" type="nlp:paragraphType"
+    				maxOccurs="unbounded">
+    			</element>
+    			<element name="sentence" type="nlp:sentenceType"
+    				maxOccurs="unbounded">
+    			</element>
+    			<element name="token" type="nlp:tokenType"
+    				maxOccurs="unbounded">
+    			</element>
+
+    		</choice>
+
+    		<element name="annotation" type="nlp:annotationType"
+    			minOccurs="0" maxOccurs="unbounded">
+    		</element>
+    	</sequence>
+
+    	<attribute name="source" type="string">
+    		<annotation>
+    			<documentation>The source of the text. Ideally a URL or URI.</documentation>
+    		</annotation></attribute>
+    	<attribute name="language" type="string">
+    		<annotation>
+    			<documentation>The language in which the document text is expressed.</documentation>
+    		</annotation></attribute>
+    </complexType>
+
+
+    <element name="text" type="nlp:textType"></element>
+    
+
+    <complexType name="textType">
+        <annotation>
+        	<documentation>The plain text extracted from the document referenced by the @source attribute of the "document" element.</documentation>
+        </annotation>
+        <simpleContent>
+    		<extension base="string">
+    		</extension>
+    	</simpleContent>
+    </complexType>
+
+    <complexType name="paragraphType">
+        <annotation>
+        	<documentation>May optionally be used to collected together sentences into paragraphs.</documentation>
+        </annotation>
+        <sequence>
+    		<element name="sentence" type="nlp:sentenceType" maxOccurs="unbounded"></element>
+    	</sequence>
+    </complexType>
+
+
+    <complexType name="collectionType">
+        <annotation>
+        	<documentation>A wrapper to allow multiple documents to be collected together in the same XML file.</documentation>
+        </annotation>
+        <sequence>
+    		<element name="document" type="nlp:documentType" maxOccurs="unbounded"></element>
+    	</sequence>
+    </complexType>
+
+    <element name="collection" type="nlp:collectionType"></element>
+
+    <complexType name="lemmaType">
+    	<simpleContent>
+    		<extension base="string">
+    			<attribute name="type" type="string" use="required"></attribute>
+    			<attribute name="penn" type="string"></attribute>
+    		</extension>
+    	</simpleContent>
+    </complexType>
+
+    <complexType name="annotationType">
+        <annotation>
+        	<documentation>An annotation over a span of text.</documentation>
+        </annotation>
+        <attribute name="begin" type="int" use="required">
+        	<annotation>
+        		<documentation>The offset of the start of the annotation in "text".</documentation>
+        	</annotation></attribute>
+    	<attribute name="end" type="int" use="required">
+    		<annotation>
+    			<documentation>The offset of the end of the annotation in "text".</documentation>
+    		</annotation></attribute>
+    	<attribute name="type" type="string" use="required">
+    		<annotation>
+    			<documentation>A label for the type of the annotation.</documentation>
+    		</annotation></attribute>
+    	<attribute name="lemma" type="string">
+    		<annotation>
+    			<documentation>A lemma or normal form for the span of text covered by the annotation.</documentation>
+    		</annotation></attribute>
+    	<attribute name="conf" type="float" default="0.0">
+    		<annotation>
+    			<documentation>A confidence measure that the asserted annotation is correct, in the range [0,1].</documentation>
+    		</annotation></attribute>
+    </complexType>
+
+
+    <element name="markup" type="nlp:markupType"></element>
+    
+    <complexType name="markupType">
+        <annotation>
+        	<documentation>An optional element that may be used to capture information about presentation mark-up for "text".</documentation>
+        </annotation>
+        <sequence maxOccurs="unbounded" minOccurs="1">
+    		<element name="element" type="nlp:elementType" maxOccurs="unbounded" minOccurs="1"></element>
+    	</sequence>
+    </complexType>
+    
+    <complexType name="elementType">
+        <annotation>
+        	<documentation>The @name attributes names a mark-up element that covers the text span between @begin and @end. This implies that the text of the span was a child 
+of the named element before text was extracted (or new mark-up is to be produced where that will be the case.) One mark-up element may be nested 
+inside another, implying that the document mark-up had (or will have) the same tree structure.</documentation>
+        </annotation>
+        <choice>
+    		<element name="attribute" type="nlp:attributeType" maxOccurs="unbounded" minOccurs="0"></element>
+    		<element name="element" type="nlp:elementType"
+    			maxOccurs="unbounded" minOccurs="0">
+    		</element>
+    	</choice>
+    	<attribute name="name" type="string"></attribute>
+    	<attribute name="begin" type="int"></attribute>
+    	<attribute name="end" type="int"></attribute>
+    </complexType>
+
+
+    <complexType name="attributeType">
+    	<attribute name="name" type="string"></attribute>
+    	<attribute name="value" type="string"></attribute>
+    </complexType>
+
+    <element name="element" type="nlp:elementType"></element>
+
+    <element name="attribute" type="nlp:attributeType"></element>
+
+
+    <complexType name="dependentType">
+        <annotation>
+        	<documentation>An optional element used to capture token linkages from dependency parsing.</documentation>
+        </annotation>
+        <attribute name="governor" type="string">
+    		<annotation>
+    			<documentation>The identfier (token/@govid) of the token that is the governor of this dependent token.</documentation>
+    		</annotation></attribute>
+    	<attribute name="type" type="string">
+    		<annotation>
+    			<documentation>The type of the dependency.</documentation>
+    		</annotation></attribute>
+    </complexType>
+</schema>
