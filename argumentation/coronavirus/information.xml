@@ -1,0 +1,236 @@
+<information>
+	<source url="https://www.who.int/health-topics/coronavirus/origins-of-the-virus" summary="https://apps.who.int/iris/bitstream/handle/10665/332197/WHO-2019-nCoV-FAQ-Virus_origin-2020.1-eng.pdf">WHO-convened global study of origins of SARS-CoV-2: China Part; Joint WHO-China Study Team report; 14 January-10 February 2021</source>
+	<hypothesis id="direct">
+		<label>Direct zoonotic transmission</label>
+		<description>There is transmission of SARS-CoV-2 (or very closely-related progenitor virus) from an animal reservoir host to human, followed by direct person-to-person transmission with or without the need for adaptation of the virus to humans. The speed of dissemination will depend on chance events such as superspreading events.</description>
+	</hypothesis>
+	<hypothesis id="intermediate">
+		<label>Introduction through intermediate host</label>
+		<description>SARS-CoV-2 is transmitted from an animal reservoir to an animal host, followed by subsequent spread within that intermediate host (spillover host), and then transmission to humans. The passage through an intermediate host can be with or without virus adaptation.</description>
+	</hypothesis>
+	<hypothesis id="cold">
+		<label>Introduction through the cold/food chain</label>
+		<description>Food-chain transmission can reflect direct zoonotic transmission, or spillover through an intermediate host. Meanwhile cold chain products may be a vehicle of transmission between humans. The emphasis here is on cold/food chain products and their containers as potential route of introduction of SARS-CoV-2.</description>
+	</hypothesis>
+	<hypothesis id="lab">
+		<label>Introduction through a laboratory incident</label>
+		<description>SARS-CoV-2 is introduced through a laboratory incident, reflecting an accidental infection of staff from laboratory activities involving the relevant viruses.</description>
+	</hypothesis>
+	<evidence id="pastexperience">
+		<label>Most human coronaviruses originate in animals</label>
+		<description>The majority of emerging diseases originate from animal reservoirs and there is strong evidence that most of the current human coronaviruses have originated from animals.</description>
+	</evidence>
+	<evidence id="bats">
+		<label>Similar virus in bats</label>
+		<description>Surveys of the bat virome conducted following the SARS epidemic in 2003 have found SARSr-CoV in various bats, particularly Rhinolophusbats, and viruses with the high genetic similarity to SARS-CoV-2 have been found in Rhinolophus bats sampled in China in 2013, Japan in 2013, Thailand in 2020 and Cambodia in 2010.</description>
+	</evidence>
+	<evidence id="pangolin">
+		<label>Similar virus in pangolin</label>
+		<description>Recently, two distinct types of SARSr-CoV were detected in Malayan pangolin (M. Javanica sampled in rescue centres in China for smuggled imported wildlife).</description>
+	</evidence>
+	<evidence id="hace">
+		<label>Animal coronavirus can bind to hACE2</label>
+		<description>The RaTG13 and pangolin coronaviruses do bind to hACE2, although the fit is not optimal.</description>
+	</evidence>
+	<evidence id="mink">
+		<label>Mink susceptible to SARS-CoV-2</label>
+		<description>Seeding of SARS-CoV-2 in mink populations has shown that these animals are highly susceptible as well and the current evidence available cannot rule out the possibility for minks as the primary source of SARS-CoV-2.</description>
+	</evidence>
+	<evidence id="antibodybat">
+		<label>Antibodies to bat coronavirus</label>
+		<description>Antibodies to bat coronavirus proteins have been found in humans with close contact to bats.</description>
+	</evidence>
+	<evidence id="resevoirbat">
+		<label>Bats are a known reservoir</label>
+		<description>Bats are a known reservoir for many zoonotic viruses (with high virus diversity globally); they have the highest proportion of projected zoonotic viruses of any mammalian order. In addition, bat ecology favours virus circulation (large populations, birthing waves, and closely spaced communities).</description>
+	</evidence>
+	<evidence id="distancebat">
+		<label>Evolutionary distance of bat virus</label>
+		<description>Although the closest related viruses have been found in bats, the evolutionary distance between these bat viruses and SARS-CoV-2 is estimated to be several decades, suggesting a missing link (either a missing progenitor virus, or evolution of a progenitor virus in an intermediate host).</description>
+	</evidence>
+	<evidence id="isolationrare">
+		<label>Isolation of viruses from bats is rare</label>
+		<description>Although many betacoronavirus sequences have been found in a range of bats, isolation of viruses from them is rare, and only a few of the identified full genomes have human ACE2 binding properties.</description>
+	</evidence>
+	<evidence id="distinct">
+		<label>SARSr-CoVs genetically distinct from SARS–CoV-2</label>
+		<description>Because several contact residues between the bat and pangolin viruses and the hACE2 receptor are distinct from those in SARS-CoV-2, the affinity is low, and the viruses are genetically still quite distinct from SARS–CoV-2.</description>
+	</evidence>
+	<evidence id="distancepangolin">
+		<label>Evolutionary distance of pangolin virus</label>
+		<description>Highly similar viruses have also been found in pangolins, suggesting cross-species transmission from bats at least once, but again with considerable genetic distance.</description>
+	</evidence>
+	<evidence id="otheramplifiers">
+		<label>Amplifying host for other viruses</label>
+		<description>Both these putative hosts are infrequently in contact with humans, and an intermediary step involving an amplifying host has been observed for several other emerging viruses (Henipaviruses, influenzaviruses, SARS-CoV and MERS-CoV). SARS-CoV-2 infection and intraspecies spread (including further transmission to humans) has been documented in an increasing number of animal species, particularly mustelids and felids.</description>
+	</evidence>
+	<evidence id="adaptsanimals">
+		<label>SARS-CoV-2 adapts in animals</label>
+		<description>SARS-CoV-2 adapts relatively rapidly in susceptible animals (such as mink).</description>
+	</evidence>
+	<evidence id="farmedanimals">
+		<label>Enzootic circulation</label>
+		<description>The increasing number of animals shown to be susceptible to SARS-CoV-2 includes animals that are farmed in sufficient densities to allow potential for enzootic circulation.</description>
+	</evidence>
+	<evidence id="farmingdensity">
+		<label>High-density farming</label>
+		<description>High-density farming is common in many places across the world and includes many livestock species as well as farmed wildlife.</description>
+	</evidence>
+	<evidence id="animalfarms">
+		<label>Wild animal farms</label>
+		<description>There was a large network of domesticated wild animal farms, supplying farmed wildlife to Wuhan.</description>
+	</evidence>
+	<evidence id="farmconnections">
+		<label>High-density farms</label>
+		<description>In high-density farms, there often are connections between farms (for instance, through the workforce and food supply), leading to complex transmission pathways that may be difficult to unravel, as was observed in other zoonotic outbreaks involving farmed animals.</description>
+	</evidence>
+	<evidence id="farmtransmission">
+		<label>Virus transmission chains in animal farms</label>
+		<description>Optimized conditions for sustained virus transmission chains in large-scale animal farms may also impact on virus seasonality in favour of a year-round endemic transmission pattern, and thereby increasing the zoonotic risk in winter months.</description>
+	</evidence>
+	<evidence id="infectionfromhumans">
+		<label>Animal infections introduced from humans</label>
+		<description>SARS-CoV-2 has been identified in an increasing number of animal species, but genetic and epidemiological studies have suggested that these were infections introduced from humans, rather than enzootic virus circulation.</description>
+	</evidence>
+	<evidence id="noreintroduction">
+		<label>No evidence of repeated introduction from animals</label>
+		<description>Since the containment of SARS-CoV-2 in China, new outbreaks have occurred for which genomic sequence data was generated. Based on epidemiological analysis and genetic sequencing of viruses from new cases throughout 2020, there is no evidence of repeated introduction of early SARS-CoV-2 strains of potential animal origins into humans in China.</description>
+	</evidence>
+	<evidence id="animalstested">
+		<label>No evidence for SARS-CoV-2 in domestic and wild animals</label>
+		<description>There was no genetic or serological evidence for SARS-CoV-2 in a wide range of domestic and wild animals tested to date. The screening of the major livestock species was done across the country and provided no evidence for circulation of a related virus. The scale of testing in these species was such that widespread circulation is extremely unlikely.</description>
+	</evidence>
+	<evidence id="wildfarmedtested">
+		<label>No evidence for SARS-CoV-2 in farmed wildlife</label>
+		<description>Screening of farmed wildlife was limited but did not provide conclusive evidence for the existence of circulation.</description>
+	</evidence>
+	<evidence id="coldoutbreak">
+		<label>Outbreaks related to imported frozen products</label>
+		<description>Since the near-elimination of SARS-CoV-2 in China, the country has experienced some outbreaks related to imported frozen products in 2020.</description>
+	</evidence>
+	<evidence id="package">
+		<label>Screening of packaging</label>
+		<description>Screening programmes have found some limited evidence for the presence of SARS-CoV-2 by nucleotide acid tests in different batches of unopened packages and containers in different cities.</description>
+	</evidence>
+	<evidence id="livepackage">
+		<label>Live virus on packaging</label>
+		<description>In the epidemiological investigation of Qingdao outbreak, the live virus was isolated from the outer package of imported frozen products.</description>
+	</evidence>
+	<evidence id="persistpackage">
+		<label>Virus persists on packaging</label>
+		<description>SARS-CoV-2 and related CoVs have been found to persist in conditions (time/temperature/humidity) found during trade of frozen products suggesting the virus could persist on contaminated frozen products.</description>
+	</evidence>
+	<evidence id="enteric">
+		<label>Foodborne outbreaks with enteric viruses are common</label>
+		<description>Foodborne outbreaks with enteric viruses are common, and - when entering the food supply - may lead to geographically dispersed outbreaks that can be difficult to detect.</description>
+	</evidence>
+	<evidence id="seafood">
+		<label>Seafood is known as a source of foodborne outbreaks</label>
+		<description>Seafood is known as a source of foodborne outbreaks, and food as a vehicle of zoonotic infections.</description>
+	</evidence>
+	<evidence id="sewage">
+		<label>Sewage contamination</label>
+		<description>Most evidence is for contamination of food with human viruses that are dispersed in growing areas through sewage or contaminated water for irrigation.</description>
+	</evidence>
+	<evidence id="sewagetreatment">
+		<label>Sewage treatment does not remove all viruses</label>
+		<description>Sewage treatment typically does not remove all infectious viruses prior to release of wastewater in the environment.</description>
+	</evidence>
+	<evidence id="sewagevirus">
+		<label>Evidence for SARS-CoV-2 nucleic acid in sewage</label>
+		<description>These [enteric transmission] processes have been investigated widely for non-enveloped viruses but far less for enveloped viruses in the food chain, but there is widespread evidence for SARS-CoV-2 nucleic acid in sewage.</description>
+	</evidence>
+	<evidence id="sewageearly">
+		<label>Sewage testing in Spain and Italy</label>
+		<description>There is some literature suggesting SARS-CoV-2 may have been circulating earlier as indicated by sewage testing in Spain and Italy.</description>
+	</evidence>
+	<evidence id="oralinfection">
+		<label>Oral route could lead to infection</label>
+		<description>Although typical foodborne infections are thought to be restricted to enteric pathogens, there is some evidence that the oral route could lead to infection for SARS-CoV-2 from hamster infection experiments, and the virus replicates in gut organoids.</description>
+	</evidence>
+	<evidence id="entericcov">
+		<label>Animal CoV enteric tropism</label>
+		<description>Many animal CoVs have dual respiratory and enteric tropism.</description>
+	</evidence>
+	<evidence id="foodsarsantibodies">
+		<label>SARS-CoV-specific antibodies in food animal handlers</label>
+		<description>For SARS, food animal handlers had increased prevalence of SARS-CoV-specific antibodies.</description>
+	</evidence>
+	<evidence id="faeces">
+		<label>Humans shed SARS-CoV-2 through faeces</label>
+		<description>Humans infected with SARS-CoV-2 shed virus through faeces and can have gastrointestinal symptoms, suggesting involvement of the gastrointestinal tract.</description>
+	</evidence>
+	<evidence id="fomites">
+		<label>Humans exposed to contaminated fomites</label>
+		<description>Humans can also be exposed to contaminated fomites, as suggested from the studies on markets in China in 2020.</description>
+	</evidence>
+	<evidence id="foodinconclusive">
+		<label>No conclusive evidence for foodborne transmission</label>
+		<description>There is no conclusive evidence for foodborne transmission of SARS-CoV-2 and the probability of a cold-chain contamination with the virus from a reservoir is very low.</description>
+	</evidence>
+	<evidence id="notcirculating">
+		<label>Virus not widely circulating</label>
+		<description>While there is some evidence for possible reintroduction of SARS-CoV-2 through handling of imported contaminated frozen products in China since the initial pandemic wave, this would be extraordinary in 2019 where the virus was not widely circulating.</description>
+	</evidence>
+	<evidence id="hygiene">
+		<label>Food production hygiene</label>
+		<description>Industrial food production has high levels of hygiene criteria and is regularly audited.</description>
+	</evidence>
+	<evidence id="lowconcentration">
+		<label>Low concentrations on cold-chain products</label>
+		<description>Most viruses have been found in 2020 in low concentrations and are not amplified on cold-chain products. It is not clear what the infection route would be (possibly oral, touch, or aerosol).</description>
+	</evidence>
+	<evidence id="noanimalinfection">
+		<label>No animal infection</label>
+		<description>There is no evidence of infection in any of the animals tested following the Wuhan outbreak.</description>
+	</evidence>
+	<evidence id="lowfoodrisk">
+		<label>Low risk of foodborne transmission</label>
+		<description>Risk-assessments have concluded that the risk of foodborne transmission of SARS-CoV-2 through these known transmission pathways is very low in comparison with respiratory transmission.</description>
+	</evidence>
+	<evidence id="accidentshappen">
+		<label>Laboratory accidents do happen</label>
+		<description>Although rare, laboratory accidents do happen, and different laboratories around the world are working with bat CoVs.</description>
+	</evidence>
+	<evidence id="labinfection">
+		<label>Laboratory infection could happen</label>
+		<description>When working in particular with virus cultures, but also with animal inoculations or clinical samples, humans could become infected in laboratories with limited biosafety, poor laboratory management practice, or following negligence.</description>
+	</evidence>
+	<evidence id="closesequence">
+		<label>CoV RaTG13 strain sequenced at the Wuhan Institute of Virology</label>
+		<description>The closest known CoV RaTG13 strain (96.2%) to SARS-CoV-2 detected in bat anal swabs have been sequenced at the Wuhan Institute of Virology.</description>
+	</evidence>
+	<evidence id="labmoved">
+		<label>The Wuhan CDC laboratory moved on 2nd December 2019</label>
+		<description>The Wuhan CDC laboratory moved on 2nd December 2019 to a new location near the Huanan market. Such moves can be disruptive for the operations of any laboratory.</description>
+	</evidence>
+	<evidence id="distance">
+		<label>Closest relatives of SARS-CoV-2 are evolutionarily distant</label>
+		<description>The closest relatives of SARS-CoV-2 from bats and pangolin are evolutionarily distant from SARS-CoV-2.</description>
+	</evidence>
+	<evidence id="bioengineered">
+		<label>Speculation about bio-engineering</label>
+		<description>There has been speculation regarding the presence of human ACE2 receptor binding and a furin-cleavage site in SARS-CoV-2, but both have been found in animal viruses as well, and elements of the furin-cleavage site are present in RmYN02 and the new Thailand bat SARSr-CoV.</description>
+		<note>https://virological.org/t/tackling-rumors-of-a-suspicious-origin-of-ncov2019/384</note>
+	</evidence>
+	<evidence id="norecord">
+		<label>No record of viruses closely related to SARS-CoV-2 in any laboratory</label>
+		<description>There is no record of viruses closely related to SARS-CoV-2 in any laboratory before December 2019, or genomes that in combination could provide a SARS-CoV-2 genome.</description>
+	</evidence>
+	<evidence id="limitedsamples">
+		<label>Limited samples processed</label>
+		<description>Regarding accidental culture, prior to December 2019, there is no evidence of circulation of SARS-CoV-2 among people globally and the surveillance programme in place was limited regarding the number of samples processed and therefore the risk of accidental culturing SARS-CoV-2 in the laboratory is extremely low.</description>
+	</evidence>
+	<evidence id="biosafety">
+		<label>High quality biosafety</label>
+		<description>The three laboratories in Wuhan working with either CoVs diagnostics and/or CoVs isolation and vaccine development all had high quality biosafety level (BSL3 or 4) facilities that were well-managed, with a staff health monitoring programme with no reporting of COVID-19 compatible respiratory illness during the weeks/months prior to December 2019, and no serological evidence of infection in workers through SARS-CoV-2-specific serology-screening.</description>
+	</evidence>
+	<evidence id="nomoveincident">
+		<label>No incidents caused by lab move</label>
+		<description>The Wuhan CDC lab which moved on 2nd December 2019 reported no disruptions or incidents caused by the move. They also reported no storage nor laboratory activities on CoVs or other bat viruses preceding the outbreak.</description>
+	</evidence>
+	<question id="qlab">
+		<label>Lab accident?</label>
+		<description>Did COVID-19 originate in a laboratory accident?</description>
+	</question>
+</information>
