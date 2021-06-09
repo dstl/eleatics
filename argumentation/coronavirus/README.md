@@ -13,5 +13,5 @@ See the [*Argumentation*](/eleatics/argumentation) page for instructions on extr
 An argument may be easier to follow if expressed as text rather than drawn. To that end, the [information list](information.xhtml) is represented as an 
 HTML *description list*, so that each I-node is a term giving a label to the description that is its _claimText_ property. The intention 
 here is that the term labels can be used in sentences that string together premises and conclusions to make arguments. The [WHO arguments](origins-who.xhtml) 
-are an example of AIF argument map constructed this way. It is equivalent to the argument map depicted above.
+are an example of AIF argument map constructed this way. It is intended to be equivalent to the argument map depicted above.
 
