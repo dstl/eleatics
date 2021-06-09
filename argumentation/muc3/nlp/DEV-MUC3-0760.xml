@@ -1,0 +1,2642 @@
+<?xml version="1.0" encoding="UTF-8"?><document xmlns="http://uk.gov.dstl/baleen/parse" xmlns:structure="http:///uk/gov/dstl/baleen/types/structure.ecore" xmlns:military="http:///uk/gov/dstl/baleen/types/military.ecore" xmlns:language="http:///uk/gov/dstl/baleen/types/language.ecore" xmlns:geo="http:///uk/gov/dstl/baleen/types/geo.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:types="http:///uk/gov/dstl/baleen/types.ecore" xmlns:common="http:///uk/gov/dstl/baleen/types/common.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:metadata="http:///uk/gov/dstl/baleen/types/metadata.ecore" xmlns:cas="http:///uima/cas.ecore" xmlns:templates="http:///uk/gov/dstl/baleen/types/templates.ecore" xmlns:semantic="http:///uk/gov/dstl/baleen/types/semantic.ecore" source="http://dstl.github.io/muc3/dev/DEV-MUC3-0760.xhtml"><text>              
+  
+   DEV-MUC3-0760 (U NEBRASKA)
+   WASHINGTON DC (UNITED STATES), 16 NOV 89 (EFE) -- [TEXT] SALVADORAN FOREIGN MINISTER JOSE MANUEL PACAS CASTRO TODAY CONDEMNED THE ASSASSINATION OF SIX JESUITS AND TWO WOMEN IN HIS COUNTRY, AND HE BLAMED THE ULTRALEFTIST GROUPS FOR IT, ALTHOUGH HE SAID HE HAD NO PROOF.
+   "IT IS A REPUGNANT CRIME," SAID THE FOREIGN MINISTER, WHO WAS ATTENDING THE 19TH OAS GENERAL ASSEMBLY, AND HE DESCRIBED THE ASSASSINATIONS AS A "DESPERATE ACTION TAKEN BY THE LEFT."
+   JOAO BAENA SOARES, SECRETARY GENERAL OF THE OAS, WAS ASKED TODAY TO REPORT TO THE ASSEMBLY ON THE SITUATION IN EL SALVADOR IN COMPLIANCE WITH THE RESOLUTION ON THAT COUNTRY THAT WAS APPROVED ON TUESDAY.
+   A COMMUNIQUE RELEASED TODAY BY A FARABUNDO MARTI NATIONAL LIBERATION FRONT [FMLN] SPOKESMAN IN WASHINGTON BLAMED THE SALVADORAN ARMY FOR THE CRIME, AND ADDED THAT "ALL OF THE BODIES HAD BULLET WOUNDS IN THE HEAD, INDICATING THAT THEY WERE EXECUTED."
+   PACAS CASTRO SAID TODAY THAT THE SALVADORAN GOVERNMENT, HEADED BY ALFREDO CRISTIANI, WILL MAINTAIN ITS COMMITMENT TO A DIALOGUE TO DISCUSS THE SUSPENSION OF THE HOSTILITIES AND TO IMPLEMENT AN INTERNAL PEACE PROCESS.
+   MOREOVER, HE ANNOUNCED THAT AN OFFICIAL MISSION, CAPABLE OF MAKING DECISIONS AND COMMITMENTS, WILL TRAVEL TO CARACAS IN THE HOPE OF MEETING WITH REPRESENTATIVES OF THE FMLN GUERRILLAS.
+   THE SALVADORAN FOREIGN MINISTER SAID THE SITUATION IN HIS COUNTRY IS UNDER CONTROL AND THAT ARMY TROOPS ARE SLOWLY MOVING INTO THE DENSELY POPULATED AREAS TO AVOID BLOODSHED AMONG THE CIVILIAN POPULATION.
+   AS FOR A REQUEST BY THE INTERNATIONAL RED CROSS TO CALL FOR A CEASE-FIRE FOR HUMANITARIAN REASONS TO TREAT THE WOUNDED AND CIVILIAN VICTIMS, PACAS CASTRO SAID THAT THE FIRST-AID BRIGADES CONTINUE TO DO THEIR WORK IN EL SALVADOR.
+   AS FOR THE ASSASSINATION OF THE SIX JESUITS AND THE TWO WOMEN, HE SAID "HE CONDEMNED THIS TYPE OF VIOLENCE" BECAUSE IGNACIO ELLACURIA, ONE OF THE JESUIT PRIESTS WHO WAS KILLED, "WAS MY TEACHER," AND HE DESCRIBED THE PRIEST AS A VERY VALUABLE MAN WHO WORKED FOR PEACE AND FOR THE ECONOMIC AND SOCIAL DEVELOPMENT OF THE POPULATION.
+   COSTA RICAN FOREIGN MINISTER RODRIGO MADRIGAL NIETO, IN STATEMENTS TO THE PRESS, REGRETTED THE DEATH OF THE CLERGYMEN. "WORKING FOR PEACE IS VERY DIFFICULT," HE SAID.
+   MADRIGAL NIETO SAID TODAY HE HOPED THE DIALOGUE BETWEEN THE GOVERNMENT AND THE GUERRILLAS WOULD CONTINUE DESPITE THE WAR.
+   GUATEMALAN FOREIGN MINISTER ARIEL RIVERA IRIAS SUPPORTED THE STATEMENTS OF HIS COSTA RICAN COLLEAGUE, AND HE CONDEMNED THE USE OF VIOLENCE AS A POLITICAL TOOL.
+  
+ 
+</text><sentence num="1" begin="21" end="47">
+<token begin="21" end="34" id="80">
+<surface>DEV-MUC3-0760</surface>
+<lemma penn="JJ"/>
+<dependent governor="82" type="amod"/>
+</token>
+<token begin="35" end="37" id="81">
+<surface>(U</surface>
+<lemma penn="NN">u</lemma>
+<dependent governor="82" type="compound"/>
+</token>
+<token begin="38" end="46" id="82">
+<surface>NEBRASKA</surface>
+<lemma penn="NN">nebraska</lemma>
+<dependent governor="82" type="ROOT"/>
+</token>
+<token begin="46" end="47" id="83">
+<surface>)</surface>
+<lemma penn="-RRB-"/>
+<dependent governor="82" type="punct"/>
+</token>
+<annotation type="NP" surface="DEV-MUC3-0760 (U NEBRASKA" begin="21" end="46"/>
+</sentence><sentence num="2" begin="51" end="319">
+<token begin="51" end="61" id="87">
+<surface>WASHINGTON</surface>
+<lemma penn="IN"/>
+<dependent governor="90" type="case"/>
+</token>
+<token begin="62" end="64" id="88">
+<surface>DC</surface>
+<lemma penn="JJ"/>
+<dependent governor="90" type="amod"/>
+</token>
+<token begin="65" end="72" id="89">
+<surface>(UNITED</surface>
+<lemma penn="JJ">united</lemma>
+<dependent governor="90" type="amod"/>
+</token>
+<token begin="73" end="79" id="90">
+<surface>STATES</surface>
+<lemma penn="NNS">state</lemma>
+<dependent governor="110" type="nmod"/>
+</token>
+<token begin="79" end="80" id="91">
+<surface>)</surface>
+<lemma penn="-RRB-"/>
+<dependent governor="110" type="punct"/>
+</token>
+<token begin="80" end="81" id="92">
+<surface>,</surface>
+<lemma penn=","/>
+<dependent governor="110" type="punct"/>
+</token>
+<token begin="82" end="84" id="93">
+<surface>16</surface>
+<lemma penn="CD"/>
+<dependent governor="94" type="nummod"/>
+</token>
+<token begin="85" end="88" id="94">
+<surface>NOV</surface>
+<lemma penn="NN">nov</lemma>
+<dependent governor="110" type="nmod"/>
+</token>
+<token begin="89" end="91" id="95">
+<surface>89</surface>
+<lemma penn="CD"/>
+<dependent governor="94" type="nummod"/>
+</token>
+<token begin="92" end="93" id="96">
+<surface>(</surface>
+<lemma penn="-LRB-"/>
+<dependent governor="97" type="punct"/>
+</token>
+<token begin="93" end="96" id="97">
+<surface>EFE</surface>
+<lemma penn="NN"/>
+<dependent governor="94" type="appos"/>
+</token>
+<token begin="96" end="97" id="98">
+<surface>)</surface>
+<lemma penn="-RRB-"/>
+<dependent governor="97" type="punct"/>
+</token>
+<token begin="98" end="100" id="99">
+<surface>--</surface>
+<lemma penn=":"/>
+<dependent governor="110" type="punct"/>
+</token>
+<token begin="101" end="106" id="100">
+<surface>[TEXT</surface>
+<lemma penn="JJ"/>
+<dependent governor="110" type="nsubj"/>
+</token>
+<token begin="106" end="107" id="101">
+<surface>]</surface>
+<lemma penn="SYM"/>
+<dependent governor="109" type="case"/>
+</token>
+<token begin="108" end="118" id="102">
+<surface>SALVADORAN</surface>
+<lemma penn="JJ">salvadoran</lemma>
+<dependent governor="109" type="amod"/>
+</token>
+<token begin="119" end="126" id="103">
+<surface>FOREIGN</surface>
+<lemma penn="JJ">foreign</lemma>
+<dependent governor="109" type="amod"/>
+</token>
+<token begin="127" end="135" id="104">
+<surface>MINISTER</surface>
+<lemma penn="NN">minister</lemma>
+<dependent governor="105" type="compound"/>
+</token>
+<token begin="136" end="140" id="105">
+<surface>JOSE</surface>
+<lemma penn="NN"/>
+<dependent governor="106" type="compound"/>
+</token>
+<token begin="141" end="147" id="106">
+<surface>MANUEL</surface>
+<lemma penn="NN"/>
+<dependent governor="107" type="compound"/>
+</token>
+<token begin="148" end="153" id="107">
+<surface>PACAS</surface>
+<lemma penn="NN">paca</lemma>
+<dependent governor="108" type="compound"/>
+</token>
+<token begin="154" end="160" id="108">
+<surface>CASTRO</surface>
+<lemma penn="NN">castro</lemma>
+<dependent governor="109" type="compound"/>
+</token>
+<token begin="161" end="166" id="109">
+<surface>TODAY</surface>
+<lemma penn="NN">today</lemma>
+<dependent governor="100" type="nmod"/>
+</token>
+<token begin="167" end="176" id="110">
+<surface>CONDEMNED</surface>
+<lemma penn="VBD">condemn</lemma>
+<dependent governor="110" type="ROOT"/>
+</token>
+<token begin="177" end="180" id="111">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="112" type="det"/>
+</token>
+<token begin="181" end="194" id="112">
+<surface>ASSASSINATION</surface>
+<lemma penn="NN">assassination</lemma>
+<dependent governor="110" type="dobj"/>
+</token>
+<token begin="195" end="197" id="113">
+<surface>OF</surface>
+<lemma penn="IN"/>
+<dependent governor="115" type="case"/>
+</token>
+<token begin="198" end="201" id="114">
+<surface>SIX</surface>
+<lemma penn="CD"/>
+<dependent governor="115" type="nummod"/>
+</token>
+<token begin="202" end="209" id="115">
+<surface>JESUITS</surface>
+<lemma penn="NNS">jesuit</lemma>
+<dependent governor="112" type="nmod"/>
+</token>
+<token begin="210" end="213" id="116">
+<surface>AND</surface>
+<lemma penn="CC"/>
+<dependent governor="110" type="cc"/>
+</token>
+<token begin="214" end="217" id="117">
+<surface>TWO</surface>
+<lemma penn="CD"/>
+<dependent governor="118" type="nummod"/>
+</token>
+<token begin="218" end="223" id="118">
+<surface>WOMEN</surface>
+<lemma penn="NNS">woman</lemma>
+<dependent governor="118" type="ROOT"/>
+</token>
+<token begin="224" end="226" id="119">
+<surface>IN</surface>
+<lemma penn="IN"/>
+<dependent governor="121" type="case"/>
+</token>
+<token begin="227" end="230" id="120">
+<surface>HIS</surface>
+<lemma penn="PRP$"/>
+<dependent governor="121" type="nmod:poss"/>
+</token>
+<token begin="231" end="238" id="121">
+<surface>COUNTRY</surface>
+<lemma penn="NN">country</lemma>
+<dependent governor="118" type="nmod"/>
+</token>
+<token begin="238" end="239" id="122">
+<surface>,</surface>
+<lemma penn=","/>
+<dependent governor="118" type="punct"/>
+</token>
+<token begin="240" end="243" id="123">
+<surface>AND</surface>
+<lemma penn="CC"/>
+<dependent governor="118" type="cc"/>
+</token>
+<token begin="244" end="246" id="124">
+<surface>HE</surface>
+<lemma penn="PRP"/>
+<dependent governor="125" type="nsubj"/>
+</token>
+<token begin="247" end="253" id="125">
+<surface>BLAMED</surface>
+<lemma penn="VBD">blame</lemma>
+<dependent governor="118" type="conj"/>
+</token>
+<token begin="254" end="257" id="126">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="128" type="det"/>
+</token>
+<token begin="258" end="270" id="127">
+<surface>ULTRALEFTIST</surface>
+<lemma penn="JJ"/>
+<dependent governor="128" type="amod"/>
+</token>
+<token begin="271" end="277" id="128">
+<surface>GROUPS</surface>
+<lemma penn="NNS">group</lemma>
+<dependent governor="125" type="dobj"/>
+</token>
+<token begin="278" end="281" id="129">
+<surface>FOR</surface>
+<lemma penn="IN"/>
+<dependent governor="130" type="case"/>
+</token>
+<token begin="282" end="284" id="130">
+<surface>IT</surface>
+<lemma penn="PRP"/>
+<dependent governor="128" type="nmod"/>
+</token>
+<token begin="284" end="285" id="131">
+<surface>,</surface>
+<lemma penn=","/>
+<dependent governor="125" type="punct"/>
+</token>
+<token begin="286" end="294" id="132">
+<surface>ALTHOUGH</surface>
+<lemma penn="IN"/>
+<dependent governor="134" type="mark"/>
+</token>
+<token begin="295" end="297" id="133">
+<surface>HE</surface>
+<lemma penn="PRP"/>
+<dependent governor="134" type="nsubj"/>
+</token>
+<token begin="298" end="302" id="134">
+<surface>SAID</surface>
+<lemma penn="VBD">say</lemma>
+<dependent governor="125" type="advcl"/>
+</token>
+<token begin="303" end="305" id="135">
+<surface>HE</surface>
+<lemma penn="PRP"/>
+<dependent governor="136" type="nsubj"/>
+</token>
+<token begin="306" end="309" id="136">
+<surface>HAD</surface>
+<lemma penn="VBD">have</lemma>
+<dependent governor="134" type="ccomp"/>
+</token>
+<token begin="310" end="312" id="137">
+<surface>NO</surface>
+<lemma penn="DT"/>
+<dependent governor="138" type="neg"/>
+</token>
+<token begin="313" end="318" id="138">
+<surface>PROOF</surface>
+<lemma penn="NN">proof</lemma>
+<dependent governor="136" type="dobj"/>
+</token>
+<token begin="318" end="319" id="139">
+<surface>.</surface>
+<lemma penn="."/>
+<dependent governor="139" type="ROOT"/>
+</token>
+
+<annotation type="NP" surface="DC (UNITED STATES)" begin="62" end="80"/>
+<annotation type="NP" surface="16 NOV 89 (EFE)" begin="82" end="97"/>
+<annotation type="NP" surface="[TEXT] SALVADORAN FOREIGN MINISTER JOSE MANUEL PACAS CASTRO TODAY" begin="101" end="166"/>
+<annotation type="VP" surface="CONDEMNED" begin="167" end="176"/>
+<annotation type="NP" surface="THE ASSASSINATION" begin="177" end="194"/>
+
+<annotation type="NP" surface="SIX JESUITS" begin="198" end="209"/>
+<annotation type="NP" surface="TWO WOMEN" begin="214" end="223"/>
+
+<annotation type="NP" surface="HIS COUNTRY" begin="227" end="238"/>
+<annotation type="NP" surface="HE" begin="244" end="246"/>
+<annotation type="VP" surface="BLAMED" begin="247" end="253"/>
+<annotation type="NP" surface="THE ULTRALEFTIST GROUPS" begin="254" end="277"/>
+
+<annotation type="NP" surface="IT" begin="282" end="284"/>
+
+<annotation type="NP" surface="HE" begin="295" end="297"/>
+<annotation type="VP" surface="SAID" begin="298" end="302"/>
+<annotation type="NP" surface="HE" begin="303" end="305"/>
+<annotation type="VP" surface="HAD" begin="306" end="309"/>
+<annotation type="NP" surface="NO PROOF" begin="310" end="318"/>
+<annotation type="common:Person" surface="SALVADORAN FOREIGN MINISTER JOSE MANUEL PACAS CASTRO" begin="108" end="160"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<annotation type="semantic:Temporal" surface="16 NOV 89" begin="82" end="91"/>
+</sentence><sentence num="3" begin="323" end="504">
+<token begin="323" end="326" id="185">
+<surface>"IT</surface>
+<lemma penn="NN">it</lemma>
+<dependent governor="189" type="nsubj"/>
+</token>
+<token begin="327" end="329" id="186">
+<surface>IS</surface>
+<lemma penn="VBZ">be</lemma>
+<dependent governor="189" type="cop"/>
+</token>
+<token begin="330" end="331" id="187">
+<surface>A</surface>
+<lemma penn="DT"/>
+<dependent governor="189" type="det"/>
+</token>
+<token begin="332" end="341" id="188">
+<surface>REPUGNANT</surface>
+<lemma penn="JJ">repugnant</lemma>
+<dependent governor="189" type="amod"/>
+</token>
+<token begin="342" end="347" id="189">
+<surface>CRIME</surface>
+<lemma penn="NN">crime</lemma>
+<dependent governor="189" type="ROOT"/>
+</token>
+<token begin="347" end="348" id="190">
+<surface>,</surface>
+<lemma penn=","/>
+<dependent governor="189" type="punct"/>
+</token>
+<token begin="348" end="349" id="191">
+<surface>"</surface>
+<lemma penn="''"/>
+<dependent governor="189" type="punct"/>
+</token>
+<token begin="350" end="354" id="192">
+<surface>SAID</surface>
+<lemma penn="VBD">say</lemma>
+<dependent governor="189" type="cop"/>
+</token>
+<token begin="355" end="358" id="193">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="195" type="det"/>
+</token>
+<token begin="359" end="366" id="194">
+<surface>FOREIGN</surface>
+<lemma penn="JJ">foreign</lemma>
+<dependent governor="195" type="amod"/>
+</token>
+<token begin="367" end="375" id="195">
+<surface>MINISTER</surface>
+<lemma penn="NN">minister</lemma>
+<dependent governor="189" type="nsubj"/>
+</token>
+<token begin="375" end="376" id="196">
+<surface>,</surface>
+<lemma penn=","/>
+<dependent governor="195" type="punct"/>
+</token>
+<token begin="377" end="380" id="197">
+<surface>WHO</surface>
+<lemma penn="WP"/>
+<dependent governor="199" type="nsubj"/>
+</token>
+<token begin="381" end="384" id="198">
+<surface>WAS</surface>
+<lemma penn="VBD">be</lemma>
+<dependent governor="199" type="aux"/>
+</token>
+<token begin="385" end="394" id="199">
+<surface>ATTENDING</surface>
+<lemma penn="VBG">attend</lemma>
+<dependent governor="195" type="acl:relcl"/>
+</token>
+<token begin="395" end="398" id="200">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="204" type="det"/>
+</token>
+<token begin="399" end="403" id="201">
+<surface>19TH</surface>
+<lemma penn="JJ">19th</lemma>
+<dependent governor="202" type="amod"/>
+</token>
+<token begin="404" end="407" id="202">
+<surface>OAS</surface>
+<lemma penn="NN">oas</lemma>
+<dependent governor="204" type="compound"/>
+</token>
+<token begin="408" end="415" id="203">
+<surface>GENERAL</surface>
+<lemma penn="JJ">general</lemma>
+<dependent governor="204" type="amod"/>
+</token>
+<token begin="416" end="424" id="204">
+<surface>ASSEMBLY</surface>
+<lemma penn="NN">assembly</lemma>
+<dependent governor="199" type="dobj"/>
+</token>
+<token begin="424" end="425" id="205">
+<surface>,</surface>
+<lemma penn=","/>
+<dependent governor="189" type="punct"/>
+</token>
+<token begin="426" end="429" id="206">
+<surface>AND</surface>
+<lemma penn="CC"/>
+<dependent governor="189" type="cc"/>
+</token>
+<token begin="430" end="432" id="207">
+<surface>HE</surface>
+<lemma penn="PRP"/>
+<dependent governor="208" type="nsubj"/>
+</token>
+<token begin="433" end="442" id="208">
+<surface>DESCRIBED</surface>
+<lemma penn="VBD">describe</lemma>
+<dependent governor="189" type="conj"/>
+</token>
+<token begin="443" end="446" id="209">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="210" type="det"/>
+</token>
+<token begin="447" end="461" id="210">
+<surface>ASSASSINATIONS</surface>
+<lemma penn="NNS">assassination</lemma>
+<dependent governor="208" type="dobj"/>
+</token>
+<token begin="462" end="464" id="211">
+<surface>AS</surface>
+<lemma penn="IN"/>
+<dependent governor="214" type="case"/>
+</token>
+<token begin="465" end="466" id="212">
+<surface>A</surface>
+<lemma penn="DT"/>
+<dependent governor="214" type="det"/>
+</token>
+<token begin="467" end="477" id="213">
+<surface>"DESPERATE</surface>
+<lemma penn="JJ">desperate</lemma>
+<dependent governor="214" type="amod"/>
+</token>
+<token begin="478" end="484" id="214">
+<surface>ACTION</surface>
+<lemma penn="NN">action</lemma>
+<dependent governor="210" type="nmod"/>
+</token>
+<token begin="485" end="490" id="215">
+<surface>TAKEN</surface>
+<lemma penn="VBN">take</lemma>
+<dependent governor="214" type="acl"/>
+</token>
+<token begin="491" end="493" id="216">
+<surface>BY</surface>
+<lemma penn="IN"/>
+<dependent governor="218" type="case"/>
+</token>
+<token begin="494" end="497" id="217">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="218" type="det"/>
+</token>
+<token begin="498" end="502" id="218">
+<surface>LEFT</surface>
+<lemma penn="NN">left</lemma>
+<dependent governor="215" type="nmod"/>
+</token>
+<token begin="502" end="503" id="219">
+<surface>.</surface>
+<lemma penn="."/>
+<dependent governor="189" type="punct"/>
+</token>
+<token begin="503" end="504" id="220">
+<surface>"</surface>
+<lemma penn="''"/>
+<dependent governor="189" type="punct"/>
+</token>
+<annotation type="NP" surface="&quot;IT" begin="323" end="326"/>
+<annotation type="VP" surface="IS" begin="327" end="329"/>
+<annotation type="NP" surface="A REPUGNANT CRIME" begin="330" end="347"/>
+<annotation type="VP" surface="SAID" begin="350" end="354"/>
+<annotation type="NP" surface="THE FOREIGN MINISTER" begin="355" end="375"/>
+<annotation type="NP" surface="WHO" begin="377" end="380"/>
+<annotation type="VP" surface="WAS ATTENDING" begin="381" end="394"/>
+<annotation type="NP" surface="THE 19TH OAS GENERAL ASSEMBLY" begin="395" end="424"/>
+<annotation type="NP" surface="HE" begin="430" end="432"/>
+<annotation type="VP" surface="DESCRIBED" begin="433" end="442"/>
+<annotation type="NP" surface="THE ASSASSINATIONS" begin="443" end="461"/>
+
+<annotation type="NP" surface="A &quot;DESPERATE ACTION" begin="465" end="484"/>
+<annotation type="VP" surface="TAKEN" begin="485" end="490"/>
+
+<annotation type="NP" surface="THE LEFT" begin="494" end="502"/>
+<annotation type="common:Person" surface="FOREIGN MINISTER" begin="359" end="375"/>
+
+<annotation type="common:Person" surface="GENERAL" begin="408" end="415"/>
+</sentence><sentence num="4" begin="508" end="710">
+<token begin="508" end="512" id="254">
+<surface>JOAO</surface>
+<lemma penn="NN"/>
+<dependent governor="256" type="compound"/>
+</token>
+<token begin="513" end="518" id="255">
+<surface>BAENA</surface>
+<lemma penn="NN"/>
+<dependent governor="256" type="compound"/>
+</token>
+<token begin="519" end="525" id="256">
+<surface>SOARES</surface>
+<lemma penn="NNS"/>
+<dependent governor="265" type="nsubjpass"/>
+</token>
+<token begin="525" end="526" id="257">
+<surface>,</surface>
+<lemma penn=","/>
+<dependent governor="256" type="punct"/>
+</token>
+<token begin="527" end="536" id="258">
+<surface>SECRETARY</surface>
+<lemma penn="NN">secretary</lemma>
+<dependent governor="259" type="compound"/>
+</token>
+<token begin="537" end="544" id="259">
+<surface>GENERAL</surface>
+<lemma penn="NN">general</lemma>
+<dependent governor="256" type="appos"/>
+</token>
+<token begin="545" end="547" id="260">
+<surface>OF</surface>
+<lemma penn="IN"/>
+<dependent governor="262" type="case"/>
+</token>
+<token begin="548" end="551" id="261">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="262" type="det"/>
+</token>
+<token begin="552" end="555" id="262">
+<surface>OAS</surface>
+<lemma penn="NN">oas</lemma>
+<dependent governor="259" type="nmod"/>
+</token>
+<token begin="555" end="556" id="263">
+<surface>,</surface>
+<lemma penn=","/>
+<dependent governor="265" type="punct"/>
+</token>
+<token begin="557" end="560" id="264">
+<surface>WAS</surface>
+<lemma penn="VBD">be</lemma>
+<dependent governor="265" type="auxpass"/>
+</token>
+<token begin="561" end="566" id="265">
+<surface>ASKED</surface>
+<lemma penn="VBN">ask</lemma>
+<dependent governor="265" type="ROOT"/>
+</token>
+<token begin="567" end="572" id="266">
+<surface>TODAY</surface>
+<lemma penn="RB">today</lemma>
+<dependent governor="265" type="advmod"/>
+</token>
+<token begin="573" end="575" id="267">
+<surface>TO</surface>
+<lemma penn="TO"/>
+<dependent governor="268" type="mark"/>
+</token>
+<token begin="576" end="582" id="268">
+<surface>REPORT</surface>
+<lemma penn="VB">report</lemma>
+<dependent governor="265" type="advcl"/>
+</token>
+<token begin="583" end="585" id="269">
+<surface>TO</surface>
+<lemma penn="TO"/>
+<dependent governor="271" type="mark"/>
+</token>
+<token begin="586" end="589" id="270">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="271" type="det"/>
+</token>
+<token begin="590" end="598" id="271">
+<surface>ASSEMBLY</surface>
+<lemma penn="NN">assembly</lemma>
+<dependent governor="268" type="ccomp"/>
+</token>
+<token begin="599" end="601" id="272">
+<surface>ON</surface>
+<lemma penn="IN"/>
+<dependent governor="274" type="case"/>
+</token>
+<token begin="602" end="605" id="273">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="274" type="det"/>
+</token>
+<token begin="606" end="615" id="274">
+<surface>SITUATION</surface>
+<lemma penn="NN">situation</lemma>
+<dependent governor="271" type="nmod"/>
+</token>
+<token begin="616" end="618" id="275">
+<surface>IN</surface>
+<lemma penn="IN"/>
+<dependent governor="277" type="case"/>
+</token>
+<token begin="619" end="621" id="276">
+<surface>EL</surface>
+<lemma penn="NN">el</lemma>
+<dependent governor="277" type="compound"/>
+</token>
+<token begin="622" end="630" id="277">
+<surface>SALVADOR</surface>
+<lemma penn="NN">salvador</lemma>
+<dependent governor="274" type="nmod"/>
+</token>
+<token begin="631" end="633" id="278">
+<surface>IN</surface>
+<lemma penn="IN"/>
+<dependent governor="279" type="case"/>
+</token>
+<token begin="634" end="644" id="279">
+<surface>COMPLIANCE</surface>
+<lemma penn="NN">compliance</lemma>
+<dependent governor="277" type="nmod"/>
+</token>
+<token begin="645" end="649" id="280">
+<surface>WITH</surface>
+<lemma penn="IN"/>
+<dependent governor="282" type="case"/>
+</token>
+<token begin="650" end="653" id="281">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="282" type="det"/>
+</token>
+<token begin="654" end="664" id="282">
+<surface>RESOLUTION</surface>
+<lemma penn="NN">resolution</lemma>
+<dependent governor="279" type="nmod"/>
+</token>
+<token begin="665" end="667" id="283">
+<surface>ON</surface>
+<lemma penn="IN"/>
+<dependent governor="285" type="case"/>
+</token>
+<token begin="668" end="672" id="284">
+<surface>THAT</surface>
+<lemma penn="DT"/>
+<dependent governor="285" type="det"/>
+</token>
+<token begin="673" end="680" id="285">
+<surface>COUNTRY</surface>
+<lemma penn="NN">country</lemma>
+<dependent governor="282" type="nmod"/>
+</token>
+<token begin="681" end="685" id="286">
+<surface>THAT</surface>
+<lemma penn="DT"/>
+<dependent governor="288" type="nsubjpass"/>
+</token>
+<token begin="686" end="689" id="287">
+<surface>WAS</surface>
+<lemma penn="VBD">be</lemma>
+<dependent governor="288" type="auxpass"/>
+</token>
+<token begin="690" end="698" id="288">
+<surface>APPROVED</surface>
+<lemma penn="VBN">approve</lemma>
+<dependent governor="271" type="acl:relcl"/>
+</token>
+<token begin="699" end="701" id="289">
+<surface>ON</surface>
+<lemma penn="IN"/>
+<dependent governor="290" type="case"/>
+</token>
+<token begin="702" end="709" id="290">
+<surface>TUESDAY</surface>
+<lemma penn="NN">tuesday</lemma>
+<dependent governor="288" type="nmod"/>
+</token>
+<token begin="709" end="710" id="291">
+<surface>.</surface>
+<lemma penn="."/>
+<dependent governor="265" type="punct"/>
+</token>
+<annotation type="NP" surface="JOAO BAENA SOARES" begin="508" end="525"/>
+<annotation type="NP" surface="SECRETARY GENERAL" begin="527" end="544"/>
+
+<annotation type="NP" surface="THE OAS" begin="548" end="555"/>
+<annotation type="VP" surface="WAS ASKED" begin="557" end="566"/>
+
+<annotation type="VP" surface="TO REPORT" begin="573" end="582"/>
+
+<annotation type="NP" surface="THE ASSEMBLY" begin="586" end="598"/>
+
+<annotation type="NP" surface="THE SITUATION" begin="602" end="615"/>
+
+<annotation type="NP" surface="EL SALVADOR" begin="619" end="630"/>
+
+<annotation type="NP" surface="COMPLIANCE" begin="634" end="644"/>
+
+<annotation type="NP" surface="THE RESOLUTION" begin="650" end="664"/>
+
+<annotation type="NP" surface="THAT COUNTRY" begin="668" end="680"/>
+<annotation type="NP" surface="THAT" begin="681" end="685"/>
+<annotation type="VP" surface="WAS APPROVED" begin="686" end="698"/>
+
+<annotation type="NP" surface="TUESDAY" begin="702" end="709"/>
+<annotation type="common:Person" surface="JOAO BAENA SOARES" begin="508" end="525"/>
+
+<annotation type="common:Person" surface="SECRETARY GENERAL OF THE OAS" begin="527" end="555"/>
+
+
+<annotation type="common:Person" surface="SALVADOR" begin="622" end="630"/>
+<annotation type="semantic:Location" surface="EL SALVADOR" begin="619" end="630"/>
+</sentence><sentence num="5" begin="714" end="963">
+<token begin="714" end="715" id="339">
+<surface>A</surface>
+<lemma penn="DT"/>
+<dependent governor="340" type="det"/>
+</token>
+<token begin="716" end="726" id="340">
+<surface>COMMUNIQUE</surface>
+<lemma penn="NN">communique</lemma>
+<dependent governor="355" type="nsubj"/>
+</token>
+<token begin="727" end="735" id="341">
+<surface>RELEASED</surface>
+<lemma penn="VBN">release</lemma>
+<dependent governor="340" type="acl"/>
+</token>
+<token begin="736" end="741" id="342">
+<surface>TODAY</surface>
+<lemma penn="NN">today</lemma>
+<dependent governor="341" type="xcomp"/>
+</token>
+<token begin="742" end="744" id="343">
+<surface>BY</surface>
+<lemma penn="IN"/>
+<dependent governor="346" type="case"/>
+</token>
+<token begin="745" end="746" id="344">
+<surface>A</surface>
+<lemma penn="DT"/>
+<dependent governor="346" type="det"/>
+</token>
+<token begin="747" end="756" id="345">
+<surface>FARABUNDO</surface>
+<lemma penn="NN"/>
+<dependent governor="346" type="compound"/>
+</token>
+<token begin="757" end="762" id="346">
+<surface>MARTI</surface>
+<lemma penn="NNS">marti</lemma>
+<dependent governor="342" type="nmod"/>
+</token>
+<token begin="763" end="771" id="347">
+<surface>NATIONAL</surface>
+<lemma penn="JJ">national</lemma>
+<dependent governor="350" type="amod"/>
+</token>
+<token begin="772" end="782" id="348">
+<surface>LIBERATION</surface>
+<lemma penn="NN">liberation</lemma>
+<dependent governor="349" type="compound"/>
+</token>
+<token begin="783" end="788" id="349">
+<surface>FRONT</surface>
+<lemma penn="NN">front</lemma>
+<dependent governor="350" type="compound"/>
+</token>
+<token begin="789" end="794" id="350">
+<surface>[FMLN</surface>
+<lemma penn="NN"/>
+<dependent governor="341" type="nmod:tmod"/>
+</token>
+<token begin="794" end="795" id="351">
+<surface>]</surface>
+<lemma penn="SYM"/>
+<dependent governor="352" type="case"/>
+</token>
+<token begin="796" end="805" id="352">
+<surface>SPOKESMAN</surface>
+<lemma penn="NN">spokesman</lemma>
+<dependent governor="341" type="nmod"/>
+</token>
+<token begin="806" end="808" id="353">
+<surface>IN</surface>
+<lemma penn="IN"/>
+<dependent governor="354" type="case"/>
+</token>
+<token begin="809" end="819" id="354">
+<surface>WASHINGTON</surface>
+<lemma penn="NN">washington</lemma>
+<dependent governor="352" type="nmod"/>
+</token>
+<token begin="820" end="826" id="355">
+<surface>BLAMED</surface>
+<lemma penn="VBD">blame</lemma>
+<dependent governor="355" type="ROOT"/>
+</token>
+<token begin="827" end="830" id="356">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="358" type="det"/>
+</token>
+<token begin="831" end="841" id="357">
+<surface>SALVADORAN</surface>
+<lemma penn="JJ">salvadoran</lemma>
+<dependent governor="358" type="amod"/>
+</token>
+<token begin="842" end="846" id="358">
+<surface>ARMY</surface>
+<lemma penn="NN">army</lemma>
+<dependent governor="355" type="dobj"/>
+</token>
+<token begin="847" end="850" id="359">
+<surface>FOR</surface>
+<lemma penn="IN"/>
+<dependent governor="361" type="case"/>
+</token>
+<token begin="851" end="854" id="360">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="361" type="det"/>
+</token>
+<token begin="855" end="860" id="361">
+<surface>CRIME</surface>
+<lemma penn="NN">crime</lemma>
+<dependent governor="355" type="nmod"/>
+</token>
+<token begin="860" end="861" id="362">
+<surface>,</surface>
+<lemma penn=","/>
+<dependent governor="355" type="punct"/>
+</token>
+<token begin="862" end="865" id="363">
+<surface>AND</surface>
+<lemma penn="CC"/>
+<dependent governor="355" type="cc"/>
+</token>
+<token begin="866" end="871" id="364">
+<surface>ADDED</surface>
+<lemma penn="VBD">add</lemma>
+<dependent governor="355" type="conj"/>
+</token>
+<token begin="872" end="876" id="365">
+<surface>THAT</surface>
+<lemma penn="IN"/>
+<dependent governor="371" type="mark"/>
+</token>
+<token begin="877" end="878" id="366">
+<surface>"</surface>
+<lemma penn="``"/>
+<dependent governor="371" type="punct"/>
+</token>
+<token begin="878" end="881" id="367">
+<surface>ALL</surface>
+<lemma penn="DT"/>
+<dependent governor="371" type="nsubj"/>
+</token>
+<token begin="882" end="884" id="368">
+<surface>OF</surface>
+<lemma penn="IN"/>
+<dependent governor="370" type="case"/>
+</token>
+<token begin="885" end="888" id="369">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="370" type="det"/>
+</token>
+<token begin="889" end="895" id="370">
+<surface>BODIES</surface>
+<lemma penn="NNS">body</lemma>
+<dependent governor="367" type="nmod"/>
+</token>
+<token begin="896" end="899" id="371">
+<surface>HAD</surface>
+<lemma penn="VBD">have</lemma>
+<dependent governor="364" type="ccomp"/>
+</token>
+<token begin="900" end="906" id="372">
+<surface>BULLET</surface>
+<lemma penn="NN">bullet</lemma>
+<dependent governor="373" type="compound"/>
+</token>
+<token begin="907" end="913" id="373">
+<surface>WOUNDS</surface>
+<lemma penn="NNS">wound</lemma>
+<dependent governor="371" type="dobj"/>
+</token>
+<token begin="914" end="916" id="374">
+<surface>IN</surface>
+<lemma penn="IN"/>
+<dependent governor="376" type="case"/>
+</token>
+<token begin="917" end="920" id="375">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="376" type="det"/>
+</token>
+<token begin="921" end="925" id="376">
+<surface>HEAD</surface>
+<lemma penn="NN">head</lemma>
+<dependent governor="371" type="nmod"/>
+</token>
+<token begin="925" end="926" id="377">
+<surface>,</surface>
+<lemma penn=","/>
+<dependent governor="371" type="punct"/>
+</token>
+<token begin="927" end="937" id="378">
+<surface>INDICATING</surface>
+<lemma penn="VBG">indicate</lemma>
+<dependent governor="371" type="advcl"/>
+</token>
+<token begin="938" end="942" id="379">
+<surface>THAT</surface>
+<lemma penn="IN"/>
+<dependent governor="382" type="mark"/>
+</token>
+<token begin="943" end="947" id="380">
+<surface>THEY</surface>
+<lemma penn="PRP"/>
+<dependent governor="382" type="nsubjpass"/>
+</token>
+<token begin="948" end="952" id="381">
+<surface>WERE</surface>
+<lemma penn="VBD">be</lemma>
+<dependent governor="382" type="auxpass"/>
+</token>
+<token begin="953" end="961" id="382">
+<surface>EXECUTED</surface>
+<lemma penn="VBN">execute</lemma>
+<dependent governor="378" type="ccomp"/>
+</token>
+<token begin="961" end="962" id="383">
+<surface>.</surface>
+<lemma penn="."/>
+<dependent governor="355" type="punct"/>
+</token>
+<token begin="962" end="963" id="384">
+<surface>"</surface>
+<lemma penn="''"/>
+<dependent governor="355" type="punct"/>
+</token>
+<annotation type="NP" surface="A COMMUNIQUE RELEASED TODAY" begin="714" end="741"/>
+
+<annotation type="NP" surface="A FARABUNDO MARTI NATIONAL LIBERATION FRONT [FMLN" begin="745" end="794"/>
+<annotation type="NP" surface="SPOKESMAN" begin="796" end="805"/>
+
+<annotation type="NP" surface="WASHINGTON" begin="809" end="819"/>
+<annotation type="VP" surface="BLAMED" begin="820" end="826"/>
+<annotation type="NP" surface="THE SALVADORAN ARMY" begin="827" end="846"/>
+
+<annotation type="NP" surface="THE CRIME" begin="851" end="860"/>
+<annotation type="VP" surface="ADDED" begin="866" end="871"/>
+
+<annotation type="NP" surface="ALL" begin="878" end="881"/>
+
+<annotation type="NP" surface="THE BODIES" begin="885" end="895"/>
+<annotation type="VP" surface="HAD" begin="896" end="899"/>
+<annotation type="NP" surface="BULLET WOUNDS" begin="900" end="913"/>
+
+<annotation type="NP" surface="THE HEAD" begin="917" end="925"/>
+<annotation type="VP" surface="INDICATING" begin="927" end="937"/>
+
+<annotation type="NP" surface="THEY" begin="943" end="947"/>
+<annotation type="VP" surface="WERE EXECUTED" begin="948" end="961"/>
+<annotation type="common:Organisation" surface="FARABUNDO MARTI NATIONAL LIBERATION FRONT [FMLN]" begin="747" end="795"/>
+
+
+</sentence><sentence num="6" begin="967" end="1183">
+<token begin="967" end="972" id="432">
+<surface>PACAS</surface>
+<lemma penn="NN">paca</lemma>
+<dependent governor="433" type="compound"/>
+</token>
+<token begin="973" end="979" id="433">
+<surface>CASTRO</surface>
+<lemma penn="NN">castro</lemma>
+<dependent governor="434" type="nsubj"/>
+</token>
+<token begin="980" end="984" id="434">
+<surface>SAID</surface>
+<lemma penn="VBD">say</lemma>
+<dependent governor="434" type="ROOT"/>
+</token>
+<token begin="985" end="990" id="435">
+<surface>TODAY</surface>
+<lemma penn="NN">today</lemma>
+<dependent governor="434" type="dobj"/>
+</token>
+<token begin="991" end="995" id="436">
+<surface>THAT</surface>
+<lemma penn="IN"/>
+<dependent governor="439" type="case"/>
+</token>
+<token begin="996" end="999" id="437">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="439" type="det"/>
+</token>
+<token begin="1000" end="1010" id="438">
+<surface>SALVADORAN</surface>
+<lemma penn="JJ">salvadoran</lemma>
+<dependent governor="439" type="amod"/>
+</token>
+<token begin="1011" end="1021" id="439">
+<surface>GOVERNMENT</surface>
+<lemma penn="NN">government</lemma>
+<dependent governor="434" type="nmod"/>
+</token>
+<token begin="1021" end="1022" id="440">
+<surface>,</surface>
+<lemma penn=","/>
+<dependent governor="434" type="punct"/>
+</token>
+<token begin="1023" end="1029" id="441">
+<surface>HEADED</surface>
+<lemma penn="VBN">head</lemma>
+<dependent governor="434" type="conj"/>
+</token>
+<token begin="1030" end="1032" id="442">
+<surface>BY</surface>
+<lemma penn="IN"/>
+<dependent governor="444" type="case"/>
+</token>
+<token begin="1033" end="1040" id="443">
+<surface>ALFREDO</surface>
+<lemma penn="RB"/>
+<dependent governor="444" type="advmod"/>
+</token>
+<token begin="1041" end="1050" id="444">
+<surface>CRISTIANI</surface>
+<lemma penn="JJ"/>
+<dependent governor="441" type="nmod"/>
+</token>
+<token begin="1050" end="1051" id="445">
+<surface>,</surface>
+<lemma penn=","/>
+<dependent governor="447" type="punct"/>
+</token>
+<token begin="1052" end="1056" id="446">
+<surface>WILL</surface>
+<lemma penn="MD"/>
+<dependent governor="447" type="aux"/>
+</token>
+<token begin="1057" end="1065" id="447">
+<surface>MAINTAIN</surface>
+<lemma penn="VB">maintain</lemma>
+<dependent governor="434" type="parataxis"/>
+</token>
+<token begin="1066" end="1069" id="448">
+<surface>ITS</surface>
+<lemma penn="PRP$"/>
+<dependent governor="449" type="nmod:poss"/>
+</token>
+<token begin="1070" end="1080" id="449">
+<surface>COMMITMENT</surface>
+<lemma penn="NN">commitment</lemma>
+<dependent governor="447" type="dobj"/>
+</token>
+<token begin="1081" end="1083" id="450">
+<surface>TO</surface>
+<lemma penn="TO"/>
+<dependent governor="452" type="mark"/>
+</token>
+<token begin="1084" end="1085" id="451">
+<surface>A</surface>
+<lemma penn="DT"/>
+<dependent governor="452" type="det"/>
+</token>
+<token begin="1086" end="1094" id="452">
+<surface>DIALOGUE</surface>
+<lemma penn="NN">dialogue</lemma>
+<dependent governor="447" type="advcl"/>
+</token>
+<token begin="1095" end="1097" id="453">
+<surface>TO</surface>
+<lemma penn="TO"/>
+<dependent governor="454" type="mark"/>
+</token>
+<token begin="1098" end="1105" id="454">
+<surface>DISCUSS</surface>
+<lemma penn="VB">discuss</lemma>
+<dependent governor="452" type="acl"/>
+</token>
+<token begin="1106" end="1109" id="455">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="456" type="det"/>
+</token>
+<token begin="1110" end="1120" id="456">
+<surface>SUSPENSION</surface>
+<lemma penn="NN">suspension</lemma>
+<dependent governor="454" type="dobj"/>
+</token>
+<token begin="1121" end="1123" id="457">
+<surface>OF</surface>
+<lemma penn="IN"/>
+<dependent governor="459" type="case"/>
+</token>
+<token begin="1124" end="1127" id="458">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="459" type="det"/>
+</token>
+<token begin="1128" end="1139" id="459">
+<surface>HOSTILITIES</surface>
+<lemma penn="NNS">hostilities</lemma>
+<dependent governor="456" type="nmod"/>
+</token>
+<token begin="1140" end="1143" id="460">
+<surface>AND</surface>
+<lemma penn="CC"/>
+<dependent governor="447" type="cc"/>
+</token>
+<token begin="1144" end="1146" id="461">
+<surface>TO</surface>
+<lemma penn="TO"/>
+<dependent governor="462" type="mark"/>
+</token>
+<token begin="1147" end="1156" id="462">
+<surface>IMPLEMENT</surface>
+<lemma penn="VB">implement</lemma>
+<dependent governor="447" type="conj"/>
+</token>
+<token begin="1157" end="1159" id="463">
+<surface>AN</surface>
+<lemma penn="DT"/>
+<dependent governor="466" type="det"/>
+</token>
+<token begin="1160" end="1168" id="464">
+<surface>INTERNAL</surface>
+<lemma penn="JJ">internal</lemma>
+<dependent governor="466" type="amod"/>
+</token>
+<token begin="1169" end="1174" id="465">
+<surface>PEACE</surface>
+<lemma penn="NN">peace</lemma>
+<dependent governor="466" type="compound"/>
+</token>
+<token begin="1175" end="1182" id="466">
+<surface>PROCESS</surface>
+<lemma penn="NN">process</lemma>
+<dependent governor="462" type="dobj"/>
+</token>
+<token begin="1182" end="1183" id="467">
+<surface>.</surface>
+<lemma penn="."/>
+<dependent governor="434" type="punct"/>
+</token>
+<annotation type="NP" surface="PACAS CASTRO" begin="967" end="979"/>
+<annotation type="VP" surface="SAID" begin="980" end="984"/>
+<annotation type="NP" surface="TODAY" begin="985" end="990"/>
+
+<annotation type="NP" surface="THE SALVADORAN GOVERNMENT" begin="996" end="1021"/>
+<annotation type="VP" surface="HEADED" begin="1023" end="1029"/>
+
+<annotation type="NP" surface="ALFREDO CRISTIANI," begin="1033" end="1051"/>
+<annotation type="VP" surface="WILL MAINTAIN" begin="1052" end="1065"/>
+<annotation type="NP" surface="ITS COMMITMENT" begin="1066" end="1080"/>
+
+<annotation type="NP" surface="A DIALOGUE" begin="1084" end="1094"/>
+<annotation type="VP" surface="TO DISCUSS" begin="1095" end="1105"/>
+<annotation type="NP" surface="THE SUSPENSION" begin="1106" end="1120"/>
+
+<annotation type="NP" surface="THE HOSTILITIES" begin="1124" end="1139"/>
+<annotation type="VP" surface="TO IMPLEMENT" begin="1144" end="1156"/>
+<annotation type="NP" surface="AN INTERNAL PEACE PROCESS" begin="1157" end="1182"/>
+<annotation type="common:Person" surface="PACAS CASTRO" begin="967" end="979"/>
+
+
+<annotation type="common:Person" surface="ALFREDO CRISTIANI" begin="1033" end="1050"/>
+
+
+</sentence><sentence num="7" begin="1187" end="1371">
+<token begin="1187" end="1195" id="505">
+<surface>MOREOVER</surface>
+<lemma penn="RB">moreover</lemma>
+<dependent governor="508" type="advmod"/>
+</token>
+<token begin="1195" end="1196" id="506">
+<surface>,</surface>
+<lemma penn=","/>
+<dependent governor="508" type="punct"/>
+</token>
+<token begin="1197" end="1199" id="507">
+<surface>HE</surface>
+<lemma penn="PRP"/>
+<dependent governor="508" type="nsubj"/>
+</token>
+<token begin="1200" end="1209" id="508">
+<surface>ANNOUNCED</surface>
+<lemma penn="VBD">announce</lemma>
+<dependent governor="508" type="ROOT"/>
+</token>
+<token begin="1210" end="1214" id="509">
+<surface>THAT</surface>
+<lemma penn="IN"/>
+<dependent governor="512" type="case"/>
+</token>
+<token begin="1215" end="1217" id="510">
+<surface>AN</surface>
+<lemma penn="DT"/>
+<dependent governor="512" type="det"/>
+</token>
+<token begin="1218" end="1226" id="511">
+<surface>OFFICIAL</surface>
+<lemma penn="JJ">official</lemma>
+<dependent governor="512" type="amod"/>
+</token>
+<token begin="1227" end="1234" id="512">
+<surface>MISSION</surface>
+<lemma penn="NN">mission</lemma>
+<dependent governor="508" type="nmod"/>
+</token>
+<token begin="1234" end="1235" id="513">
+<surface>,</surface>
+<lemma penn=","/>
+<dependent governor="512" type="punct"/>
+</token>
+<token begin="1236" end="1243" id="514">
+<surface>CAPABLE</surface>
+<lemma penn="JJ">capable</lemma>
+<dependent governor="512" type="amod"/>
+</token>
+<token begin="1244" end="1246" id="515">
+<surface>OF</surface>
+<lemma penn="IN"/>
+<dependent governor="516" type="mark"/>
+</token>
+<token begin="1247" end="1253" id="516">
+<surface>MAKING</surface>
+<lemma penn="VBG">make</lemma>
+<dependent governor="514" type="advcl"/>
+</token>
+<token begin="1254" end="1263" id="517">
+<surface>DECISIONS</surface>
+<lemma penn="NNS">decision</lemma>
+<dependent governor="516" type="dobj"/>
+</token>
+<token begin="1264" end="1267" id="518">
+<surface>AND</surface>
+<lemma penn="CC"/>
+<dependent governor="517" type="cc"/>
+</token>
+<token begin="1268" end="1279" id="519">
+<surface>COMMITMENTS</surface>
+<lemma penn="NNS">commitment</lemma>
+<dependent governor="517" type="conj"/>
+</token>
+<token begin="1279" end="1280" id="520">
+<surface>,</surface>
+<lemma penn=","/>
+<dependent governor="522" type="punct"/>
+</token>
+<token begin="1281" end="1285" id="521">
+<surface>WILL</surface>
+<lemma penn="MD"/>
+<dependent governor="522" type="aux"/>
+</token>
+<token begin="1286" end="1292" id="522">
+<surface>TRAVEL</surface>
+<lemma penn="VB">travel</lemma>
+<dependent governor="508" type="parataxis"/>
+</token>
+<token begin="1293" end="1295" id="523">
+<surface>TO</surface>
+<lemma penn="TO"/>
+<dependent governor="524" type="mark"/>
+</token>
+<token begin="1296" end="1303" id="524">
+<surface>CARACAS</surface>
+<lemma penn="NNS">caracas</lemma>
+<dependent governor="522" type="ccomp"/>
+</token>
+<token begin="1304" end="1306" id="525">
+<surface>IN</surface>
+<lemma penn="IN"/>
+<dependent governor="527" type="case"/>
+</token>
+<token begin="1307" end="1310" id="526">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="527" type="det"/>
+</token>
+<token begin="1311" end="1315" id="527">
+<surface>HOPE</surface>
+<lemma penn="NN">hope</lemma>
+<dependent governor="524" type="nmod"/>
+</token>
+<token begin="1316" end="1318" id="528">
+<surface>OF</surface>
+<lemma penn="IN"/>
+<dependent governor="529" type="case"/>
+</token>
+<token begin="1319" end="1326" id="529">
+<surface>MEETING</surface>
+<lemma penn="NN">meeting</lemma>
+<dependent governor="527" type="nmod"/>
+</token>
+<token begin="1327" end="1331" id="530">
+<surface>WITH</surface>
+<lemma penn="IN"/>
+<dependent governor="531" type="case"/>
+</token>
+<token begin="1332" end="1347" id="531">
+<surface>REPRESENTATIVES</surface>
+<lemma penn="NNS">representative</lemma>
+<dependent governor="529" type="nmod"/>
+</token>
+<token begin="1348" end="1350" id="532">
+<surface>OF</surface>
+<lemma penn="IN"/>
+<dependent governor="535" type="case"/>
+</token>
+<token begin="1351" end="1354" id="533">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="535" type="det"/>
+</token>
+<token begin="1355" end="1359" id="534">
+<surface>FMLN</surface>
+<lemma penn="JJ"/>
+<dependent governor="535" type="amod"/>
+</token>
+<token begin="1360" end="1370" id="535">
+<surface>GUERRILLAS</surface>
+<lemma penn="NNS">guerrilla</lemma>
+<dependent governor="531" type="nmod"/>
+</token>
+<token begin="1370" end="1371" id="536">
+<surface>.</surface>
+<lemma penn="."/>
+<dependent governor="508" type="punct"/>
+</token>
+
+<annotation type="NP" surface="HE" begin="1197" end="1199"/>
+<annotation type="VP" surface="ANNOUNCED" begin="1200" end="1209"/>
+
+<annotation type="NP" surface="AN OFFICIAL MISSION" begin="1215" end="1234"/>
+
+
+<annotation type="VP" surface="MAKING" begin="1247" end="1253"/>
+<annotation type="NP" surface="DECISIONS AND COMMITMENTS" begin="1254" end="1279"/>
+<annotation type="VP" surface="WILL TRAVEL" begin="1281" end="1292"/>
+
+<annotation type="NP" surface="CARACAS" begin="1296" end="1303"/>
+
+<annotation type="NP" surface="THE HOPE" begin="1307" end="1315"/>
+
+<annotation type="NP" surface="MEETING" begin="1319" end="1326"/>
+
+<annotation type="NP" surface="REPRESENTATIVES" begin="1332" end="1347"/>
+
+<annotation type="NP" surface="THE FMLN GUERRILLAS" begin="1351" end="1370"/>
+<annotation type="common:Organisation" surface="FMLN" begin="1355" end="1359"/>
+</sentence><sentence num="8" begin="1375" end="1579">
+<token begin="1375" end="1378" id="578">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="581" type="det"/>
+</token>
+<token begin="1379" end="1389" id="579">
+<surface>SALVADORAN</surface>
+<lemma penn="JJ">salvadoran</lemma>
+<dependent governor="581" type="amod"/>
+</token>
+<token begin="1390" end="1397" id="580">
+<surface>FOREIGN</surface>
+<lemma penn="JJ">foreign</lemma>
+<dependent governor="581" type="amod"/>
+</token>
+<token begin="1398" end="1406" id="581">
+<surface>MINISTER</surface>
+<lemma penn="NN">minister</lemma>
+<dependent governor="582" type="nsubj"/>
+</token>
+<token begin="1407" end="1411" id="582">
+<surface>SAID</surface>
+<lemma penn="VBD">say</lemma>
+<dependent governor="582" type="ROOT"/>
+</token>
+<token begin="1412" end="1415" id="583">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="584" type="det"/>
+</token>
+<token begin="1416" end="1425" id="584">
+<surface>SITUATION</surface>
+<lemma penn="NN">situation</lemma>
+<dependent governor="582" type="dobj"/>
+</token>
+<token begin="1426" end="1428" id="585">
+<surface>IN</surface>
+<lemma penn="IN"/>
+<dependent governor="587" type="case"/>
+</token>
+<token begin="1429" end="1432" id="586">
+<surface>HIS</surface>
+<lemma penn="PRP$"/>
+<dependent governor="587" type="nmod:poss"/>
+</token>
+<token begin="1433" end="1440" id="587">
+<surface>COUNTRY</surface>
+<lemma penn="NN">country</lemma>
+<dependent governor="584" type="nmod"/>
+</token>
+<token begin="1441" end="1443" id="588">
+<surface>IS</surface>
+<lemma penn="VBZ">be</lemma>
+<dependent governor="582" type="punct"/>
+</token>
+<token begin="1444" end="1449" id="589">
+<surface>UNDER</surface>
+<lemma penn="IN"/>
+<dependent governor="590" type="case"/>
+</token>
+<token begin="1450" end="1457" id="590">
+<surface>CONTROL</surface>
+<lemma penn="NN">control</lemma>
+<dependent governor="582" type="nmod"/>
+</token>
+<token begin="1458" end="1461" id="591">
+<surface>AND</surface>
+<lemma penn="CC"/>
+<dependent governor="582" type="cc"/>
+</token>
+<token begin="1462" end="1466" id="592">
+<surface>THAT</surface>
+<lemma penn="DT"/>
+<dependent governor="594" type="det"/>
+</token>
+<token begin="1467" end="1471" id="593">
+<surface>ARMY</surface>
+<lemma penn="NN">army</lemma>
+<dependent governor="594" type="compound"/>
+</token>
+<token begin="1472" end="1478" id="594">
+<surface>TROOPS</surface>
+<lemma penn="NNS">troops</lemma>
+<dependent governor="595" type="nsubj"/>
+</token>
+<token begin="1479" end="1482" id="595">
+<surface>ARE</surface>
+<lemma penn="VBP">be</lemma>
+<dependent governor="582" type="conj"/>
+</token>
+<token begin="1483" end="1489" id="596">
+<surface>SLOWLY</surface>
+<lemma penn="RB">slowly</lemma>
+<dependent governor="595" type="advmod"/>
+</token>
+<token begin="1490" end="1496" id="597">
+<surface>MOVING</surface>
+<lemma penn="VBG">move</lemma>
+<dependent governor="595" type="advcl"/>
+</token>
+<token begin="1497" end="1501" id="598">
+<surface>INTO</surface>
+<lemma penn="IN"/>
+<dependent governor="602" type="case"/>
+</token>
+<token begin="1502" end="1505" id="599">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="602" type="det"/>
+</token>
+<token begin="1506" end="1513" id="600">
+<surface>DENSELY</surface>
+<lemma penn="JJ"/>
+<dependent governor="602" type="amod"/>
+</token>
+<token begin="1514" end="1523" id="601">
+<surface>POPULATED</surface>
+<lemma penn="JJ">populated</lemma>
+<dependent governor="602" type="amod"/>
+</token>
+<token begin="1524" end="1529" id="602">
+<surface>AREAS</surface>
+<lemma penn="NNS">area</lemma>
+<dependent governor="597" type="nmod"/>
+</token>
+<token begin="1530" end="1532" id="603">
+<surface>TO</surface>
+<lemma penn="TO"/>
+<dependent governor="605" type="mark"/>
+</token>
+<token begin="1533" end="1538" id="604">
+<surface>AVOID</surface>
+<lemma penn="VB">avoid</lemma>
+<dependent governor="605" type="auxpass"/>
+</token>
+<token begin="1539" end="1548" id="605">
+<surface>BLOODSHED</surface>
+<lemma penn="VBN"/>
+<dependent governor="597" type="advcl"/>
+</token>
+<token begin="1549" end="1554" id="606">
+<surface>AMONG</surface>
+<lemma penn="IN"/>
+<dependent governor="609" type="case"/>
+</token>
+<token begin="1555" end="1558" id="607">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="609" type="det"/>
+</token>
+<token begin="1559" end="1567" id="608">
+<surface>CIVILIAN</surface>
+<lemma penn="JJ">civilian</lemma>
+<dependent governor="609" type="amod"/>
+</token>
+<token begin="1568" end="1578" id="609">
+<surface>POPULATION</surface>
+<lemma penn="NN">population</lemma>
+<dependent governor="605" type="nmod"/>
+</token>
+<token begin="1578" end="1579" id="610">
+<surface>.</surface>
+<lemma penn="."/>
+<dependent governor="582" type="punct"/>
+</token>
+<annotation type="NP" surface="THE SALVADORAN FOREIGN MINISTER" begin="1375" end="1406"/>
+<annotation type="VP" surface="SAID" begin="1407" end="1411"/>
+<annotation type="NP" surface="THE SITUATION" begin="1412" end="1425"/>
+
+<annotation type="NP" surface="HIS COUNTRY" begin="1429" end="1440"/>
+<annotation type="VP" surface="IS" begin="1441" end="1443"/>
+
+<annotation type="NP" surface="CONTROL" begin="1450" end="1457"/>
+<annotation type="NP" surface="THAT ARMY TROOPS" begin="1462" end="1478"/>
+<annotation type="VP" surface="ARE SLOWLY MOVING" begin="1479" end="1496"/>
+
+<annotation type="NP" surface="THE DENSELY POPULATED AREAS" begin="1502" end="1529"/>
+<annotation type="VP" surface="TO AVOID BLOODSHED" begin="1530" end="1548"/>
+
+<annotation type="NP" surface="THE CIVILIAN POPULATION" begin="1555" end="1578"/>
+<annotation type="common:Person" surface="SALVADORAN FOREIGN MINISTER" begin="1379" end="1406"/>
+
+
+</sentence><sentence num="9" begin="1583" end="1811">
+<token begin="1583" end="1585" id="642">
+<surface>AS</surface>
+<lemma penn="IN"/>
+<dependent governor="645" type="case"/>
+</token>
+<token begin="1586" end="1589" id="643">
+<surface>FOR</surface>
+<lemma penn="IN"/>
+<dependent governor="645" type="case"/>
+</token>
+<token begin="1590" end="1591" id="644">
+<surface>A</surface>
+<lemma penn="DT"/>
+<dependent governor="645" type="det"/>
+</token>
+<token begin="1592" end="1599" id="645">
+<surface>REQUEST</surface>
+<lemma penn="NN">request</lemma>
+<dependent governor="645" type="ROOT"/>
+</token>
+<token begin="1600" end="1602" id="646">
+<surface>BY</surface>
+<lemma penn="IN"/>
+<dependent governor="650" type="case"/>
+</token>
+<token begin="1603" end="1606" id="647">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="650" type="det"/>
+</token>
+<token begin="1607" end="1620" id="648">
+<surface>INTERNATIONAL</surface>
+<lemma penn="JJ">international</lemma>
+<dependent governor="650" type="amod"/>
+</token>
+<token begin="1621" end="1624" id="649">
+<surface>RED</surface>
+<lemma penn="JJ">red</lemma>
+<dependent governor="650" type="amod"/>
+</token>
+<token begin="1625" end="1630" id="650">
+<surface>CROSS</surface>
+<lemma penn="NN">cross</lemma>
+<dependent governor="645" type="nmod"/>
+</token>
+<token begin="1631" end="1633" id="651">
+<surface>TO</surface>
+<lemma penn="TO"/>
+<dependent governor="652" type="mark"/>
+</token>
+<token begin="1634" end="1638" id="652">
+<surface>CALL</surface>
+<lemma penn="VB">call</lemma>
+<dependent governor="645" type="acl"/>
+</token>
+<token begin="1639" end="1642" id="653">
+<surface>FOR</surface>
+<lemma penn="IN"/>
+<dependent governor="655" type="case"/>
+</token>
+<token begin="1643" end="1644" id="654">
+<surface>A</surface>
+<lemma penn="DT"/>
+<dependent governor="655" type="det"/>
+</token>
+<token begin="1645" end="1655" id="655">
+<surface>CEASE-FIRE</surface>
+<lemma penn="NN">cease-fire</lemma>
+<dependent governor="652" type="nmod"/>
+</token>
+<token begin="1656" end="1659" id="656">
+<surface>FOR</surface>
+<lemma penn="IN"/>
+<dependent governor="658" type="case"/>
+</token>
+<token begin="1660" end="1672" id="657">
+<surface>HUMANITARIAN</surface>
+<lemma penn="JJ">humanitarian</lemma>
+<dependent governor="658" type="amod"/>
+</token>
+<token begin="1673" end="1680" id="658">
+<surface>REASONS</surface>
+<lemma penn="NNS">reason</lemma>
+<dependent governor="655" type="nmod"/>
+</token>
+<token begin="1681" end="1683" id="659">
+<surface>TO</surface>
+<lemma penn="TO"/>
+<dependent governor="660" type="mark"/>
+</token>
+<token begin="1684" end="1689" id="660">
+<surface>TREAT</surface>
+<lemma penn="VB">treat</lemma>
+<dependent governor="652" type="advcl"/>
+</token>
+<token begin="1690" end="1693" id="661">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="660" type="dobj"/>
+</token>
+<token begin="1694" end="1701" id="662">
+<surface>WOUNDED</surface>
+<lemma penn="VBN">wound</lemma>
+<dependent governor="660" type="xcomp"/>
+</token>
+<token begin="1702" end="1705" id="663">
+<surface>AND</surface>
+<lemma penn="CC"/>
+<dependent governor="645" type="cc"/>
+</token>
+<token begin="1706" end="1714" id="664">
+<surface>CIVILIAN</surface>
+<lemma penn="JJ">civilian</lemma>
+<dependent governor="665" type="amod"/>
+</token>
+<token begin="1715" end="1722" id="665">
+<surface>VICTIMS</surface>
+<lemma penn="NNS">victim</lemma>
+<dependent governor="645" type="conj"/>
+</token>
+<token begin="1722" end="1723" id="666">
+<surface>,</surface>
+<lemma penn=","/>
+<dependent governor="645" type="punct"/>
+</token>
+<token begin="1724" end="1729" id="667">
+<surface>PACAS</surface>
+<lemma penn="NN">paca</lemma>
+<dependent governor="668" type="compound"/>
+</token>
+<token begin="1730" end="1736" id="668">
+<surface>CASTRO</surface>
+<lemma penn="NN">castro</lemma>
+<dependent governor="669" type="nsubj"/>
+</token>
+<token begin="1737" end="1741" id="669">
+<surface>SAID</surface>
+<lemma penn="VBD">say</lemma>
+<dependent governor="645" type="acl:relcl"/>
+</token>
+<token begin="1742" end="1746" id="670">
+<surface>THAT</surface>
+<lemma penn="IN"/>
+<dependent governor="674" type="mark"/>
+</token>
+<token begin="1747" end="1750" id="671">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="673" type="det"/>
+</token>
+<token begin="1751" end="1760" id="672">
+<surface>FIRST-AID</surface>
+<lemma penn="JJ">first</lemma>
+<dependent governor="673" type="amod"/>
+</token>
+<token begin="1761" end="1769" id="673">
+<surface>BRIGADES</surface>
+<lemma penn="NNS">brigade</lemma>
+<dependent governor="674" type="nsubj"/>
+</token>
+<token begin="1770" end="1778" id="674">
+<surface>CONTINUE</surface>
+<lemma penn="VBP">continue</lemma>
+<dependent governor="669" type="ccomp"/>
+</token>
+<token begin="1779" end="1781" id="675">
+<surface>TO</surface>
+<lemma penn="TO"/>
+<dependent governor="676" type="mark"/>
+</token>
+<token begin="1782" end="1784" id="676">
+<surface>DO</surface>
+<lemma penn="VB">do</lemma>
+<dependent governor="674" type="xcomp"/>
+</token>
+<token begin="1785" end="1790" id="677">
+<surface>THEIR</surface>
+<lemma penn="PRP$"/>
+<dependent governor="678" type="nmod:poss"/>
+</token>
+<token begin="1791" end="1795" id="678">
+<surface>WORK</surface>
+<lemma penn="NN">work</lemma>
+<dependent governor="676" type="dobj"/>
+</token>
+<token begin="1796" end="1798" id="679">
+<surface>IN</surface>
+<lemma penn="IN"/>
+<dependent governor="681" type="case"/>
+</token>
+<token begin="1799" end="1801" id="680">
+<surface>EL</surface>
+<lemma penn="NN">el</lemma>
+<dependent governor="681" type="compound"/>
+</token>
+<token begin="1802" end="1810" id="681">
+<surface>SALVADOR</surface>
+<lemma penn="NN">salvador</lemma>
+<dependent governor="676" type="nmod"/>
+</token>
+<token begin="1810" end="1811" id="682">
+<surface>.</surface>
+<lemma penn="."/>
+<dependent governor="682" type="ROOT"/>
+</token>
+
+
+<annotation type="NP" surface="A REQUEST" begin="1590" end="1599"/>
+
+<annotation type="NP" surface="THE INTERNATIONAL RED CROSS" begin="1603" end="1630"/>
+<annotation type="VP" surface="TO CALL" begin="1631" end="1638"/>
+
+<annotation type="NP" surface="A CEASE-FIRE" begin="1643" end="1655"/>
+
+<annotation type="NP" surface="HUMANITARIAN REASONS" begin="1660" end="1680"/>
+<annotation type="VP" surface="TO TREAT" begin="1681" end="1689"/>
+<annotation type="NP" surface="THE WOUNDED AND CIVILIAN VICTIMS" begin="1690" end="1722"/>
+<annotation type="NP" surface="PACAS CASTRO" begin="1724" end="1736"/>
+<annotation type="VP" surface="SAID" begin="1737" end="1741"/>
+
+<annotation type="NP" surface="THE FIRST-AID BRIGADES" begin="1747" end="1769"/>
+<annotation type="VP" surface="CONTINUE TO DO" begin="1770" end="1784"/>
+<annotation type="NP" surface="THEIR WORK" begin="1785" end="1795"/>
+
+<annotation type="NP" surface="EL SALVADOR" begin="1799" end="1810"/>
+<annotation type="common:Person" surface="PACAS CASTRO" begin="1724" end="1736"/>
+
+
+<annotation type="common:Person" surface="SALVADOR" begin="1802" end="1810"/>
+<annotation type="semantic:Location" surface="EL SALVADOR" begin="1799" end="1810"/>
+</sentence><sentence num="10" begin="1815" end="2144">
+<token begin="1815" end="1817" id="724">
+<surface>AS</surface>
+<lemma penn="IN"/>
+<dependent governor="727" type="case"/>
+</token>
+<token begin="1818" end="1821" id="725">
+<surface>FOR</surface>
+<lemma penn="IN"/>
+<dependent governor="727" type="case"/>
+</token>
+<token begin="1822" end="1825" id="726">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="727" type="det"/>
+</token>
+<token begin="1826" end="1839" id="727">
+<surface>ASSASSINATION</surface>
+<lemma penn="NN">assassination</lemma>
+<dependent governor="740" type="nmod"/>
+</token>
+<token begin="1840" end="1842" id="728">
+<surface>OF</surface>
+<lemma penn="IN"/>
+<dependent governor="731" type="case"/>
+</token>
+<token begin="1843" end="1846" id="729">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="731" type="det"/>
+</token>
+<token begin="1847" end="1850" id="730">
+<surface>SIX</surface>
+<lemma penn="CD"/>
+<dependent governor="731" type="nummod"/>
+</token>
+<token begin="1851" end="1858" id="731">
+<surface>JESUITS</surface>
+<lemma penn="NNS">jesuit</lemma>
+<dependent governor="727" type="nmod"/>
+</token>
+<token begin="1859" end="1862" id="732">
+<surface>AND</surface>
+<lemma penn="CC"/>
+<dependent governor="727" type="cc"/>
+</token>
+<token begin="1863" end="1866" id="733">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="735" type="det"/>
+</token>
+<token begin="1867" end="1870" id="734">
+<surface>TWO</surface>
+<lemma penn="CD"/>
+<dependent governor="735" type="nummod"/>
+</token>
+<token begin="1871" end="1876" id="735">
+<surface>WOMEN</surface>
+<lemma penn="NNS">woman</lemma>
+<dependent governor="727" type="conj"/>
+</token>
+<token begin="1876" end="1877" id="736">
+<surface>,</surface>
+<lemma penn=","/>
+<dependent governor="740" type="punct"/>
+</token>
+<token begin="1878" end="1880" id="737">
+<surface>HE</surface>
+<lemma penn="PRP"/>
+<dependent governor="740" type="nsubjpass"/>
+</token>
+<token begin="1881" end="1885" id="738">
+<surface>SAID</surface>
+<lemma penn="VBD">say</lemma>
+<dependent governor="740" type="auxpass"/>
+</token>
+<token begin="1886" end="1889" id="739">
+<surface>"HE</surface>
+<lemma penn="RB"/>
+<dependent governor="740" type="advmod"/>
+</token>
+<token begin="1890" end="1899" id="740">
+<surface>CONDEMNED</surface>
+<lemma penn="VBN">condemn</lemma>
+<dependent governor="740" type="ROOT"/>
+</token>
+<token begin="1900" end="1904" id="741">
+<surface>THIS</surface>
+<lemma penn="DT"/>
+<dependent governor="742" type="det"/>
+</token>
+<token begin="1905" end="1909" id="742">
+<surface>TYPE</surface>
+<lemma penn="NN">type</lemma>
+<dependent governor="740" type="dobj"/>
+</token>
+<token begin="1910" end="1912" id="743">
+<surface>OF</surface>
+<lemma penn="IN"/>
+<dependent governor="744" type="case"/>
+</token>
+<token begin="1913" end="1921" id="744">
+<surface>VIOLENCE</surface>
+<lemma penn="NN">violence</lemma>
+<dependent governor="742" type="nmod"/>
+</token>
+<token begin="1921" end="1922" id="745">
+<surface>"</surface>
+<lemma penn="''"/>
+<dependent governor="744" type="punct"/>
+</token>
+<token begin="1923" end="1930" id="746">
+<surface>BECAUSE</surface>
+<lemma penn="IN"/>
+<dependent governor="748" type="case"/>
+</token>
+<token begin="1931" end="1938" id="747">
+<surface>IGNACIO</surface>
+<lemma penn="JJ"/>
+<dependent governor="748" type="amod"/>
+</token>
+<token begin="1939" end="1948" id="748">
+<surface>ELLACURIA</surface>
+<lemma penn="NN"/>
+<dependent governor="744" type="nmod"/>
+</token>
+<token begin="1948" end="1949" id="749">
+<surface>,</surface>
+<lemma penn=","/>
+<dependent governor="740" type="punct"/>
+</token>
+<token begin="1950" end="1953" id="750">
+<surface>ONE</surface>
+<lemma penn="CD"/>
+<dependent governor="740" type="dobj"/>
+</token>
+<token begin="1954" end="1956" id="751">
+<surface>OF</surface>
+<lemma penn="IN"/>
+<dependent governor="754" type="case"/>
+</token>
+<token begin="1957" end="1960" id="752">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="754" type="det"/>
+</token>
+<token begin="1961" end="1967" id="753">
+<surface>JESUIT</surface>
+<lemma penn="NN">jesuit</lemma>
+<dependent governor="754" type="compound"/>
+</token>
+<token begin="1968" end="1975" id="754">
+<surface>PRIESTS</surface>
+<lemma penn="NNS">priest</lemma>
+<dependent governor="740" type="nmod"/>
+</token>
+<token begin="1976" end="1979" id="755">
+<surface>WHO</surface>
+<lemma penn="WP"/>
+<dependent governor="757" type="nsubjpass"/>
+</token>
+<token begin="1980" end="1983" id="756">
+<surface>WAS</surface>
+<lemma penn="VBD">be</lemma>
+<dependent governor="757" type="auxpass"/>
+</token>
+<token begin="1984" end="1990" id="757">
+<surface>KILLED</surface>
+<lemma penn="VBN">kill</lemma>
+<dependent governor="754" type="acl:relcl"/>
+</token>
+<token begin="1990" end="1991" id="758">
+<surface>,</surface>
+<lemma penn=","/>
+<dependent governor="759" type="punct"/>
+</token>
+<token begin="1992" end="1996" id="759">
+<surface>"WAS</surface>
+<lemma penn="VBD">be</lemma>
+<dependent governor="740" type="parataxis"/>
+</token>
+<token begin="1997" end="1999" id="760">
+<surface>MY</surface>
+<lemma penn="PRP$"/>
+<dependent governor="761" type="nmod:poss"/>
+</token>
+<token begin="2000" end="2007" id="761">
+<surface>TEACHER</surface>
+<lemma penn="NN">teacher</lemma>
+<dependent governor="759" type="dobj"/>
+</token>
+<token begin="2007" end="2008" id="762">
+<surface>,</surface>
+<lemma penn=","/>
+<dependent governor="759" type="punct"/>
+</token>
+<token begin="2008" end="2009" id="763">
+<surface>"</surface>
+<lemma penn="''"/>
+<dependent governor="759" type="punct"/>
+</token>
+<token begin="2010" end="2013" id="764">
+<surface>AND</surface>
+<lemma penn="CC"/>
+<dependent governor="740" type="cc"/>
+</token>
+<token begin="2014" end="2016" id="765">
+<surface>HE</surface>
+<lemma penn="PRP"/>
+<dependent governor="766" type="nsubj"/>
+</token>
+<token begin="2017" end="2026" id="766">
+<surface>DESCRIBED</surface>
+<lemma penn="VBD">describe</lemma>
+<dependent governor="740" type="conj"/>
+</token>
+<token begin="2027" end="2030" id="767">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="768" type="det"/>
+</token>
+<token begin="2031" end="2037" id="768">
+<surface>PRIEST</surface>
+<lemma penn="NN">priest</lemma>
+<dependent governor="766" type="dobj"/>
+</token>
+<token begin="2038" end="2040" id="769">
+<surface>AS</surface>
+<lemma penn="IN"/>
+<dependent governor="773" type="case"/>
+</token>
+<token begin="2041" end="2042" id="770">
+<surface>A</surface>
+<lemma penn="DT"/>
+<dependent governor="773" type="det"/>
+</token>
+<token begin="2043" end="2047" id="771">
+<surface>VERY</surface>
+<lemma penn="RB">very</lemma>
+<dependent governor="772" type="advmod"/>
+</token>
+<token begin="2048" end="2056" id="772">
+<surface>VALUABLE</surface>
+<lemma penn="JJ">valuable</lemma>
+<dependent governor="773" type="amod"/>
+</token>
+<token begin="2057" end="2060" id="773">
+<surface>MAN</surface>
+<lemma penn="NN">man</lemma>
+<dependent governor="768" type="nmod"/>
+</token>
+<token begin="2061" end="2064" id="774">
+<surface>WHO</surface>
+<lemma penn="WP"/>
+<dependent governor="775" type="nsubj"/>
+</token>
+<token begin="2065" end="2071" id="775">
+<surface>WORKED</surface>
+<lemma penn="VBD">work</lemma>
+<dependent governor="773" type="acl:relcl"/>
+</token>
+<token begin="2072" end="2075" id="776">
+<surface>FOR</surface>
+<lemma penn="IN"/>
+<dependent governor="777" type="case"/>
+</token>
+<token begin="2076" end="2081" id="777">
+<surface>PEACE</surface>
+<lemma penn="NN">peace</lemma>
+<dependent governor="775" type="nmod"/>
+</token>
+<token begin="2082" end="2085" id="778">
+<surface>AND</surface>
+<lemma penn="CC"/>
+<dependent governor="775" type="cc"/>
+</token>
+<token begin="2086" end="2089" id="779">
+<surface>FOR</surface>
+<lemma penn="IN"/>
+<dependent governor="784" type="case"/>
+</token>
+<token begin="2090" end="2093" id="780">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="784" type="det"/>
+</token>
+<token begin="2094" end="2102" id="781">
+<surface>ECONOMIC</surface>
+<lemma penn="JJ">economic</lemma>
+<dependent governor="784" type="amod"/>
+</token>
+<token begin="2103" end="2106" id="782">
+<surface>AND</surface>
+<lemma penn="CC"/>
+<dependent governor="781" type="cc"/>
+</token>
+<token begin="2107" end="2113" id="783">
+<surface>SOCIAL</surface>
+<lemma penn="JJ">social</lemma>
+<dependent governor="781" type="conj"/>
+</token>
+<token begin="2114" end="2125" id="784">
+<surface>DEVELOPMENT</surface>
+<lemma penn="NN">development</lemma>
+<dependent governor="784" type="ROOT"/>
+</token>
+<token begin="2126" end="2128" id="785">
+<surface>OF</surface>
+<lemma penn="IN"/>
+<dependent governor="787" type="case"/>
+</token>
+<token begin="2129" end="2132" id="786">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="787" type="det"/>
+</token>
+<token begin="2133" end="2143" id="787">
+<surface>POPULATION</surface>
+<lemma penn="NN">population</lemma>
+<dependent governor="784" type="nmod"/>
+</token>
+<token begin="2143" end="2144" id="788">
+<surface>.</surface>
+<lemma penn="."/>
+<dependent governor="788" type="ROOT"/>
+</token>
+
+
+<annotation type="NP" surface="THE ASSASSINATION" begin="1822" end="1839"/>
+
+<annotation type="NP" surface="THE SIX JESUITS" begin="1843" end="1858"/>
+<annotation type="NP" surface="THE TWO WOMEN" begin="1863" end="1876"/>
+<annotation type="NP" surface="HE" begin="1878" end="1880"/>
+<annotation type="VP" surface="SAID &quot;HE CONDEMNED" begin="1881" end="1899"/>
+<annotation type="NP" surface="THIS TYPE" begin="1900" end="1909"/>
+
+<annotation type="NP" surface="VIOLENCE" begin="1913" end="1921"/>
+
+<annotation type="NP" surface="IGNACIO ELLACURIA" begin="1931" end="1948"/>
+<annotation type="NP" surface="ONE" begin="1950" end="1953"/>
+
+<annotation type="NP" surface="THE JESUIT PRIESTS" begin="1957" end="1975"/>
+<annotation type="NP" surface="WHO" begin="1976" end="1979"/>
+<annotation type="VP" surface="WAS KILLED" begin="1980" end="1990"/>
+<annotation type="VP" surface="&quot;WAS" begin="1992" end="1996"/>
+<annotation type="NP" surface="MY TEACHER" begin="1997" end="2007"/>
+<annotation type="NP" surface="HE" begin="2014" end="2016"/>
+<annotation type="VP" surface="DESCRIBED" begin="2017" end="2026"/>
+<annotation type="NP" surface="THE PRIEST" begin="2027" end="2037"/>
+
+<annotation type="NP" surface="A VERY VALUABLE MAN" begin="2041" end="2060"/>
+<annotation type="NP" surface="WHO" begin="2061" end="2064"/>
+<annotation type="VP" surface="WORKED" begin="2065" end="2071"/>
+
+<annotation type="NP" surface="PEACE" begin="2076" end="2081"/>
+
+
+<annotation type="NP" surface="THE ECONOMIC AND SOCIAL DEVELOPMENT" begin="2090" end="2125"/>
+
+<annotation type="NP" surface="THE POPULATION" begin="2129" end="2143"/>
+<annotation type="common:Person" surface="IGNACIO ELLACURIA" begin="1931" end="1948"/>
+
+</sentence><sentence num="11" begin="2148" end="2266">
+<token begin="2148" end="2153" id="859">
+<surface>COSTA</surface>
+<lemma penn="NN">costa</lemma>
+<dependent governor="862" type="compound"/>
+</token>
+<token begin="2154" end="2159" id="860">
+<surface>RICAN</surface>
+<lemma penn="JJ"/>
+<dependent governor="862" type="amod"/>
+</token>
+<token begin="2160" end="2167" id="861">
+<surface>FOREIGN</surface>
+<lemma penn="JJ">foreign</lemma>
+<dependent governor="862" type="amod"/>
+</token>
+<token begin="2168" end="2176" id="862">
+<surface>MINISTER</surface>
+<lemma penn="NN">minister</lemma>
+<dependent governor="863" type="nsubj"/>
+</token>
+<token begin="2177" end="2184" id="863">
+<surface>RODRIGO</surface>
+<lemma penn="VBD"/>
+<dependent governor="863" type="ROOT"/>
+</token>
+<token begin="2185" end="2193" id="864">
+<surface>MADRIGAL</surface>
+<lemma penn="JJ"/>
+<dependent governor="865" type="amod"/>
+</token>
+<token begin="2194" end="2199" id="865">
+<surface>NIETO</surface>
+<lemma penn="NN"/>
+<dependent governor="863" type="dobj"/>
+</token>
+<token begin="2199" end="2200" id="866">
+<surface>,</surface>
+<lemma penn=","/>
+<dependent governor="863" type="punct"/>
+</token>
+<token begin="2201" end="2203" id="867">
+<surface>IN</surface>
+<lemma penn="IN"/>
+<dependent governor="868" type="case"/>
+</token>
+<token begin="2204" end="2214" id="868">
+<surface>STATEMENTS</surface>
+<lemma penn="NNS">statement</lemma>
+<dependent governor="863" type="nmod"/>
+</token>
+<token begin="2215" end="2217" id="869">
+<surface>TO</surface>
+<lemma penn="TO"/>
+<dependent governor="871" type="mark"/>
+</token>
+<token begin="2218" end="2221" id="870">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="871" type="det"/>
+</token>
+<token begin="2222" end="2227" id="871">
+<surface>PRESS</surface>
+<lemma penn="NN">press</lemma>
+<dependent governor="863" type="advcl"/>
+</token>
+<token begin="2227" end="2228" id="872">
+<surface>,</surface>
+<lemma penn=","/>
+<dependent governor="863" type="punct"/>
+</token>
+<token begin="2229" end="2238" id="873">
+<surface>REGRETTED</surface>
+<lemma penn="VBD">regret</lemma>
+<dependent governor="863" type="conj"/>
+</token>
+<token begin="2239" end="2242" id="874">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="875" type="det"/>
+</token>
+<token begin="2243" end="2248" id="875">
+<surface>DEATH</surface>
+<lemma penn="NN">death</lemma>
+<dependent governor="873" type="dobj"/>
+</token>
+<token begin="2249" end="2251" id="876">
+<surface>OF</surface>
+<lemma penn="IN"/>
+<dependent governor="878" type="case"/>
+</token>
+<token begin="2252" end="2255" id="877">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="878" type="det"/>
+</token>
+<token begin="2256" end="2265" id="878">
+<surface>CLERGYMEN</surface>
+<lemma penn="NNS">clergyman</lemma>
+<dependent governor="875" type="nmod"/>
+</token>
+<token begin="2265" end="2266" id="879">
+<surface>.</surface>
+<lemma penn="."/>
+<dependent governor="863" type="punct"/>
+</token>
+<annotation type="NP" surface="COSTA RICAN FOREIGN MINISTER" begin="2148" end="2176"/>
+<annotation type="VP" surface="RODRIGO" begin="2177" end="2184"/>
+<annotation type="NP" surface="MADRIGAL NIETO" begin="2185" end="2199"/>
+
+<annotation type="NP" surface="STATEMENTS" begin="2204" end="2214"/>
+
+<annotation type="NP" surface="THE PRESS" begin="2218" end="2227"/>
+<annotation type="VP" surface="REGRETTED" begin="2229" end="2238"/>
+<annotation type="NP" surface="THE DEATH" begin="2239" end="2248"/>
+
+<annotation type="NP" surface="THE CLERGYMEN" begin="2252" end="2265"/>
+<annotation type="common:Person" surface="FOREIGN MINISTER" begin="2160" end="2176"/>
+
+<annotation type="common:Person" surface="RODRIGO MADRIGAL NIETO" begin="2177" end="2199"/>
+
+
+
+</sentence><sentence num="12" begin="2267" end="2314">
+<token begin="2267" end="2275" id="902">
+<surface>"WORKING</surface>
+<lemma penn="VBG">work</lemma>
+<dependent governor="907" type="csubj"/>
+</token>
+<token begin="2276" end="2279" id="903">
+<surface>FOR</surface>
+<lemma penn="IN"/>
+<dependent governor="904" type="case"/>
+</token>
+<token begin="2280" end="2285" id="904">
+<surface>PEACE</surface>
+<lemma penn="NN">peace</lemma>
+<dependent governor="902" type="nmod"/>
+</token>
+<token begin="2286" end="2288" id="905">
+<surface>IS</surface>
+<lemma penn="VBZ">be</lemma>
+<dependent governor="907" type="cop"/>
+</token>
+<token begin="2289" end="2293" id="906">
+<surface>VERY</surface>
+<lemma penn="RB">very</lemma>
+<dependent governor="907" type="advmod"/>
+</token>
+<token begin="2294" end="2303" id="907">
+<surface>DIFFICULT</surface>
+<lemma penn="JJ">difficult</lemma>
+<dependent governor="907" type="ROOT"/>
+</token>
+<token begin="2303" end="2304" id="908">
+<surface>,</surface>
+<lemma penn=","/>
+<dependent governor="907" type="punct"/>
+</token>
+<token begin="2304" end="2305" id="909">
+<surface>"</surface>
+<lemma penn="''"/>
+<dependent governor="907" type="punct"/>
+</token>
+<token begin="2306" end="2308" id="910">
+<surface>HE</surface>
+<lemma penn="PRP"/>
+<dependent governor="911" type="nsubj"/>
+</token>
+<token begin="2309" end="2313" id="911">
+<surface>SAID</surface>
+<lemma penn="VBD">say</lemma>
+<dependent governor="907" type="parataxis"/>
+</token>
+<token begin="2313" end="2314" id="912">
+<surface>.</surface>
+<lemma penn="."/>
+<dependent governor="907" type="punct"/>
+</token>
+<annotation type="VP" surface="&quot;WORKING" begin="2267" end="2275"/>
+
+<annotation type="NP" surface="PEACE" begin="2280" end="2285"/>
+<annotation type="VP" surface="IS" begin="2286" end="2288"/>
+
+<annotation type="NP" surface="HE" begin="2306" end="2308"/>
+<annotation type="VP" surface="SAID" begin="2309" end="2313"/>
+</sentence><sentence num="13" begin="2318" end="2439">
+<token begin="2318" end="2326" id="928">
+<surface>MADRIGAL</surface>
+<lemma penn="JJ"/>
+<dependent governor="929" type="amod"/>
+</token>
+<token begin="2327" end="2332" id="929">
+<surface>NIETO</surface>
+<lemma penn="NN"/>
+<dependent governor="930" type="nsubj"/>
+</token>
+<token begin="2333" end="2337" id="930">
+<surface>SAID</surface>
+<lemma penn="VBD">say</lemma>
+<dependent governor="930" type="ROOT"/>
+</token>
+<token begin="2338" end="2343" id="931">
+<surface>TODAY</surface>
+<lemma penn="NN">today</lemma>
+<dependent governor="930" type="dobj"/>
+</token>
+<token begin="2344" end="2346" id="932">
+<surface>HE</surface>
+<lemma penn="PRP"/>
+<dependent governor="933" type="nsubj"/>
+</token>
+<token begin="2347" end="2352" id="933">
+<surface>HOPED</surface>
+<lemma penn="VBD">hope</lemma>
+<dependent governor="930" type="ccomp"/>
+</token>
+<token begin="2353" end="2356" id="934">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="935" type="det"/>
+</token>
+<token begin="2357" end="2365" id="935">
+<surface>DIALOGUE</surface>
+<lemma penn="NN">dialogue</lemma>
+<dependent governor="933" type="dobj"/>
+</token>
+<token begin="2366" end="2373" id="936">
+<surface>BETWEEN</surface>
+<lemma penn="IN"/>
+<dependent governor="938" type="case"/>
+</token>
+<token begin="2374" end="2377" id="937">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="938" type="det"/>
+</token>
+<token begin="2378" end="2388" id="938">
+<surface>GOVERNMENT</surface>
+<lemma penn="NN">government</lemma>
+<dependent governor="935" type="nmod"/>
+</token>
+<token begin="2389" end="2392" id="939">
+<surface>AND</surface>
+<lemma penn="CC"/>
+<dependent governor="930" type="cc"/>
+</token>
+<token begin="2393" end="2396" id="940">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="941" type="det"/>
+</token>
+<token begin="2397" end="2407" id="941">
+<surface>GUERRILLAS</surface>
+<lemma penn="NNS">guerrilla</lemma>
+<dependent governor="943" type="nsubj"/>
+</token>
+<token begin="2408" end="2413" id="942">
+<surface>WOULD</surface>
+<lemma penn="MD"/>
+<dependent governor="943" type="aux"/>
+</token>
+<token begin="2414" end="2422" id="943">
+<surface>CONTINUE</surface>
+<lemma penn="VB">continue</lemma>
+<dependent governor="930" type="conj"/>
+</token>
+<token begin="2423" end="2430" id="944">
+<surface>DESPITE</surface>
+<lemma penn="IN"/>
+<dependent governor="946" type="case"/>
+</token>
+<token begin="2431" end="2434" id="945">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="946" type="det"/>
+</token>
+<token begin="2435" end="2438" id="946">
+<surface>WAR</surface>
+<lemma penn="NN">war</lemma>
+<dependent governor="943" type="nmod"/>
+</token>
+<token begin="2438" end="2439" id="947">
+<surface>.</surface>
+<lemma penn="."/>
+<dependent governor="930" type="punct"/>
+</token>
+<annotation type="NP" surface="MADRIGAL NIETO" begin="2318" end="2332"/>
+<annotation type="VP" surface="SAID" begin="2333" end="2337"/>
+<annotation type="NP" surface="TODAY" begin="2338" end="2343"/>
+<annotation type="NP" surface="HE" begin="2344" end="2346"/>
+<annotation type="VP" surface="HOPED" begin="2347" end="2352"/>
+<annotation type="NP" surface="THE DIALOGUE" begin="2353" end="2365"/>
+
+<annotation type="NP" surface="THE GOVERNMENT" begin="2374" end="2388"/>
+<annotation type="NP" surface="THE GUERRILLAS" begin="2393" end="2407"/>
+<annotation type="VP" surface="WOULD CONTINUE" begin="2408" end="2422"/>
+
+<annotation type="NP" surface="THE WAR" begin="2431" end="2438"/>
+<annotation type="common:Person" surface="MADRIGAL NIETO" begin="2318" end="2332"/>
+</sentence><sentence num="14" begin="2443" end="2602">
+<token begin="2443" end="2453" id="973">
+<surface>GUATEMALAN</surface>
+<lemma penn="JJ">guatemalan</lemma>
+<dependent governor="975" type="amod"/>
+</token>
+<token begin="2454" end="2461" id="974">
+<surface>FOREIGN</surface>
+<lemma penn="JJ">foreign</lemma>
+<dependent governor="975" type="amod"/>
+</token>
+<token begin="2462" end="2470" id="975">
+<surface>MINISTER</surface>
+<lemma penn="NN">minister</lemma>
+<dependent governor="976" type="nsubj"/>
+</token>
+<token begin="2471" end="2476" id="976">
+<surface>ARIEL</surface>
+<lemma penn="VBP"/>
+<dependent governor="976" type="ROOT"/>
+</token>
+<token begin="2477" end="2483" id="977">
+<surface>RIVERA</surface>
+<lemma penn="NN">rivera</lemma>
+<dependent governor="978" type="compound"/>
+</token>
+<token begin="2484" end="2489" id="978">
+<surface>IRIAS</surface>
+<lemma penn="NNS"/>
+<dependent governor="979" type="nsubj"/>
+</token>
+<token begin="2490" end="2499" id="979">
+<surface>SUPPORTED</surface>
+<lemma penn="VBD">support</lemma>
+<dependent governor="976" type="ccomp"/>
+</token>
+<token begin="2500" end="2503" id="980">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="981" type="det"/>
+</token>
+<token begin="2504" end="2514" id="981">
+<surface>STATEMENTS</surface>
+<lemma penn="NNS">statement</lemma>
+<dependent governor="979" type="dobj"/>
+</token>
+<token begin="2515" end="2517" id="982">
+<surface>OF</surface>
+<lemma penn="IN"/>
+<dependent governor="986" type="case"/>
+</token>
+<token begin="2518" end="2521" id="983">
+<surface>HIS</surface>
+<lemma penn="PRP$"/>
+<dependent governor="986" type="nmod:poss"/>
+</token>
+<token begin="2522" end="2527" id="984">
+<surface>COSTA</surface>
+<lemma penn="NN">costa</lemma>
+<dependent governor="986" type="compound"/>
+</token>
+<token begin="2528" end="2533" id="985">
+<surface>RICAN</surface>
+<lemma penn="JJ"/>
+<dependent governor="986" type="amod"/>
+</token>
+<token begin="2534" end="2543" id="986">
+<surface>COLLEAGUE</surface>
+<lemma penn="NN">colleague</lemma>
+<dependent governor="981" type="nmod"/>
+</token>
+<token begin="2543" end="2544" id="987">
+<surface>,</surface>
+<lemma penn=","/>
+<dependent governor="976" type="punct"/>
+</token>
+<token begin="2545" end="2548" id="988">
+<surface>AND</surface>
+<lemma penn="CC"/>
+<dependent governor="976" type="cc"/>
+</token>
+<token begin="2549" end="2551" id="989">
+<surface>HE</surface>
+<lemma penn="PRP"/>
+<dependent governor="990" type="nsubj"/>
+</token>
+<token begin="2552" end="2561" id="990">
+<surface>CONDEMNED</surface>
+<lemma penn="VBD">condemn</lemma>
+<dependent governor="976" type="conj"/>
+</token>
+<token begin="2562" end="2565" id="991">
+<surface>THE</surface>
+<lemma penn="DT"/>
+<dependent governor="992" type="det"/>
+</token>
+<token begin="2566" end="2569" id="992">
+<surface>USE</surface>
+<lemma penn="NN">use</lemma>
+<dependent governor="990" type="dobj"/>
+</token>
+<token begin="2570" end="2572" id="993">
+<surface>OF</surface>
+<lemma penn="IN"/>
+<dependent governor="994" type="case"/>
+</token>
+<token begin="2573" end="2581" id="994">
+<surface>VIOLENCE</surface>
+<lemma penn="NN">violence</lemma>
+<dependent governor="992" type="nmod"/>
+</token>
+<token begin="2582" end="2584" id="995">
+<surface>AS</surface>
+<lemma penn="IN"/>
+<dependent governor="998" type="case"/>
+</token>
+<token begin="2585" end="2586" id="996">
+<surface>A</surface>
+<lemma penn="DT"/>
+<dependent governor="998" type="det"/>
+</token>
+<token begin="2587" end="2596" id="997">
+<surface>POLITICAL</surface>
+<lemma penn="JJ">political</lemma>
+<dependent governor="998" type="amod"/>
+</token>
+<token begin="2597" end="2601" id="998">
+<surface>TOOL</surface>
+<lemma penn="NN">tool</lemma>
+<dependent governor="994" type="nmod"/>
+</token>
+<token begin="2601" end="2602" id="999">
+<surface>.</surface>
+<lemma penn="."/>
+<dependent governor="976" type="punct"/>
+</token>
+<annotation type="NP" surface="GUATEMALAN FOREIGN MINISTER" begin="2443" end="2470"/>
+<annotation type="VP" surface="ARIEL" begin="2471" end="2476"/>
+<annotation type="NP" surface="RIVERA IRIAS" begin="2477" end="2489"/>
+<annotation type="VP" surface="SUPPORTED" begin="2490" end="2499"/>
+<annotation type="NP" surface="THE STATEMENTS" begin="2500" end="2514"/>
+
+<annotation type="NP" surface="HIS COSTA RICAN COLLEAGUE" begin="2518" end="2543"/>
+<annotation type="NP" surface="HE" begin="2549" end="2551"/>
+<annotation type="VP" surface="CONDEMNED" begin="2552" end="2561"/>
+<annotation type="NP" surface="THE USE" begin="2562" end="2569"/>
+
+<annotation type="NP" surface="VIOLENCE" begin="2573" end="2581"/>
+
+<annotation type="NP" surface="A POLITICAL TOOL" begin="2585" end="2601"/>
+<annotation type="common:Person" surface="GUATEMALAN FOREIGN MINISTER ARIEL RIVERA IRIAS" begin="2443" end="2489"/>
+
+
+
+
+
+
+</sentence></document>
