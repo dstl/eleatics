@@ -31,7 +31,7 @@
       <data key="d5" xml:space="preserve"><![CDATA[DATA]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
       <data key="d7" xml:space="preserve">true</data>
-      <data key="d8" xml:space="preserve"/>
+      <data key="d8" xml:space="preserve"><![CDATA[urn:eleatics:toulmin:data]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[Facts that can be appealed to as the foundation of a claim.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
@@ -45,7 +45,7 @@
     <node id="n1">
       <data key="d5" xml:space="preserve"><![CDATA[CLAIM]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
-      <data key="d8" xml:space="preserve"/>
+      <data key="d8" xml:space="preserve"><![CDATA[urn:eleatics:toulmin:claim]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[A claim or conclusion that the argument seeks to establish.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
@@ -87,7 +87,7 @@
       <data key="d5" xml:space="preserve"><![CDATA[BACKING]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
       <data key="d7" xml:space="preserve">true</data>
-      <data key="d8" xml:space="preserve"/>
+      <data key="d8" xml:space="preserve"><![CDATA[urn:eleatics:toulmin:backing]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[Assurances, without which the warrant would possess neither authority or currency.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
@@ -176,7 +176,7 @@ R
     <node id="n11">
       <data key="d5" xml:space="preserve"><![CDATA[REBUTTAL]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
-      <data key="d8" xml:space="preserve"/>
+      <data key="d8" xml:space="preserve"><![CDATA[urn:eleatics:toulmin:rebuttal]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[Indicates circumstances in which the general authority of the warrant would have to be set aside.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
@@ -245,7 +245,7 @@ B</y:NodeLabel>
       <data key="d5" xml:space="preserve"><![CDATA[QUALIFIER]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
       <data key="d7" xml:space="preserve">true</data>
-      <data key="d8" xml:space="preserve"/>
+      <data key="d8" xml:space="preserve"><![CDATA[urn:eleatics:toulmin:qualifier]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[A reference to the degree of force which the data confers on the claim in virtue of the warrant.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
