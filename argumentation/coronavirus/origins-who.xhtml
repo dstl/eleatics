@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:aif="http://www.arg.dundee.ac.uk/aif#"
 	xmlns:lode="http://linkedevents.org/ontology/" xmlns:schema="https://schema.org/"
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:context="http://dstl.github.io/eleatics/argumentation/coronavirus/discussion.xhtml#">
+	xmlns:context="urn:eleatics:context:">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
@@ -28,137 +28,143 @@
 	<article id="arg-lab">
 		<h3>Introduction through a laboratory incident</h3>
 		
-		<p><span about="context:accidentshappen" class="premise">Laboratory accidents do happen</span> and <span about="context:labinfection" class="premise">laboratory infection could happen</span>,
-		<span class="support">so</span> <span about="context:lab" class="conclusion">introduction through a laboratory incident</span>
+		<p about="context:labra1" typeof="aif:RA-node">
+		<span resource="context:accidentshappen" class="premise" property="aif:Premise">Laboratory accidents do happen</span> and <span resource="context:labinfection" class="premise" property="aif:Premise">laboratory infection could happen</span>,
+		<span class="support">so</span> <span resource="context:lab" class="conclusion" property="aif:Conclusion">introduction through a laboratory incident</span>
 		is at least possible.
 		</p>
 		
-		<p><span about="context:labmoved" class="premise">The Wuhan CDC laboratory moved on 2nd December 2019</span>, which <span class="support">might have led to</span> <span about="context:lab" class="conclusion">a laboratory incident</span>.
-		<span class="undercut">However</span>, there were <span about="context:nomoveincident" class="contrary-premise">no incidents caused by the lab move</span>.</p>
-		
-		<p>
-		The fact that the <span about="context:closesequence" class="premise">CoV RaTG13 strain was sequenced at the Wuhan Institute of Virology</span> <span class="support">suggests</span> the possibility of <span about="context:lab" class="conclusion">introduction through a laboratory incident</span>, 
-		<span class="undercut">but</span> the <span about="context:distance" class="contrary-premise">closest relatives of SARS-CoV-2 are evolutionarily distant</span>.
+		<p about="context:labra2" typeof="aif:RA-node">
+		<span resource="context:labmoved" class="premise" property="aif:Premise">The Wuhan CDC laboratory moved on 2nd December 2019</span>, which <span class="support">might have led to</span> <span resource="context:lab" class="conclusion" property="aif:Conclusion">a laboratory incident</span>.
+		<span about="context:labuc1" typeof="aif:CA-node" property="aif:Conclusion" resource="context:labra2" class="undercut">However</span>, there were <span about="context:labuc1" resource="context:nomoveincident" property="aif:Premise" class="contrary-premise">no incidents caused by the lab move</span>.
 		</p>
 		
-		<p>
-		The <span about="context:biosafety" class="premise">high quality biosafety</span> at laboratories, the <span about="context:limitedsamples" class="premise">limited number of samples processed</span>,
-		and <span about="context:norecord" class="premise">absence of any record of viruses closely related to SARS-CoV-2 in any laboratory</span> <span class="contradiction"><span class="disjunction">each</span> contradict</span> the hypothesis of <span about="context:lab" class="conclusion">Introduction through a laboratory incident</span>.
+		<p about="context:labra3" typeof="aif:RA-node">
+		The fact that the <span resource="context:closesequence" class="premise" property="aif:Premise">CoV RaTG13 strain was sequenced at the Wuhan Institute of Virology</span> <span class="support">suggests</span> the possibility of <span resource="context:lab" class="conclusion" property="aif:Conclusion">introduction through a laboratory incident</span>, 
+		<span about="context:labuc2" typeof="aif:CA-node" property="aif:Conclusion" resource="context:labra3" class="undercut">but</span> the <span about="context:labuc2" resource="context:distance" property="aif:Premise" class="contrary-premise">closest relatives of SARS-CoV-2 are evolutionarily distant</span> from it.
+		</p>
+		
+		<p about="context:lab" rev="aif:Conclusion">
+		The <span about="context:labca1" typeof="aif:CA-node" property="aif:Premise" resource="context:biosafety" class="premise">high quality biosafety</span> at laboratories, the <span about="context:labca2" typeof="aif:CA-node" property="aif:Premise" resource="context:limitedsamples" class="premise">limited number of samples processed</span>,
+		and <span about="context:labca3" typeof="aif:CA-node" property="aif:Premise" resource="context:norecord" class="premise">absence of any record of viruses closely related to SARS-CoV-2 in any laboratory</span> <span class="contradiction"><span class="disjunction">each</span> contradict</span> the hypothesis of <span resource="context:lab" class="conclusion">Introduction through a laboratory incident</span>.
 		</p>
 		
 	</article>
+
 	
-	<article id="arg-foodchain">
+		<article id="arg-foodchain">
 		<h3>Introduction through the cold/food chain</h3>
 				
-		<p>
-		<span about="context:persistpackage" class="premise">Virus persists on packaging</span>; <span about="context:fomites" class="premise">Humans exposed to contaminated fomites</span>; <span about="context:livepackage" class="premise">Live virus on packaging</span>;
-		and <span about="context:package" class="premise">Screening of packaging</span> <span class="support">suggest</span> the hypothesis of <span about="context:cold" class="conclusion">Introduction through the cold/food chain</span>.
-		<span class="undercut">However</span>, <span about="context:notcirculating" class="contrary-premise">Virus not widely circulating</span>.
+		<p about="context:foodra1" typeof="aif:RA-node">
+		<span resource="context:persistpackage" property="aif:Premise" class="premise">Virus persists on packaging</span>; <span resource="context:fomites" property="aif:Premise" class="premise">Humans exposed to contaminated fomites</span>; <span resource="context:livepackage" property="aif:Premise" class="premise">Live virus on packaging</span>;
+		and <span resource="context:package" property="aif:Premise" class="premise">Screening of packaging</span> <span class="support">suggest</span> the hypothesis of <span resource="context:cold" property="aif:Conclusion" class="conclusion">Introduction through the cold/food chain</span>.
+		<span about="context:fooduc1" typeof="aif:CA-node" property="aif:Conclusion" resource="context:foodra1" class="undercut">However</span>, <span about="context:fooduc1" property="aif:Premise" resource="context:notcirculating" class="contrary-premise">Virus not widely circulating</span>.
 		
 		</p>
 		
-		<p>
-		<span about="context:entericcov" class="premise">Animal Cov enteric tropism</span>; <span about="context:enteric" class="premise">Foodborne outbreaks with enteric viruses are common</span>; <span about="context:seafood" class="premise">Seafood is known as a source of foodborne outbreaks</span>;
-		and <span about="context:oralinfection" class="premise">Oral route could lead to infection</span> <span class="support">suggest</span> the hypothesis of <span about="context:cold" class="conclusion">Introduction through the cold/food chain</span>.
+		<p about="context:foodra2" typeof="aif:RA-node">
+		<span resource="context:entericcov" property="aif:Premise" class="premise">Animal Cov enteric tropism</span>; <span resource="context:enteric" property="aif:Premise" class="premise">Foodborne outbreaks with enteric viruses are common</span>; <span resource="context:seafood" property="aif:Premise" class="premise">Seafood is known as a source of foodborne outbreaks</span>;
+		and <span resource="context:oralinfection" property="aif:Premise" class="premise">Oral route could lead to infection</span> <span class="support">suggest</span> the hypothesis of <span resource="context:cold" property="aif:Conclusion" class="conclusion">Introduction through the cold/food chain</span>.
 		</p>
 		
-		<p>
-		<span about="context:faeces" class="premise">Humans shed SARS-CoV-2 through faeces</span>; <span about="context:sewage" class="premise">Sewage contamination</span>; <span about="context:sewagetreatment" class="premise">Sewage treatment does not remove all viruses</span>;
-		and <span about="context:sewagevirus" class="premise">Evidence for SARS-CoV-2 nucleic acid in sewage</span> <span class="support">suggest</span> the hypothesis of <span about="context:cold" class="conclusion">Introduction through the cold/food chain</span>.
+		<p about="context:foodra3" typeof="aif:RA-node">
+		<span resource="context:faeces" property="aif:Premise" class="premise">Humans shed SARS-CoV-2 through faeces</span>; <span resource="context:sewage" property="aif:Premise" class="premise">Sewage contamination</span>; <span resource="context:sewagetreatment" property="aif:Premise" class="premise">Sewage treatment does not remove all viruses</span>;
+		and <span resource="context:sewagevirus" property="aif:Premise" class="premise">Evidence for SARS-CoV-2 nucleic acid in sewage</span> <span class="support">suggest</span> the hypothesis of <span resource="context:cold" property="aif:Conclusion" class="conclusion">Introduction through the cold/food chain</span>.
 		</p>
 		
-		<p>
-		<span about="context:coldoutbreak" class="premise">Outbreaks related to imported frozen products</span> <span class="support">suggests</span> the hypothesis of <span about="context:cold" class="conclusion">Introduction through the cold/food chain</span>;
-		<span class="undercut">but</span> <span about="context:notcirculating" class="contrary-premise">Virus not widely circulating</span>.
+		<p about="context:foodra4" typeof="aif:RA-node">
+		<span resource="context:coldoutbreak" property="aif:Premise" class="premise">Outbreaks related to imported frozen products</span> <span class="support">suggests</span> the hypothesis of <span resource="context:cold" property="aif:Conclusion" class="conclusion">Introduction through the cold/food chain</span>;
+		<span about="context:fooduc2" typeof="aif:CA-node" property="aif:Conclusion" resource="context:foodra4"  class="undercut">but</span> <span about="context:fooduc2" property="aif:Premise" resource="context:notcirculating" class="contrary-premise">Virus not widely circulating</span>.
 		</p>
 		
-		<p>
-		<span about="context:sewageearly" class="premise">Sewage testing in Spain and Italy</span> <span class="support">suggests</span> the hypothesis of <span about="context:cold" class="conclusion">Introduction through the cold/food chain</span>.
+		<p about="context:foodra5" typeof="aif:RA-node">
+		<span resource="context:sewageearly" property="aif:Premise" class="premise">Sewage testing in Spain and Italy</span> <span class="support">suggests</span> the hypothesis of <span resource="context:cold" property="aif:Conclusion" class="conclusion">Introduction through the cold/food chain</span>.
 		</p>
 		
-		<p>
-		<span about="context:foodsarsantibodies" class="premise">SARS-CoV-specific antibodies in food animal handlers</span> <span class="support">suggests</span> the hypothesis of <span about="context:cold" class="conclusion">Introduction through the cold/food chain</span>.
+		<p about="context:foodra6" typeof="aif:RA-node">
+		<span resource="context:foodsarsantibodies" property="aif:Premise" class="premise">SARS-CoV-specific antibodies in food animal handlers</span> <span class="support">suggests</span> the hypothesis of <span resource="context:cold" property="aif:Conclusion" class="conclusion">Introduction through the cold/food chain</span>.
 		</p>
 		
-		<p>
-		<span about="context:noanimalinfection" class="premise">No animal infection</span> <span class="contradiction">contradicts</span> the hypothesis of <span about="context:cold" class="conclusion">Introduction through the cold/food chain</span>.
+		<p about="context:foodca1" typeof="aif:CA-node">
+		<span resource="context:noanimalinfection" property="aif:Premise" class="premise">No animal infection</span> <span class="contradiction">contradicts</span> the hypothesis of <span resource="context:cold" property="aif:Conclusion" class="conclusion">Introduction through the cold/food chain</span>.
 		</p>
 		
-		<p>
-		<span about="context:lowconcentration" class="premise">Low concentrations on cold-chain products</span> and <span about="context:hygiene" class="premise">Food production hygiene</span> <span class="support">suggest</span> <span about="context:lowfoodrisk" class="conclusion">Low risk of foodborne transmission</span>.
+		<p about="context:foodra7" typeof="aif:RA-node">
+		<span resource="context:lowconcentration" property="aif:Premise" class="premise">Low concentrations on cold-chain products</span> and <span resource="context:hygiene" property="aif:Premise" class="premise">Food production hygiene</span> <span class="support">suggest</span> <span resource="context:lowfoodrisk" property="aif:Conclusion" class="conclusion">Low risk of foodborne transmission</span>.
 		</p>
 		
 		
-		<p>
-		<span about="context:lowfoodrisk" class="premise">Low risk of foodborne transmission</span> and <span about="context:foodinconclusive" class="premise">No conclusive evidence for foodborne transmission</span> <span class="contradiction">contradict</span> the hypothesis of <span about="context:cold" class="conclusion">Introduction through the cold/food chain</span>.
+		<p about="context:foodca2" typeof="aif:CA-node">
+		<span resource="context:lowfoodrisk" property="aif:Premise" class="premise">Low risk of foodborne transmission</span> and <span resource="context:foodinconclusive" class="premise">No conclusive evidence for foodborne transmission</span> <span class="contradiction">contradict</span> the hypothesis of <span resource="context:cold" property="aif:Conclusion" class="conclusion">Introduction through the cold/food chain</span>.
 		</p>
 	</article>
 	
 
 	<article id="arg-direct">
 		<h3>Direct transmission</h3>
-		<p>The arguments in favour of <span about="context:direct" property="aif:claimText">direct zoonotic transmission</span> are:</p>
-		<ul about="context:direct" typeof="aif:I-node" rev="aif:conclusion">
-		<li about="context:dra1" typeof="aif:RA-node" rel="aif:premise">
+		
+		<p>The arguments in favour of <span>direct zoonotic transmission</span> are:</p>
+		<ul about="context:direct" typeof="aif:I-node" rev="aif:Conclusion">
+		<li about="context:directra1" typeof="aif:RA-node" rel="aif:Premise">
+		
 		<p>
 		The <span about="context:pastexperience" class="premise">majority of emerging diseases originate from animal reservoirs</span> and there is strong evidence that most of the current human coronaviruses have originated from animals.</p>
 		</li>
-		<li about="context:dra2" typeof="aif:RA-node" rel="aif:premise">
+		<li about="context:directra2" typeof="aif:RA-node" rel="aif:Premise">
 		<p>Seeding of SARS-CoV-2 in mink populations has shown that <span about="context:mink" class="premise">these animals are highly susceptible</span> as well and the current evidence available cannot rule out the possibility for minks as the primary source of SARS-CoV-2.</p>
 		</li>
-		<li about="context:dra3" typeof="aif:RA-node" rel="aif:premise">
+		<li about="context:directra3" typeof="aif:RA-node" rel="aif:Premise">
 		<p><span about="context:resevoirbat" class="premise">Bats are a known reservoir for many zoonotic viruses</span> (with high virus diversity globally); they have the highest proportion of projected zoonotic viruses of any mammalian order. In addition, bat ecology favours virus circulation (large populations, birthing waves, and closely spaced communities).</p>
 		</li>
 		</ul>
-		<p about="context:dra4" typeof="aif:RA-node">
-		<span property="aif:conclusion" resource="context:direct">Also</span>, <span property="aif:premise" resource="context:similar" class="premise">SARSr-CoV strains have been found in pangolins and various bats</span>; and <span property="aif:premise" resource="context:hace" class="premise">these do bind to hACE2</span>. <span class="undercut">However</span>, because several contact residues between the bat and pangolin viruses and the hACE2 receptor are distinct from those in SARS-CoV-2, the affinity is low, and <span about="context:distinct" class="contrary-premise">the viruses are genetically still quite distinct from SARS–CoV-2</span>.
+		<p about="context:directra4" typeof="aif:RA-node">
+		<span property="aif:Conclusion" resource="context:direct">Also</span>, <span property="aif:Premise" resource="context:similar" class="premise">SARSr-CoV strains have been found in pangolins and various bats</span>; and <span property="aif:Premise" resource="context:hace" class="premise">these do bind to hACE2</span>. <span class="undercut">However</span>, because several contact residues between the bat and pangolin viruses and the hACE2 receptor are distinct from those in SARS-CoV-2, the affinity is low, and <span about="context:distinct" class="contrary-premise">the viruses are genetically still quite distinct from SARS–CoV-2</span>.
 		</p>
-		<p about="context:dca2" typeof="aif:CA-node">
-		An argument <span class="contradiction">against</span> <span property="aif:conclusion" resource="context:direct" class="conclusion">direct zoonotic transmission</span> is the fact that both these putative hosts are infrequently in contact with humans, and <span property="aif:premise" resource="context:otheramplifiers" class="premise">an intermediary step involving an amplifying host</span> has been observed for several other emerging viruses (Henipaviruses, influenzaviruses, SARS-CoV and MERS-CoV).
+		<p about="context:directca2" typeof="aif:CA-node">
+		An argument <span class="contradiction">against</span> <span property="aif:Conclusion" resource="context:direct" class="conclusion">direct zoonotic transmission</span> is the fact that both these putative hosts are infrequently in contact with humans, and <span property="aif:Premise" resource="context:otheramplifiers" class="premise">an intermediary step involving an amplifying host</span> has been observed for several other emerging viruses (Henipaviruses, influenzaviruses, SARS-CoV and MERS-CoV).
 		</p>
 	</article>
 		
 	<article id="arg-intermediate">
 		<h3>Introduction through intermediate host followed by direct zoonotic transmission</h3>
 
-		<p>The arguments in favour of <span about="context:intermediate" property="aif:claimText">transmission via an intermediate host</span> are:</p>
+		<p>The arguments in favour of <span>transmission via an intermediate host</span> are:</p>
 		
-		<ul about="context:intermediate" typeof="aif:I-node" rev="aif:conclusion">
-		<li about="context:ra1" typeof="aif:RA-node" rel="aif:premise">
-		<p>Both bat and pangolin putative hosts are infrequently in contact with humans, and an intermediary step involving <span about="context:otheramplifiers" class="premise">an amplifying host has been observed for several other emerging viruses</span> (Henipaviruses, influenzaviruses, SARS-CoV and MERS-CoV). SARS-CoV-2 infection and intraspecies spread (including further transmission to humans) has been documented in an increasing number of animal species, particularly mustelids and felids.</p>
+		<ul about="context:intermediate" rev="aif:Conclusion">
+		<li about="context:indirectra1" typeof="aif:RA-node">
+		<p>Both bat and pangolin putative hosts are infrequently in contact with humans, and an intermediary step involving <span resource="context:otheramplifiers" property="aif:Premise" class="premise">an amplifying host has been observed for several other emerging viruses</span> (Henipaviruses, influenzaviruses, SARS-CoV and MERS-CoV). SARS-CoV-2 infection and intraspecies spread (including further transmission to humans) has been documented in an increasing number of animal species, particularly mustelids and felids.</p>
 		</li>
-		<li about="context:ra2" typeof="aif:RA-node" rel="aif:premise">
-		<p><span about="context:adaptsanimals" class="premise">SARS-CoV-2 adapts relatively rapidly in susceptible animals</span> (such as mink).</p>
+		<li about="context:indirectra2" typeof="aif:RA-node">
+		<p><span resource="context:adaptsanimals" property="aif:Premise" class="premise">SARS-CoV-2 adapts relatively rapidly in susceptible animals</span> (such as mink).</p>
 		</li>
-		<li about="context:ra3" typeof="aif:RA-node" rel="aif:premise">
-		<p>The increasing number of animals shown to be susceptible to SARS-CoV-2 includes <span about="context:farmedanimals" class="premise">animals that are farmed in sufficient densities to allow potential for enzootic circulation</span>.</p>
+		<li about="context:indirectra3" typeof="aif:RA-node">
+		<p>The increasing number of animals shown to be susceptible to SARS-CoV-2 includes <span resource="context:farmedanimals" property="aif:Premise" class="premise">animals that are farmed in sufficient densities to allow potential for enzootic circulation</span>.</p>
 		</li>
-		<li about="context:ra4" typeof="aif:RA-node" rel="aif:premise">
-		<p>In high-density farms, <span about="context:farmconnections" class="premise">there often are connections between farms</span> (for instance, through the workforce and food supply), leading to complex transmission pathways that may be difficult to unravel, as was observed in other zoonotic outbreaks involving farmed animals.</p>
+		<li about="context:indirectra4" typeof="aif:RA-node">
+		<p>In high-density farms, <span resource="context:farmconnections" property="aif:Premise" class="premise">there often are connections between farms</span> (for instance, through the workforce and food supply), leading to complex transmission pathways that may be difficult to unravel, as was observed in other zoonotic outbreaks involving farmed animals.</p>
 		</li>
-		<li about="context:ra5" typeof="aif:RA-node" rel="aif:premise">
-		<p>Optimized <span about="context:farmtransmission" class="premise">conditions for sustained virus transmission chains in large-scale animal farms</span> may also impact on virus seasonality in favour of a year-round endemic transmission pattern, and thereby increasing the zoonotic risk in winter months.</p>
+		<li about="context:indirectra5" typeof="aif:RA-node">
+		<p>Optimized <span resource="context:farmtransmission" property="aif:Premise" class="premise">conditions for sustained virus transmission chains in large-scale animal farms</span> may also impact on virus seasonality in favour of a year-round endemic transmission pattern, and thereby increasing the zoonotic risk in winter months.</p>
 		</li>
-		<li about="context:ra6" typeof="aif:RA-node" rel="aif:premise">
-		<p><span about="context:farmingdensity" typeof="aif:I-node" class="premise" property="aif:claimText">High-density farming</span> is common in many places across the world and includes many livestock species as well as farmed wildlife; and there was <span about="context:farmconnections" typeof="aif:I-node" class="premise">a large network of domesticated wild animal farms</span>, supplying farmed wildlife to Wuhan.</p>
+		<li about="context:indirectra6" typeof="aif:RA-node">
+		<p><span resource="context:farmingdensity" property="aif:Premise" class="premise">High-density farming</span> is common in many places across the world and includes many livestock species as well as farmed wildlife; and there was <span about="context:farmconnections" class="premise">a large network of domesticated wild animal farms</span>, supplying farmed wildlife to Wuhan.</p>
 		</li>
 		</ul>
 		
 		<p>The arguments against are:</p>
 		
-		<ul about="context:intermediate" typeof="aif:I-node" rev="aif:conclusion">
-		<li about="context:ca1" typeof="aif:CA-node" rel="aif:premise">
-		<p>SARS-CoV-2 has been identified in an increasing number of animal species, but genetic and epidemiological studies have suggested that these were <span about="context:infectionfromhumans" class="premise">infections introduced from humans</span>, rather than enzootic virus circulation.</p>
+		<ul about="context:intermediate" rev="aif:Conclusion">
+		<li about="context:indirectca1" typeof="aif:CA-node">
+		<p>SARS-CoV-2 has been identified in an increasing number of animal species, but genetic and epidemiological studies have suggested that these were <span resource="context:infectionfromhumans" property="aif:Premise" class="premise">infections introduced from humans</span>, rather than enzootic virus circulation.</p>
 		</li>
-		<li about="context:ca2" typeof="aif:CA-node" rel="aif:premise">
-		<p>Since the containment of SARS-CoV-2 in China, new outbreaks have occurred for which genomic sequence data was generated. Based on epidemiological analysis and genetic sequencing of viruses from new cases throughout 2020, there is <span about="context:noreintroduction" class="premise">no evidence of repeated introduction of early SARS-CoV-2 strains of potential animal origins</span> into humans in China.</p>
+		<li about="context:indirectca2" typeof="aif:CA-node">
+		<p>Since the containment of SARS-CoV-2 in China, new outbreaks have occurred for which genomic sequence data was generated. Based on epidemiological analysis and genetic sequencing of viruses from new cases throughout 2020, there is <span resource="context:noreintroduction" property="aif:Premise" class="premise">no evidence of repeated introduction of early SARS-CoV-2 strains of potential animal origins</span> into humans in China.</p>
 		</li>
-		<li about="context:ca3" typeof="aif:CA-node" rel="aif:premise">
-		<p>There was <span about="context:animalstested" class="premise">no genetic or serological evidence for SARS-CoV-2 in a wide range of domestic and wild animals</span> tested to date. The screening of the major livestock species was done across the country and provided no evidence for circulation of a related virus. The scale of testing in these species was such that widespread circulation is extremely unlikely.</p>
+		<li about="context:indirectca3" typeof="aif:CA-node">
+		<p>There was <span resource="context:animalstested" property="aif:Premise" class="premise">no genetic or serological evidence for SARS-CoV-2 in a wide range of domestic and wild animals</span> tested to date. The screening of the major livestock species was done across the country and provided no evidence for circulation of a related virus. The scale of testing in these species was such that widespread circulation is extremely unlikely.</p>
 		</li>
-		<li about="context:ca4" typeof="aif:CA-node" rel="aif:premise">
-		<p><span about="context:wildfarmedtested" class="premise">Screening of farmed wildlife</span> was limited but did not provide conclusive evidence for the existence of circulation.</p>
+		<li about="context:indirectca4" typeof="aif:CA-node">
+		<p><span resource="context:wildfarmedtested" property="aif:Premise" class="premise">Screening of farmed wildlife</span> was limited but did not provide conclusive evidence for the existence of circulation.</p>
 		</li>
 		</ul>
 
