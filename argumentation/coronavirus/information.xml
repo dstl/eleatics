@@ -28,6 +28,10 @@
 		<label>Similar virus in pangolin</label>
 		<description>Recently, two distinct types of SARSr-CoV were detected in Malayan pangolin (M. Javanica sampled in rescue centres in China for smuggled imported wildlife).</description>
 	</evidence>
+	<evidence id="similar">
+		<label>Similar virus in pangolin and bats</label>
+		<description>Viruses similar to SARS-CoV-2 have been found in both pangolin and bats.</description>
+	</evidence>
 	<evidence id="hace">
 		<label>Animal coronavirus can bind to hACE2</label>
 		<description>The RaTG13 and pangolin coronaviruses do bind to hACE2, although the fit is not optimal.</description>
