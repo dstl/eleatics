@@ -11,6 +11,7 @@
     <xslt in="orbat.graphml" out="output/orbat.txt" style="../xsl/graphml-to-aif.xsl" force="yes"/>
  	<xslt in="matrix-at-4.xhtml" out="output/matrix4.txt" style="../xsl/ach-to-aif.xsl" force="yes"/>
  	<xslt in="matrix-at-3.xhtml" out="output/matrix3.txt" style="../xsl/ach-to-aif.xsl" force="yes"/>
+	<xslt in="schemes.xhtml" out="output/schemes.txt" style="../../xsl-utils/rdfa-ntriples.xsl" force="yes"/>
  </target>
 	
   <target name="Hypotheses">
