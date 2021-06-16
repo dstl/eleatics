@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:aif="http://www.arg.dundee.ac.uk/aif#"
+	xmlns:this="urn:eleatics:scheme:">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.identifier" content="scheme/Toulmin" />
+<meta name="DC.date" content="2021-06-14" />
+<title>Key Assumption Check</title>
+</head>
+<body>
+
+<article>
+
+<h3>The Toulmin pattern</h3>
+
+<p>The information:</p>
+
+<dl>
+<dt about="this:CLAIM" typeof="aif:I-node" property="rdfs:label">CLAIM</dt>
+<dd about="this:CLAIM" property="aif:claimText">A claim or conclusion that the argument seeks to establish.</dd>
+<dt about="this:DATA" typeof="aif:I-node" property="rdfs:label">DATA</dt>
+<dd about="this:DATA" property="aif:claimText">Facts that can be appealed to as the foundation of a claim.</dd>
+<dt about="this:WARRANT" typeof="aif:I-node" property="rdfs:label">WARRANT</dt>
+<dd about="this:WARRANT" property="aif:claimText">A proposition justifying that it is reasonable and appropriate to make the claim given the data: rules, principles, inference-licences, or what you will.</dd>
+<dt about="this:QUALIFIER" typeof="aif:I-node" property="rdfs:label">QUALIFIER</dt>
+<dd about="this:QUALIFIER" property="aif:claimText">A reference to the degree of force which the data confers on the claim in virtue of the warrant.</dd>
+<dt about="this:BACKING" typeof="aif:I-node" property="rdfs:label">BACKING</dt>
+<dd about="this:BACKING" property="aif:claimText">Assurances, without which the warrant would possess neither authority or currency.</dd>
+<dt about="this:REBUTTAL" typeof="aif:I-node" property="rdfs:label">REBUTTAL</dt>
+<dd about="this:REBUTTAL" property="aif:claimText">Circumstances in which the general authority of the warrant would have to be set aside.</dd>
+</dl>
+
+<p>The arguments:</p>
+
+<p about="this:INFERS" typeof="aif:RA-node">
+<em resource="this:DATA" property="aif:Premise">DATA</em>, <em resource="this:WARRANT" property="aif:Premise">WARRANT</em> and <em resource="this:QUALIFIER" property="aif:Premise">QUALIFIER</em> together 
+support <em resource="this:CLAIM" property="aif:Conclusion">CLAIM</em>.
+</p>
+
+<p about="this:BACKS" typeof="aif:RA-node">
+<em resource="this:BACKING" property="aif:Premise">BACKING</em> supports <em resource="this:WARRANT" property="aif:Conclusion">WARRANT</em>.
+</p>
+
+<p about="this:REBUTS" typeof="aif:CA-node">
+<em resource="this:REBUTTAL" property="aif:Premise">REBUTTAL</em> contradicts <em resource="this:CLAIM" property="aif:Conclusion">CLAIM</em>.
+</p>
+
+</article>
+
+</body>
+</html>
