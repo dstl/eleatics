@@ -1,0 +1,72 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:aif="http://www.arg.dundee.ac.uk/aif#"
+	xmlns:this="urn:eleatics:scheme:">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.identifier" content="scheme/KAC" />
+<meta name="DC.date" content="2021-06-14" />
+<title>Key Assumption Check</title>
+</head>
+<body>
+
+<article>
+
+<h3>Key Assumption Check</h3>
+
+<p about="this:INFERENCE" typeof="aif:RA-node">This scheme asserts that an unsupported <em>CLAIM</em> in an argument map 
+is <span about="this:CLAIM" typeof="aif:I-node" property="aif:claimText">an assumption</span> that must be justified. The <em>QUALIFIER</em> 
+is <em about="this:QUALIFIER" typeof="aif:I-node" property="aif:claimText">presumably</em>. 
+The <em resource="this:DATA" property="aif:Premise">DATA</em> for the scheme is <span about="this:DATA" typeof="aif:I-node" property="aif:claimText">an 
+unstated premise</span> (which is incidentally itself an assumption) that implies that <em resource="this:CLAIM" property="aif:Conclusion">CLAIM</em> 
+is <em resource="this:QUALIFIER" property="aif:Premise">presumably</em> a valid assumption.</p>
+
+<p>
+The <em>critical questions</em> are:
+</p>
+
+<ul about="this:QUALIFIER" rev="aif:Conclusion">
+
+<li about="this:CA1" typeof="aif:CA-node">
+	<p about="this:CA1" rel="aif:Premise">
+	<span about="this:CQ:1" typeof="aif:I-node" property="aif:claimText">How confident are you that this assumption is correct?</span> 
+	<span about="this:CQ:2" typeof="aif:I-node" property="aif:claimText">What explains your degree of confidence?</span>
+	</p>
+</li>
+
+<li about="this:CA2" typeof="aif:CA-node" rel="aif:Premise">
+<p about="this:CQ:3" typeof="aif:I-node" property="aif:claimText">What circumstances or information might undermine this assumption?</p>
+</li>
+
+<li about="this:CA3" typeof="aif:CA-node" rel="aif:Premise">
+<p about="this:CQ:4" typeof="aif:I-node" property="aif:claimText">Could this assumption have been true in the past, but less so now?</p>
+</li>
+
+</ul>
+
+<p>
+The scheme has no <em>WARRANT</em> and hence no <em>BACKING</em>. The only possible rebuttal is an 
+assertion that <em>CLAIM</em> is an invalid assumption.
+</p>
+
+<h4>Notes</h4>
+<!-- for explanatory notes - avoid adding any semantic mark-up  -->
+
+<p>
+Evaluation of this scheme gives just one extension, where the critical questions are acceptable and <em>CLAIM</em> is unacceptable (an invalid assumption). The 
+assumption can only be made valid by "answering" each of the critical questions with an argument that undermines or undercuts it. If all questions are answered, 
+then there is no attack on the inference that <em>CLAIM</em> is a valid assumption, and the scheme evaluates to a single extension with <em>CLAIM</em>
+skeptically acceptable.
+</p>
+
+<p>
+The critical questions under the first bullet point form a <em>coordinative</em> argument. This argument can be defeated by answering either question. 
+</p>
+
+</article>
+
+</body>
+</html>
