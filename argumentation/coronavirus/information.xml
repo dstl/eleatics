@@ -22,7 +22,7 @@
 	</evidence>
 	<evidence id="bats">
 		<label>Similar virus in bats</label>
-		<description>Surveys of the bat virome conducted following the SARS epidemic in 2003 have found SARSr-CoV in various bats, particularly Rhinolophusbats, and viruses with the high genetic similarity to SARS-CoV-2 have been found in Rhinolophus bats sampled in China in 2013, Japan in 2013, Thailand in 2020 and Cambodia in 2010.</description>
+		<description>Surveys of the bat virome conducted following the SARS epidemic in 2003 have found SARSr-CoV in various bats, particularly Rhinolophus bats, and viruses with the high genetic similarity to SARS-CoV-2 have been found in Rhinolophus bats sampled in China in 2013, Japan in 2013, Thailand in 2020 and Cambodia in 2010.</description>
 	</evidence>
 	<evidence id="pangolin">
 		<label>Similar virus in pangolin</label>
