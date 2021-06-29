@@ -2,7 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 	xmlns:aif="http://www.arg.dundee.ac.uk/aif#"
-	xmlns:this="urn:eleatics:scheme:">
+      	xmlns:toulmin="urn:eleatics:toulmin:"
+	xmlns:this="urn:eleatics:scheme:kac:">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
@@ -16,18 +17,18 @@
 
 <h3>Key Assumption Check</h3>
 
-<p about="this:INFERENCE" typeof="aif:RA-node">This scheme asserts that an unsupported <em>CLAIM</em> in an argument map 
-is <span about="this:CLAIM" typeof="aif:I-node" property="aif:claimText">an assumption</span> that must be justified. The <em>QUALIFIER</em> 
-is <em about="this:QUALIFIER" typeof="aif:I-node" property="aif:claimText">presumably</em>. 
-The <em resource="this:DATA" property="aif:Premise">DATA</em> for the scheme is <span about="this:DATA" typeof="aif:I-node" property="aif:claimText">an 
+<p about="toulmin:infers" typeof="aif:RA-node">This scheme asserts that an unsupported <em>CLAIM</em> in an argument map 
+is <span about="toulmin:claim" typeof="aif:I-node" property="aif:claimText">an assumption</span> that must be justified. The <em>QUALIFIER</em> 
+is <em about="toulmin:qualifier" typeof="aif:I-node" property="aif:claimText">presumably</em>. 
+The <em resource="toulmin:data" property="aif:Premise">DATA</em> for the scheme is <span about="this:DATA" typeof="aif:I-node" property="aif:claimText">an 
 unstated premise</span> (which is incidentally itself an assumption) that implies that <em resource="this:CLAIM" property="aif:Conclusion">CLAIM</em> 
-is <em resource="this:QUALIFIER" property="aif:Premise">presumably</em> a valid assumption.</p>
+is <em resource="toulmin:qualifier" property="aif:Premise">presumably</em> a valid assumption.</p>
 
 <p>
 The <em>critical questions</em> are:
 </p>
 
-<ul about="this:QUALIFIER" rev="aif:Conclusion">
+<ul about="toulmin:qualifier" rev="aif:Conclusion">
 
 <li about="this:CA1" typeof="aif:CA-node">
 	<p about="this:CA1" rel="aif:Premise">
