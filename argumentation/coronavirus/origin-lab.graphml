@@ -31,11 +31,11 @@
       <data key="d5" xml:space="preserve"><![CDATA[limitedsamples]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
       <data key="d7" xml:space="preserve">true</data>
-      <data key="d8" xml:space="preserve"/>
+      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/coronavirus/information.xhtml#limitedsamples]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[Regarding accidental culture, prior to December 2019, there is no evidence of circulation of SARS-CoV-2 among people globally and the surveillance programme in place was limited regarding the number of samples processed and therefore the risk of accidental culturing SARS-CoV-2 in the laboratory is extremely low.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="46.0" width="118.0" x="1452.5" y="249.0"/>
+          <y:Geometry height="46.0" width="118.0" x="1392.0" y="78.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.0" x="0.0" xml:space="preserve" y="4.90625">limited samples processed</y:NodeLabel>
@@ -47,14 +47,14 @@
       <data key="d5" xml:space="preserve"><![CDATA[biosafety]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
       <data key="d7" xml:space="preserve">true</data>
-      <data key="d8" xml:space="preserve"/>
+      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/coronavirus/information.xhtml#biosafety]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[The three laboratories in Wuhan working with either CoVs diagnostics and/or CoVs isolation and vaccine development all had high quality biosafety level (BSL3 or 4) facilities that were well-managed, with a staff health monitoring programme with no reporting of COVID-19 compatible respiratory illness during the weeks/months prior to December 2019, and no serological evidence of infection in workers through SARS-CoV-2-specific serology-screening.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="39.63346613545815" width="134.0" x="1282.0" y="252.18326693227093"/>
+          <y:Geometry height="39.63346613545815" width="134.0" x="1224.0" y="81.18326693227093"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="134.0" x="4.0" xml:space="preserve" y="4.000000000000028">high quality biosafety</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="134.0" x="4.0" xml:space="preserve" y="4.0">high quality biosafety</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
@@ -63,11 +63,11 @@
       <data key="d5" xml:space="preserve"><![CDATA[lab]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
       <data key="d7" xml:space="preserve">true</data>
-      <data key="d8" xml:space="preserve"/>
+      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/coronavirus/information.xhtml#lab]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[SARS-CoV-2 is introduced through a laboratory incident, reflecting an accidental infection of staff from laboratory activities involving the relevant viruses.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="46.0" width="134.0" x="994.5" y="613.25"/>
+          <y:Geometry height="46.0" width="134.0" x="798.75" y="414.35416666666663"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="134.0" x="4.0" xml:space="preserve" y="4.0">introduction through a laboratory incident</y:NodeLabel>
@@ -79,11 +79,11 @@
       <data key="d5" xml:space="preserve"><![CDATA[labmoved]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
       <data key="d7" xml:space="preserve">true</data>
-      <data key="d8" xml:space="preserve"/>
+      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/coronavirus/information.xhtml#labmoved]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[The Wuhan CDC laboratory moved on 2nd December 2019 to a new location near the Huanan market. Such moves can be disruptive for the operations of any laboratory.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="58.0" width="150.0" x="438.0" y="243.0"/>
+          <y:Geometry height="58.0" width="150.0" x="200.0" y="72.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="51.28125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="150.0" x="4.0" xml:space="preserve" y="4.0">the Wuhan CDC laboratory moved on 2nd December 2019</y:NodeLabel>
@@ -95,7 +95,7 @@
       <data key="d6" xml:space="preserve"><![CDATA[RA-node]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
-          <y:Geometry height="58.0" width="150.0" x="584.5" y="356.25"/>
+          <y:Geometry height="58.0" width="150.0" x="162.5" y="184.25"/>
           <y:Fill color="#E8EEF7" color2="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.1181640625" x="57.44091796875" xml:space="preserve" y="20.87451171875">implies<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -107,11 +107,11 @@
       <data key="d5" xml:space="preserve"><![CDATA[accidentshappen]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
       <data key="d7" xml:space="preserve">true</data>
-      <data key="d8" xml:space="preserve"/>
+      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/coronavirus/information.xhtml#accidentshappen]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[Although rare, laboratory accidents do happen, and different laboratories around the world are working with bat CoVs.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="46.0" width="118.0" x="950.0" y="249.0"/>
+          <y:Geometry height="46.0" width="118.0" x="532.0" y="78.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.0" x="0.0" xml:space="preserve" y="4.90625">laboratory accidents do happen</y:NodeLabel>
@@ -123,11 +123,11 @@
       <data key="d5" xml:space="preserve"><![CDATA[labinfection]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
       <data key="d7" xml:space="preserve">true</data>
-      <data key="d8" xml:space="preserve"/>
+      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/coronavirus/information.xhtml#labinfection]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[When working in particular with virus cultures, but also with animal inoculations or clinical samples, humans could become infected in laboratories with limited biosafety, poor laboratory management practice, or following negligence.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="46.0" width="118.0" x="802.0" y="249.0"/>
+          <y:Geometry height="46.0" width="118.0" x="384.0" y="78.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.0" x="0.0" xml:space="preserve" y="4.90625">laboratory infection could happen</y:NodeLabel>
@@ -139,11 +139,11 @@
       <data key="d5" xml:space="preserve"><![CDATA[nomoveincident]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
       <data key="d7" xml:space="preserve">true</data>
-      <data key="d8" xml:space="preserve"/>
+      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/coronavirus/information.xhtml#nomoveincident]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[The Wuhan CDC lab which moved on 2nd December 2019 reported no disruptions or incidents caused by the move. They also reported no storage nor laboratory activities on CoVs or other bat viruses preceding the outbreak.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="46.0" width="118.0" x="638.0" y="174.0"/>
+          <y:Geometry height="46.0" width="118.0" x="36.0" y="3.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.0" x="0.0" xml:space="preserve" y="4.90625">no incidents caused by lab move</y:NodeLabel>
@@ -155,7 +155,7 @@
       <data key="d6" xml:space="preserve"><![CDATA[CA-node]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
-          <y:Geometry height="58.0" width="150.0" x="622.0" y="243.0"/>
+          <y:Geometry height="58.0" width="150.0" x="20.0" y="72.0"/>
           <y:Fill color="#E8EEF7" color2="#FF0000" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="71.8076171875" x="39.09619140625" xml:space="preserve" y="20.87451171875">Default Conflict<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -167,11 +167,11 @@
       <data key="d5" xml:space="preserve"><![CDATA[closesequence]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
       <data key="d7" xml:space="preserve">true</data>
-      <data key="d8" xml:space="preserve"/>
+      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/coronavirus/information.xhtml#closesequence]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[The closest known CoV RaTG13 strain (96.2%) to SARS-CoV-2 detected in bat anal swabs have been sequenced at the Wuhan Institute of Virology.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="63.0" width="150.0" x="258.0" y="240.5"/>
+          <y:Geometry height="63.0" width="150.0" x="864.0" y="69.5"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="51.28125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="150.0" x="0.0" xml:space="preserve" y="5.859375">CoV RaTG13 strain sequenced at the Wuhan Institute of Virology</y:NodeLabel>
@@ -183,11 +183,11 @@
       <data key="d5" xml:space="preserve"><![CDATA[distance]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
       <data key="d7" xml:space="preserve">true</data>
-      <data key="d8" xml:space="preserve"/>
+      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/coronavirus/information.xhtml#distance]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[The closest relatives of SARS-CoV-2 from bats and pangolin are evolutionarily distant from SARS-CoV-2.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="52.0" width="140.0" x="83.0" y="171.0"/>
+          <y:Geometry height="52.0" width="140.0" x="1049.0" y="0.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="51.28125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="140.0" x="0.0" xml:space="preserve" y="0.359375">closest relatives of SARS-CoV-2 are evolutionarily distant</y:NodeLabel>
@@ -199,7 +199,7 @@
       <data key="d6" xml:space="preserve"><![CDATA[RA-node]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
-          <y:Geometry height="58.0" width="150.0" x="896.5" y="356.25"/>
+          <y:Geometry height="58.0" width="150.0" x="478.5" y="184.25"/>
           <y:Fill color="#E8EEF7" color2="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.1181640625" x="57.44091796875" xml:space="preserve" y="20.87451171875">implies<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -211,11 +211,11 @@
       <data key="d5" xml:space="preserve"><![CDATA[norecord]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
       <data key="d7" xml:space="preserve">true</data>
-      <data key="d8" xml:space="preserve"/>
+      <data key="d8" xml:space="preserve"><![CDATA[https://dstl.github.io/eleatics/argumentation/coronavirus/information.xhtml#norecord]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[There is no record of viruses closely related to SARS-CoV-2 in any laboratory before December 2019, or genomes that in combination could provide a SARS-CoV-2 genome.]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="63.0" width="150.0" x="1098.0" y="240.5"/>
+          <y:Geometry height="63.0" width="150.0" x="680.0" y="69.5"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="51.28125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="150.0" x="4.0" xml:space="preserve" y="4.0">no record of viruses closely related to SARS-CoV-2 in any laboratory</y:NodeLabel>
@@ -227,7 +227,7 @@
       <data key="d6" xml:space="preserve"><![CDATA[CA-node]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
-          <y:Geometry height="58.0" width="150.0" x="1076.5" y="356.25"/>
+          <y:Geometry height="58.0" width="150.0" x="680.0" y="184.25"/>
           <y:Fill color="#E8EEF7" color2="#FF0000" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="71.8076171875" x="39.09619140625" xml:space="preserve" y="20.87451171875">Default Conflict<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -239,7 +239,7 @@
       <data key="d6" xml:space="preserve"><![CDATA[RA-node]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
-          <y:Geometry height="58.0" width="150.0" x="220.5" y="356.25"/>
+          <y:Geometry height="58.0" width="150.0" x="901.5" y="184.25"/>
           <y:Fill color="#E8EEF7" color2="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.1181640625" x="57.44091796875" xml:space="preserve" y="20.87451171875">implies<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -251,7 +251,7 @@
       <data key="d6" xml:space="preserve"><![CDATA[CA-node]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
-          <y:Geometry height="58.0" width="150.0" x="78.0" y="243.0"/>
+          <y:Geometry height="58.0" width="150.0" x="1044.0" y="72.0"/>
           <y:Fill color="#E8EEF7" color2="#FF0000" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="71.8076171875" x="39.09619140625" xml:space="preserve" y="20.87451171875">Default Conflict<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -259,67 +259,23 @@
       </data>
     </node>
     <node id="n16">
-      <data key="d4" xml:space="preserve">false</data>
-      <data key="d5" xml:space="preserve"><![CDATA[distancepangolin]]></data>
-      <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
-      <data key="d7" xml:space="preserve">true</data>
-      <data key="d8" xml:space="preserve"/>
-      <data key="d9" xml:space="preserve"><![CDATA[Highly similar viruses have also been found in pangolins, suggesting cross-species transmission from bats at least once, but again with considerable genetic distance.]]></data>
-      <data key="d10">
-        <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="46.0" width="118.0" x="20.0" y="0.0"/>
-          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.0" x="0.0" xml:space="preserve" y="4.90625">evolutionary distance of pangolin virus</y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n17">
-      <data key="d4" xml:space="preserve">false</data>
-      <data key="d5" xml:space="preserve"><![CDATA[distancebat]]></data>
-      <data key="d6" xml:space="preserve"><![CDATA[I-node]]></data>
-      <data key="d7" xml:space="preserve">true</data>
-      <data key="d8" xml:space="preserve"/>
-      <data key="d9" xml:space="preserve"><![CDATA[Although the closest related viruses have been found in bats, the evolutionary distance between these bat viruses and SARS-CoV-2 is estimated to be several decades, suggesting a missing link (either a missing progenitor virus, or evolution of a progenitor virus in an intermediate host).]]></data>
-      <data key="d10">
-        <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="46.0" width="118.0" x="168.0" y="0.0"/>
-          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.0" x="0.0" xml:space="preserve" y="4.90625">evolutionary distance of bat virus</y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n18">
-      <data key="d5" xml:space="preserve"><![CDATA[rexp]]></data>
-      <data key="d6" xml:space="preserve"><![CDATA[RA-node]]></data>
-      <data key="d10">
-        <y:GenericNode configuration="com.yworks.flowchart.decision">
-          <y:Geometry height="58.0" width="150.0" x="78.0" y="93.0"/>
-          <y:Fill color="#E8EEF7" color2="#99CC00" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.1181640625" x="57.44091796875" xml:space="preserve" y="20.87451171875">implies<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n19">
       <data key="d5" xml:space="preserve"><![CDATA[x42]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[CA-node]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
-          <y:Geometry height="58.0" width="150.0" x="1256.5" y="356.25"/>
+          <y:Geometry height="58.0" width="150.0" x="1196.0" y="184.25"/>
           <y:Fill color="#E8EEF7" color2="#FF0000" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="71.8076171875" x="39.09619140625" xml:space="preserve" y="20.87451171875">Default Conflict<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n20">
+    <node id="n17">
       <data key="d5" xml:space="preserve"><![CDATA[x43]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[CA-node]]></data>
       <data key="d10">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
-          <y:Geometry height="58.0" width="150.0" x="1436.5" y="356.25"/>
+          <y:Geometry height="58.0" width="150.0" x="1376.0" y="184.25"/>
           <y:Fill color="#E8EEF7" color2="#FF0000" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="71.8076171875" x="39.09619140625" xml:space="preserve" y="20.87451171875">Default Conflict<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -329,9 +285,9 @@
     <edge id="e0" source="n4" target="n2">
       <data key="d14">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="29.0" tx="-33.5" ty="-23.0">
-            <y:Point x="659.5" y="424.75"/>
-            <y:Point x="1028.0" y="597.75"/>
+          <y:Path sx="0.0" sy="29.0" tx="-55.833333333333336" ty="-23.0">
+            <y:Point x="237.5" y="252.75"/>
+            <y:Point x="809.9166666666666" y="398.85416666666663"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -342,10 +298,7 @@
     <edge id="e1" source="n3" target="n4">
       <data key="d14">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="29.0" tx="-37.5" ty="-14.53125">
-            <y:Point x="513.0" y="311.5"/>
-            <y:Point x="622.0" y="340.75"/>
-          </y:Path>
+          <y:Path sx="0.0" sy="29.0" tx="37.5" ty="-14.46875"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
@@ -365,7 +318,10 @@
     <edge id="e3" source="n8" target="n4">
       <data key="d14">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="29.0" tx="37.5" ty="-14.46875"/>
+          <y:Path sx="0.0" sy="29.0" tx="-37.5" ty="-14.53125">
+            <y:Point x="95.0" y="140.5"/>
+            <y:Point x="200.0" y="168.75"/>
+          </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
@@ -376,8 +332,8 @@
       <data key="d14">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="23.0" tx="-37.5" ty="-14.53125">
-            <y:Point x="861.0" y="305.5"/>
-            <y:Point x="934.0" y="340.75"/>
+            <y:Point x="443.0" y="134.5"/>
+            <y:Point x="516.0" y="168.75"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -388,7 +344,7 @@
     <edge id="e5" source="n9" target="n14">
       <data key="d14">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="31.5" tx="37.5" ty="-14.46875"/>
+          <y:Path sx="0.0" sy="31.5" tx="-37.5" ty="-14.53125"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
@@ -408,9 +364,9 @@
     <edge id="e7" source="n11" target="n2">
       <data key="d14">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="29.0" tx="-11.166666666666664" ty="-23.0">
-            <y:Point x="971.5" y="424.75"/>
-            <y:Point x="1050.3333333333333" y="597.75"/>
+          <y:Path sx="0.0" sy="29.0" tx="-33.5" ty="-23.0">
+            <y:Point x="553.5" y="252.75"/>
+            <y:Point x="832.25" y="398.85416666666663"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -421,9 +377,9 @@
     <edge id="e8" source="n13" target="n2">
       <data key="d14">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="29.0" tx="11.166666666666671" ty="-23.0">
-            <y:Point x="1151.5" y="424.75"/>
-            <y:Point x="1072.6666666666667" y="597.75"/>
+          <y:Path sx="0.0" sy="29.0" tx="-11.166666666666664" ty="-23.0">
+            <y:Point x="755.0" y="252.75"/>
+            <y:Point x="854.5833333333334" y="398.85416666666663"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -434,9 +390,9 @@
     <edge id="e9" source="n14" target="n2">
       <data key="d14">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="29.0" tx="-55.833333333333336" ty="-23.0">
-            <y:Point x="295.5" y="424.75"/>
-            <y:Point x="1005.6666666666666" y="597.75"/>
+          <y:Path sx="0.0" sy="29.0" tx="11.166666666666671" ty="-23.0">
+            <y:Point x="976.5" y="252.75"/>
+            <y:Point x="876.9166666666666" y="398.85416666666663"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -457,9 +413,9 @@
     <edge id="e11" source="n15" target="n14">
       <data key="d14">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="29.0" tx="-37.5" ty="-14.53125">
-            <y:Point x="153.0" y="311.5"/>
-            <y:Point x="258.0" y="340.75"/>
+          <y:Path sx="0.0" sy="29.0" tx="37.5" ty="-14.46875">
+            <y:Point x="1119.0" y="140.5"/>
+            <y:Point x="1014.0" y="168.75"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -467,48 +423,12 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e12" source="n17" target="n18">
-      <data key="d14">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="23.0" tx="37.5" ty="-14.46875">
-            <y:Point x="227.0" y="56.5"/>
-            <y:Point x="190.5" y="77.5"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e13" source="n16" target="n18">
-      <data key="d14">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="23.0" tx="-37.5" ty="-14.53125">
-            <y:Point x="79.0" y="56.5"/>
-            <y:Point x="115.5" y="77.5"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e14" source="n18" target="n10">
-      <data key="d14">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="29.0" tx="0.0" ty="-26.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e15" source="n1" target="n19">
+    <edge id="e12" source="n1" target="n16">
       <data key="d14">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="19.816733067729075" tx="0.0" ty="-29.0">
-            <y:Point x="1349.0" y="302.31673306772905"/>
-            <y:Point x="1331.5" y="340.75"/>
+            <y:Point x="1291.0" y="131.31673306772907"/>
+            <y:Point x="1271.0" y="168.75"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -516,20 +436,17 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e16" source="n12" target="n13">
+    <edge id="e13" source="n12" target="n13">
       <data key="d14">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="31.5" tx="0.0" ty="-29.0">
-            <y:Point x="1173.0" y="314.0"/>
-            <y:Point x="1151.5" y="340.75"/>
-          </y:Path>
+          <y:Path sx="0.0" sy="31.5" tx="0.0" ty="-29.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e17" source="n0" target="n20">
+    <edge id="e14" source="n0" target="n17">
       <data key="d14">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="23.0" tx="0.0" ty="-29.0"/>
@@ -539,12 +456,12 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e18" source="n19" target="n2">
+    <edge id="e15" source="n16" target="n2">
       <data key="d14">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="29.0" tx="33.5" ty="-23.0">
-            <y:Point x="1331.5" y="424.75"/>
-            <y:Point x="1095.0" y="597.75"/>
+            <y:Point x="1271.0" y="252.75"/>
+            <y:Point x="899.25" y="398.85416666666663"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -552,12 +469,12 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e19" source="n20" target="n2">
+    <edge id="e16" source="n17" target="n2">
       <data key="d14">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="29.0" tx="55.83333333333334" ty="-23.0">
-            <y:Point x="1511.5" y="424.75"/>
-            <y:Point x="1117.3333333333333" y="597.75"/>
+            <y:Point x="1451.0" y="252.75"/>
+            <y:Point x="921.5833333333334" y="398.85416666666663"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>

@@ -10,10 +10,12 @@
 	
   <target name="graphml">
     <xslt in="origin.graphml" out="../output/origin.txt" style="${xsl}/graphml-to-aif.xsl" force="yes"/>
+    <xslt in="origin-lab.graphml" out="../output/origin-lab.txt" style="${xsl}/graphml-to-aif.xsl" force="yes"/>
   </target>
 
   <target name="text">
     <xslt in="origins-who.xhtml" out="../output/origin.txt" style="${xsl-utils}/rdfa-ntriples.xsl" force="yes"/>
+    <xslt in="origin-lab.xhtml"  out="../output/origin-lab.txt" style="${xsl-utils}/rdfa-ntriples.xsl" force="yes"/>
  	<xslt in="information.xhtml" out="../output/information.txt" style="${xsl-utils}/rdfa-ntriples.xsl" force="yes"/>
   </target>
 		
