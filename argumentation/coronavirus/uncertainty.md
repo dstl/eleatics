@@ -19,5 +19,11 @@ case in support of the hypothesis:
  
 The "true" and "false" conclusions partition the set of all extensions, and we can choose how the acceptable arguments in each extension
 combine to make an explanation graph for the partition. Here, we have chosen to consider *necessary* arguments, which is to say arguments
-that are acceptable in all the extensions in a partition. In the case against the laboratory origin this includes two undercutting arguments.
-Including these in an explanation graph requires including the arguments that are undercut. The case in favour of the lab hypothesis 
+that are acceptable in all the extensions in a partition. In the case against the laboratory origin this includes two undercutting arguments,
+so including these in an explanation graph means also including the arguments that are undercut. The case in favour of the lab hypothesis consists
+of just the unchallenged arguments in support.
+
+The two explanation graphs answer the question: *What must we believe if we accept the hypothesis is true/false?* This is a critical assessment
+of the hypothesis. Instead, we might be interested in promoting a particular point of view, so asking what *might* we believe instead of what *must* we
+believe. We can do this by considering *sufficient* arguments instead of necessary ones. That is to say, the arguments that are acceptable in at least one
+extension in the relevant partition.
