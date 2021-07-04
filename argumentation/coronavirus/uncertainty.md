@@ -1,6 +1,6 @@
 # Uncertainty
 
-In most cases, as in the [Origins of SARS-CoV-2](index.html) example, evaluating an argument map doesn't produce a definite answer; and  
+In most cases, as in the [Origins of SARS-CoV-2](index.html) example, evaluating an argument map doesn't produce a definite answer; and
 there is *uncertainty* associated with any conclusions you might draw.
 
 Consider the arguments for and against just the laboratory origin hypothesis in isolation:
@@ -17,4 +17,7 @@ case in support of the hypothesis:
  
  [![argument map against lab origin](origin-lab-against.svg)](origin-lab-against.graphml)
  
- 
+The "true" and "false" conclusions partition the set of all extensions, and we can choose how the acceptable arguments in each extension
+combine to make an explanation graph for the partition. Here, we have chosen to consider *necessary* arguments, which is to say arguments
+that are acceptable in all the extensions in a partition. In the case against the laboratory origin this includes two undercutting arguments.
+Including these in an explanation graph requires including the arguments that are undercut. The case in favour of the lab hypothesis 
