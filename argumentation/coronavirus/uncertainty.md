@@ -31,6 +31,6 @@ extension in the relevant partition. There are choices in constructing an explan
 Here, we have generated explanations that allow a critical assessment of the strength of the case for and against the lab origin hypothesis; and these
 explanations can be used to say something about the *uncertainty* associated with the hypothesis. It's possible to make a judgement about an explanation
 graph just from consideration of its structure. However, a more detailed analysis requires some consideration of the "strength" or "quality" of the
-inferences, which suggests the approach of classify the This can be done by classifying each inference as an instance of an
+indiviudual inferences. This can be done by classifying each inference as an instance of an
 [argumentation scheme](https://en.wikipedia.org/wiki/Argumentation_scheme). An analysis of the schemes then answers questions about *uncertainty* - and
 perhaps similar questions about *credibility* and *belief*.
