@@ -28,5 +28,5 @@ of the hypothesis. Instead, we might be interested in promoting a particular poi
 believe. We can do this by considering *sufficient* arguments instead of necessary ones. That is to say, the arguments that are acceptable in at least one
 extension in the relevant partition. There are choices in constructing an explanation graph that bear on what the graph explains.
 
-Here, we have explanation that allows a critical assessment of the strength of the case for and against the lab origin hypothesis - which
-means that say something about the *uncertainty* associated with the hypothesis.
+Here, we have generated explanations that allow a critical assessment of the strength of the case for and against the lab origin hypothesis; and these
+explanations can be used to say something about the *uncertainty* associated with the hypothesis. This can be done 
