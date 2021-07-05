@@ -7,8 +7,8 @@ Consider the arguments for and against just the laboratory origin hypothesis in 
 
 [![argument map regarding lab origin](origin-lab.svg)](origin-lab.graphml)
 
-Evaluating this argument map will produce a number of extensions, and in each extension the hypothesis will be either
-"true" (acceptable) or "false" (unacceptable). We can collect all the "true" extensions into one set, and regard it as the
+Evaluating this argument map will produce a number of extensions, and in each extension the *Introduction through a laboratory incident* hypothesis will be either
+"true" (acceptable) or "false" (unacceptable). We can collect all the "true" extensions into one set and regard it as the
 case in support of the hypothesis:
 
 [![argument map for lab origin](origin-lab-for.svg)](origin-lab-for.graphml)
@@ -26,4 +26,7 @@ of just the unchallenged arguments in support.
 The two explanation graphs answer the question: *What must we believe if we accept the hypothesis is true/false?* This is a critical assessment
 of the hypothesis. Instead, we might be interested in promoting a particular point of view, so asking what *might* we believe instead of what *must* we
 believe. We can do this by considering *sufficient* arguments instead of necessary ones. That is to say, the arguments that are acceptable in at least one
-extension in the relevant partition.
+extension in the relevant partition. There are choices in constructing an explanation graph that bear on what the graph explains.
+
+Here, we have explanation that allows a critical assessment of the strength of the case for and against the lab origin hypothesis - which
+means that say something about the *uncertainty* associated with the hypothesis.
