@@ -28,9 +28,17 @@ of the hypothesis. Instead, we might be interested in promoting a particular poi
 believe. We can do this by considering *sufficient* arguments instead of necessary ones. That is to say, the arguments that are acceptable in at least one
 extension in the relevant partition. There are choices in constructing an explanation graph that bear on what the graph explains.
 
-Here, we have generated explanations that allow a critical assessment of the strength of the case for and against the lab origin hypothesis; and these
+Here, we have generated explanations that allow a critical assessment of the strength of the case for and against the lab origin hypothesis, and these
 explanations can be used to say something about the *uncertainty* associated with the hypothesis. It's possible to make a judgement about an explanation
-graph just from consideration of its structure. However, a more detailed analysis requires some consideration of the "strength" or "quality" of the
+graph just from consideration of its structure, but a more detailed analysis requires some consideration of the "strength" or "quality" of the
 indiviudual inferences. This can be done by classifying each inference as an instance of an
 [argumentation scheme](https://en.wikipedia.org/wiki/Argumentation_scheme). An analysis of the schemes then answers questions about *uncertainty* - and
 perhaps similar questions about *credibility* and *belief*.
+
+## Notes
+
+1. There are many ways to fold uncertainty into argumentation, and the example described here shouldn't be interpreted as prescribing a particular approach, but rather as a strawman to test ideas and elicit alternatives. For this reason, we aim to preserve the argument map as a simple expression of defeasible logic, and layer consideration of uncertainty over that using argumentation schemes. In this example, we ignore the uncertainties whem the argument is evaluated, but consider them as the results of the evaluation are *explained*. An alternative approach might be to take account of uncertainty when evaluating the argument, as happens in [probabilistic argumentation frameworks](https://en.wikipedia.org/wiki/Probabilistic_argumentation) for example.
+
+1. Uncertainty is context sensitive, changing over time as knowledge (and arguments) develop. How it is best communicated depends significantly on the requirements and knowledge of the target audience. Communication of uncertainty may be as simple as presenting a simple score of some kind, or it might involve some complex additional process such as engaging the audience in a socratic dialogue intended to develop understanding. This suggests that there is no single "best" way to assess and communicate uncertainty.
+
+1. The images of the argument maps above link to corresponding GraphML files, and [AIF can be recovered](https://github.com/dstl/eleatics/wiki/Argument-Maps) from these.
