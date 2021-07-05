@@ -19,7 +19,7 @@ case in support of the hypothesis:
  
 The "true" and "false" conclusions partition the set of all extensions, and we can choose how the acceptable arguments in each extension
 combine to make an explanation graph for the partition. Here, we have chosen to consider *necessary* arguments, which is to say arguments
-that are acceptable in all the extensions in a partition. In the case against the laboratory origin this includes two undercutting arguments,
+that are acceptable in all the extensions in a partition. In the case against laboratory origin there are two undercutting arguments,
 so including these in an explanation graph means also including the arguments that are undercut. The case in favour of the lab hypothesis consists
 of just the unchallenged arguments in support.
 
@@ -31,7 +31,7 @@ extension in the relevant partition. There are choices in constructing an explan
 Here, we have generated explanations that allow a critical assessment of the strength of the case for and against the lab origin hypothesis, and these
 explanations can be used to say something about the *uncertainty* associated with the hypothesis. It's possible to make a judgement about an explanation
 graph just from consideration of its structure, but a more detailed analysis requires some consideration of the "strength" or "quality" of the
-indiviudual inferences. This can be done by classifying each inference as an instance of an
+individual inferences. This can be done by classifying each inference as an instance of an
 [argumentation scheme](https://en.wikipedia.org/wiki/Argumentation_scheme). An analysis of the schemes then answers questions about *uncertainty* - and
 perhaps similar questions about *credibility* and *belief*.
 
