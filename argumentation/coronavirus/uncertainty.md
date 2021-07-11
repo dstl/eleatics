@@ -26,8 +26,11 @@ of just the unchallenged arguments in support.
 The two explanation graphs answer the question: *What must we believe if we accept the hypothesis is true/false?* This is a critical assessment
 of the hypothesis. Instead, we might be interested in promoting a particular point of view, so asking what *might* we believe instead of what *must* we
 believe. We can do this by considering *sufficient* arguments instead of necessary ones. That is to say, the arguments that are acceptable in at least one
-extension in the relevant partition. There are choices in constructing an explanation graph that bear on what the graph explains.
+extension in the relevant partition. The case against lab origin doesn't change if we do this, but the case in favour now includes the two defeated arguments:
 
+[![argument map for lab origin](origin-lab-casefor.svg)](origin-lab-casefor.graphml)
+
+There are choices in constructing an explanation graph that bear on what the graph explains.
 Here, we have generated explanations that allow a critical assessment of the strength of the case for and against the lab origin hypothesis, and these
 explanations can be used to say something about the *uncertainty* associated with the hypothesis. It's possible to make a judgement about an explanation
 graph just from consideration of its structure, but a more detailed analysis requires some consideration of the "strength" or "quality" of the
@@ -35,10 +38,14 @@ individual inferences. This can be done by classifying each inference as an inst
 [argumentation scheme](https://en.wikipedia.org/wiki/Argumentation_scheme). An analysis of the schemes then answers questions about *uncertainty* - and
 perhaps similar questions about *credibility* and *belief*.
 
+We should also consider the *evidence* on which the arguments are based; that is to say the *I-nodes* that are premises only, and not the conclusion of some
+inference. Such premises may be accepted fact, assumptions, or even opinion. We can imagine each piece of evidence as the conclusion of a notional argument
+that says something about it's uncertainty. 
+
 ## Notes
+
+1. The images of the argument maps above link to corresponding GraphML files, and [AIF can be recovered](https://github.com/dstl/eleatics/wiki/Argument-Maps) from these.
 
 1. There are many ways to fold uncertainty into argumentation, and the example described here shouldn't be interpreted as prescribing a particular approach, but rather as a strawman to test ideas and elicit alternatives. For this reason, we aim to preserve the argument map as a simple expression of defeasible logic, and layer consideration of uncertainty over that using argumentation schemes. In this example, we ignore the uncertainties when the argument map is evaluated, but consider them as the results of the evaluation are *explained*. An alternative approach might be to take account of uncertainty when evaluating the argument map, as happens in [probabilistic argumentation frameworks](https://en.wikipedia.org/wiki/Probabilistic_argumentation) for example.
 
 1. Uncertainty is context sensitive, changing over time as knowledge (and arguments) develop. How it is best communicated depends significantly on the requirements and knowledge of the target audience. Communication of uncertainty may be as simple as presenting a single score of some kind, or it might involve some complex additional process such as engaging the audience in a socratic dialogue intended to develop understanding. This suggests that there is no single "best" way to assess and communicate uncertainty.
-
-1. The images of the argument maps above link to corresponding GraphML files, and [AIF can be recovered](https://github.com/dstl/eleatics/wiki/Argument-Maps) from these.

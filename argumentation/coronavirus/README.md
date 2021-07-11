@@ -15,3 +15,5 @@ HTML *description list*, so that each I-node is a term giving a label to the des
 here is that the term labels can be used in sentences that string together premises and conclusions to make arguments. The [WHO arguments](origins-who.xhtml) 
 are an example of AIF argument map constructed this way. It is intended to be equivalent to the argument map depicted above.
 
+See also:
+* [The Origins of SARS-CoV-2: A Critical Review](https://doi.org/10.5281/zenodo.5075888)
