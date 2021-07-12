@@ -5,4 +5,6 @@ In his book [*The Uses of Argument*](https://www.cambridge.org/core/books/uses-o
 
 ![argument map](toulmin.svg)
 
-On the left is Toulmin's depiction. On the right is is an equivalent [AIF argument map](toulmin-aif.graphml). 
+On the left is Toulmin's depiction. On the right is is an equivalent [AIF argument map](toulmin-aif.graphml).
+
+The same AIF argument map can be expressed as [XHTML+RDFa](toulmin.xhtml).
