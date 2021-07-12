@@ -17,3 +17,8 @@ are an example of AIF argument map constructed this way. It is intended to be eq
 
 See also:
 * [The Origins of SARS-CoV-2: A Critical Review](https://doi.org/10.5281/zenodo.5075888)
+
+## Purpose
+How this example is used:
+
+* The *Introduction through a laboratory incident* hypothesis is used to discuss [**Uncertainty**](uncertainty).
