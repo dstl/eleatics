@@ -18,6 +18,11 @@
     <xslt in="origin-lab.xhtml"  out="../output/origin-lab.txt" style="${xsl-utils}/rdfa-ntriples.xsl" force="yes"/>
  	<xslt in="information.xhtml" out="../output/information.txt" style="${xsl-utils}/rdfa-ntriples.xsl" force="yes"/>
   </target>
+
+  <target name="evidence">
+    <xslt in="../schemes/KAC.xhtml" out="../output/kac.txt" style="${xsl-utils}/rdfa-ntriples.xsl" force="yes"/>
+    <xslt in="qa/limitedsamples.xhtml" out="../output/limitedsamples.txt" style="${xsl-utils}/rdfa-ntriples.xsl" force="yes"/>
+  </target>
 		
 </project>
 
