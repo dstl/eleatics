@@ -45,11 +45,14 @@ that says something about it's uncertainty.
 ## Drawing Conclusions
 
 ### Subjectively ...
-We can make a qualitative judgement about the likelihood of a laboratory origin of the virus by considering the cases for and against in terms of the argumentation schemes (for presumptive reasoning) that are employed. The arguments "for" are *slippery slope*, or even *begging the question*. The arguments "against" are *expert opinion*, *falsification of a hypothesis* and *evidence to a hypthoesis*. The latter seem much more credible, and therefore make the case "against" more certain.
+We can make a qualitative judgement about the likelihood of a laboratory origin of the virus by considering the cases for and against in terms of the argumentation schemes (for presumptive reasoning) that are employed. The arguments "for" are *slippery slope*, or even *begging the question*. The arguments "against" are *expert opinion*, *falsification of a hypothesis* and *evidence to a hypothesis*. The latter seem much more credible, and therefore make the case "against" more certain.
 
-We can get some sense of the strength of the cases "for" and "against" by looking at their explanation graphs. Again, the case "against" seems more credible: It's a larger graph, and it includes arguments that counter some of those made in the case "for". Is this a reasonable judgement to make? It rather assumes that some proponent on each side has had the opportunity to appraise and counter the arguments of the opposition - which may not be the case. Let's say this analysis *biases* the judgement in favour of the case "against".
+We can get some sense of the strength of the cases "for" and "against" by looking at their explanation graphs. Again, the case "against" seems more credible: It's a larger graph, and it includes arguments that counter some of those made in the case "for". Is this a fair judgement to make? It rather assumes that some proponent on each side has had the opportunity to appraise and counter the arguments of the opposition, which may not be the case. Let's say inspecting the structure of the explanation graphs *biases* the judgement in favour of the case "against".
 
 ### Objectively ...
+It's always possible to put numbers on something, and the subjective analysis described above could be codified in terms of probabilities, partial orderings, or graph metrics. The questions to consider are: *Where do the numbers come from?*, *How and when are they applied?* and *What does the final result mean?* There is a lot of research into such methods, which largely focuses on the middle question.
+
+Argumentation theories are layered on top of [Dung's Abtract Argumentation Framework (AAF)](https://en.wikipedia.org/wiki/Argumentation_framework). It the AAF that is evaluated to produce consistent sets of arguments called *extensions*, and these extensions may be classified according to a number of *extension semantics*. The "how and when" question for some new "objective" argumentation theory must consider translating the numbers from some high-level argument representation (AIF say) to the AAF, and whether they affect the construction of the AAF or its evaluation. There are many possible choices here.
 
 ## Notes
 
