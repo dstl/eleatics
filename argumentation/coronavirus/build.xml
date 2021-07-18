@@ -21,7 +21,10 @@
 
   <target name="evidence">
     <xslt in="../schemes/KAC.xhtml" out="../output/kac.txt" style="${xsl-utils}/rdfa-ntriples.xsl" force="yes"/>
-    <xslt in="qa/limitedsamples.xhtml" out="../output/limitedsamples.txt" style="${xsl-utils}/rdfa-ntriples.xsl" force="yes"/>
+    <xslt in="../schemes/E2H.xhtml" out="../output/e2h.txt" style="${xsl-utils}/rdfa-ntriples.xsl" force="yes"/>
+    <xslt in="../schemes/RULE.xhtml" out="../output/rule.txt" style="${xsl-utils}/rdfa-ntriples.xsl" force="yes"/>
+    <xslt in="meta/limitedsamples.xhtml" out="../output/limitedsamples.txt" style="${xsl-utils}/rdfa-ntriples.xsl" force="yes"/>
+    <xslt in="meta/pangolin.xhtml" out="../output/pangolin.txt" style="${xsl-utils}/rdfa-ntriples.xsl" force="yes"/>
   </target>
 		
 </project>
