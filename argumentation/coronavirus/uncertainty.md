@@ -40,7 +40,7 @@ perhaps similar questions about *credibility* and *belief*.
 
 We should also consider the *evidence* on which the arguments are based; that is to say the *I-nodes* that are premises only, and not the conclusion of some
 inference. Such premises may be accepted fact, assumptions, or even opinion. We can imagine each piece of evidence as the conclusion of a notional argument
-that says something about it's uncertainty.
+that says something about it's uncertainty. The [technical wiki](https://github.com/dstl/eleatics/wiki/Argumentation-Schemes) has more on this idea.
 
 ## Drawing Conclusions
 
