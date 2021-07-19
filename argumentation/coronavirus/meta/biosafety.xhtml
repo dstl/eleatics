@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	  xmlns:aif="http://www.arg.dundee.ac.uk/aif#"
+    xmlns:context="https://dstl.github.io/eleatics/argumentation/coronavirus/information.xhtml#"
+    xmlns:toulmin="urn:eleatics:toulmin:">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.identifier" content="scheme/RULE" />
+<meta name="DC.date" content="2021-07-19" />
+<title>Biosafety</title>
+</head>
+<body>
+
+<article about="toulmin:claim" property="owl:sameAs" resource="context:biosafety">
+
+<h3>Established Rule</h3>
+
+<p class="claim" about="context:biosafety" typeof="I-node" property="aif:claimText" style="font-size:1.5rem; font-style:italic">
+The three laboratories in Wuhan working with either CoVs diagnostics and/or CoVs isolation and vaccine development all had high quality biosafety level (BSL3 or 4) facilities that were well-managed, with a staff health monitoring programme with no reporting of COVID-19 compatible respiratory illness during the weeks/months prior to December 2019, and no serological evidence of infection in workers through SARS-CoV-2-specific serology-screening.
+</p>
+  
+<p about="toulmin:infers" typeof="aif:RA-node">This scheme asserts that an unsupported <em>CLAIM</em> in an argument map 
+is consistent with <span about="toulmin:claim" typeof="aif:I-node" property="aif:claimText">established practice</span>. The <em>QUALIFIER</em> 
+is <em about="toulmin:qualifier" typeof="aif:I-node" property="aif:claimText">presumably</em>. 
+The <em resource="toulmin:data" property="aif:Premise">DATA</em> for the scheme is <span about="toulmin:data" typeof="aif:I-node" property="aif:claimText">an unstated premise</span> 
+implying that the <em resource="toulmin:claim" property="aif:Conclusion">CLAIM</em> 
+<span resource="toulmin:qualifier" property="aif:Premise">follows</span> from applying the rules. The <em resource="toulmin:warrant" property="aif:Premise">WARRANT</em> 
+is <em about="toulmin:warrant" typeof="aif:I-node" property="aif:claimText">proper application of established rules</em>.
+</p>
+
+<p about="toulmin:backs" typeof="aif:RA-node">
+<em resource="toulmin:backing" property="aif:Premise">BACKING</em> for the <em resource="toulmin:warrant" property="aif:Conclusion">WARRANT</em> 
+represents <span about="toulmin:backing" typeof="aif:I-node" property="aif:claimText">a definition of the rules</span>.
+</p>
+  
+<p about="#ra1" typeof="aif:RA-node">
+  <em resource="toulmin:backing" property="aif:Conclusion">BACKING</em> comes from the CDC publication: <em resource="https://www.cdc.gov/labs/pdf/CDC-BiosafetymicrobiologicalBiomedicalLaboratories-2009-P.pdf" typeof="aif:I-node" property="aif:Premise">Biosafety in 
+Microbiological and Biomedical Laboratories(<span about="https://www.cdc.gov/labs/pdf/CDC-BiosafetymicrobiologicalBiomedicalLaboratories-2009-P.pdf" property="aif:claimText">BMBL</span>)</em>.
+</p>
+ 
+</article>
+
+</body>
+</html>
