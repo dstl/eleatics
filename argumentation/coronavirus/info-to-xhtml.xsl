@@ -21,7 +21,7 @@
 
 <xsl:template match="hypothesis|evidence">
 	<xsl:variable name="id" select="concat('context:', @id)"/>
-	<xhtml:dt about="{$id}" typeof="aif:I-node" property="rdfs:label"><xsl:value-of select="label"/></xhtml:dt>
+	<xhtml:dt about="{$id}" typeof="aif:I-node" property="rdfs:label" id="{@id}"><xsl:value-of select="label"/></xhtml:dt>
 	<xhtml:dd about="{$id}" typeof="aif:I-node" property="aif:claimText"><xsl:value-of select="description"/></xhtml:dd>
 </xsl:template>
 
