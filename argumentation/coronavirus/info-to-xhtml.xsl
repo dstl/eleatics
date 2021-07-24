@@ -3,7 +3,7 @@
 
 <xsl:output method="xml" indent="yes"/>
 
-<xsl:template match="information">
+<xsl:template match="/">
 	<xhtml:html>
 	<xhtml:head>
 		<xhtml:title>Info</xhtml:title>
@@ -11,20 +11,17 @@
 	</xhtml:head>
 	<xhtml:body>
 		<xhtml:dl>
-			<xsl:apply-templates select=".//hypothesis"/>
-			<xsl:apply-templates select=".//evidence"/>
+			<xsl:apply-templates select="//aif:I-node"/>
 		</xhtml:dl>
 	</xhtml:body>
 	</xhtml:html>
 </xsl:template>
 
-
-<xsl:template match="hypothesis|evidence">
-	<xsl:variable name="id" select="concat('context:', @id)"/>
-	<xhtml:dt about="{$id}" typeof="aif:I-node" property="rdfs:label" id="{@id}"><xsl:value-of select="label"/></xhtml:dt>
-	<xhtml:dd about="{$id}" typeof="aif:I-node" property="aif:claimText"><xsl:value-of select="description"/></xhtml:dd>
+<xsl:template match="aif:I-node">
+	<xsl:variable name="id" select="substring-after(@rdf:about, '#')"/>
+	<xhtml:dt about="{@rdf:about}" typeof="aif:I-node" property="rdfs:label" id="{@id}"><xsl:value-of select="rdfs:label"/></xhtml:dt>
+	<xhtml:dd about="{@rdf:about}" typeof="aif:I-node" property="aif:claimText"><xsl:value-of select="aif:claimText"/></xhtml:dd>
 </xsl:template>
-
 
 </xsl:stylesheet>
  
