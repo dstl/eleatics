@@ -1,2 +1,4 @@
 theme: jekyll-theme-cayman
 description: Knowledge Representation and Reasoning
+github:
+  is_project_page: false
