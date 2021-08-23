@@ -10,5 +10,10 @@ Exploring the utility of argumentation in [Analysis of Competing Hypotheses (ACH
 
 * [_wigmore_](wigmore)
 
-A [Wigmore chart] as AIF.
+A [Wigmore chart](https://works.bepress.com/jeangoodwin/22/) as AIF.
 
+## CISpaces
+
+* [_cispaces_](cispaces)
+
+Converting [Collaborarive Intelligence Spaces](https://cispaces.org/) arguments to AIF.
