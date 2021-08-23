@@ -23,6 +23,11 @@
   	<!-- Convert an XHTML+RDFa argument map to AIF -->
     <xslt in="toulmin/toulmin.xhtml" out="output/toulmin-aif.txt" style="${xsl-utils}/rdfa-ntriples.xsl" force="yes"/>
   </target>
+	
+  <target name="cis-to-aif">
+  	<!-- Convert a CISpaces file to AIF -->
+  	<xslt in="cispaces/CAP16_Scenario_phase1.xml" out="output/cispaces.txt" style="cispaces/cis-to-aif.xsl" force="yes"/>
+  </target>
 
  <target name="ACH">
  	<!-- Create an AIF argument map from XHTML+RDFa (SKOS)  -->
