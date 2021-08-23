@@ -9,7 +9,7 @@ It would be possible to achieve the desired effect with an XSL stylesheet that j
 
 ![yEd custom properties](https://dstl.github.io/eleatics/images/yed_properties.png)
 
-These custom properties are used alongside the **URL** and **Description** properties that yEd assigns to all nodes and edges by default.
+These custom properties are used alongside the **URL** and **Description** properties that yEd assigns to all nodes and edges by default. An example of such an argument map can be found [here](../toulmin/toulmin-aif.graphml).
 
 Broadly, the transformation is as follows: Each yEd graph node is translated to an AIF node of type **nodeType**, which will have _URI_ set to the value of **URL** if that property is set, or will be an RDF blank node if not. The **Description** property becomes the _claimText_ of the AIF node. The **known** and **defeasible** properties translate into custom boolean RDF properties (currently _http://to.do/premise_ and _http://to.do/defeasible_) that extend AIF to provide hints for an evaluation of the argument. If **known** is true, then the AIF-node is presumably an I-node that is a premise of the argument. If **defeasible** is also true (or not specified) then it is an ordinary premise. If **defeasible** is false, then it is an axiom. For an RA-node or CA-node, the **defeasible** property indicates whether the corresponding rule is defeasible (the default) or not.
 
