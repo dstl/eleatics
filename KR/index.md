@@ -8,4 +8,4 @@ It will be necessary to classify concepts for the purpose of reasoning. For exam
 ## HTML
 Facts laid out as text as on a web page for the human reader can be made accessible to a machine through [semantic mark-up](https://en.wikipedia.org/wiki/Semantic_HTML). In particular, [RDFa](https://en.wikipedia.org/wiki/RDFa) allows [linked data](https://en. wikipedia.org/wiki/Linked_data) to be embedded in HTML.
 
-* [A general purpose RDFa extractor](https://github.com/dstl/eleatics/wiki/RDFa)
+* [A general purpose RDFa extractor](rdfa)
