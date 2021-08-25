@@ -45,11 +45,15 @@ The agents aren't in a position to know specific Allied plans, but they are in a
 </p>
 	
 <p>
-Arguments are there to be challenged and questioned, and this approach provides "hooks" for some mechanism to "drill down" into the details. The hooks are in the form of <em>critical questions</em>. In this case, the critical questions (suggested by any argument from position to know) would be about whether the agents are really in a position to know, and whether they can be trusted to report truthfully. If you've worked hard to place spies in the enemy's camp, then presumably the default answer both questions is "yes". In the normal course of events you might not even bother to ask critical questions, but the questions are nevertheless there to be asked if decide later to adopt a more critical stance.
+Arguments are there to be challenged and questioned, and this approach provides "hooks" for some mechanism to "drill down" into the details if required. The hooks are in the form of <em>critical questions</em>. In this case, the critical questions (suggested by any argument from position to know) would be about whether the agents are really in a position to know, and whether they can be trusted to report truthfully. If you've worked hard to place spies in the enemy's camp then presumably the default answer both is "yes". In the normal course of events you might not even bother to ask critical questions, but the questions are nevertheless there to be asked if you decide later to adopt a more critical stance.
 </p>
 	
 <p>
 The AIF mark-up for this argument explicitly labels it as fulfilling <em>PositionToKnow_Scheme</em>. The AIF model for argumentation schemes lists possible exceptions, and in this case there is a <em>LackOfReliability</em> exception that can be used to signal the claim is unsafe. How best to use this is still to be decided, but some notional crititical evaluation process could check the "speakers" in an argument against some register of their credibility, and use the <em>LackOfReliability</em> exception to flag any concern.
+</p>
+
+<p>
+Your trust in a source is increased if you can corroborate what they say. In this case, the <em>SPIES</em> argument is consistent with <em>SIGINT</em> and <em>RECON</em> so appears trustworthy, but that isn't recorded explicitly anywhere. Our notional critical evaluation process needs to detect conflicts between, say, <em>Position to Know</em> arguments that are founded on source credibility and <em>Evidence to Hypothesis</em> arguments that aren't.
 </p>
 	
 </article>
