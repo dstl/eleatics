@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:aif="http://www.arg.dundee.ac.uk/aif#"
+    xmlns:toulmin="urn:eleatics:toulmin:"
+    xmlns:context="https://dstl.github.io/eleatics/argumentation/examples/fortitude/evidence.xhtml#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.identifier" content="scheme/fortitude/spies" />
+<meta name="DC.date" content="2021-08-25" />
+<title>Evidence</title>
+</head>
+<body>
+
+<h3>SPIES</h3>
+
+<article about="toulmin:claim" property="owl:sameAs" resource="context:spies">
+
+<p class="claim" about="context:spies" typeof="I-node" property="aif:claimText" style="font-size:1.5rem; font-style:italic">
+Reports from Axis spies in England
+</p>
+
+<p about="toulmin:infers">These agents are in a <span property="aif:fulfils" resource="aif:PositionToKnow_Scheme">position to know</span>: </p>
+
+<ul about="toulmin:data" rev="aif:Conclusion">
+<li about="#ya1" typeof="aif:YA-node" rel="aif:Premise">
+<p><span about="https://dbpedia.org/resource/Juan_Pujol_Garc%C3%ADa" property="rdfs:label">GARBO</span></p>
+</li>
+<li about="#ya2" typeof="aif:YA-node" rel="aif:Premise">
+<p><span about="https://dbpedia.org/resource/Roman_Czerniawski" property="rdfs:label">BRUTUS</span></p>
+</li>
+<li about="#ya3" typeof="aif:YA-node" rel="aif:Premise">
+<p><span about="https://dbpedia.org/resource/Du%C5%A1ko_Popov" property="rdfs:label">TRICYCLE</span></p>
+</li>
+
+</ul>
+
+</article>
+
+</body>
+</html>
