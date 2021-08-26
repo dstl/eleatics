@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:aif="http://www.arg.dundee.ac.uk/aif#"
+    xmlns:toulmin="urn:eleatics:toulmin:">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.identifier" content="scheme/POsTIONTOKNOW" />
+<meta name="DC.date" content="2021-08-24" />
+<title>Evidence</title>
+</head>
+<body>
+
+<article>
+
+<h3>Position to Know</h3>
+
+<p about="toulmin:infers" typeof="aif:RA-node">This scheme asserts that an unsupported <em about="toulmin:claim" typeof="aif:I-node" property="aif:claimText">CLAIM</em> in an argument map is made by a <span>speaker</span> in a position to know the truth of the matter.  
+The <em resource="toulmin:data" property="aif:Premise">DATA</em> for the scheme is <span about="toulmin:data" typeof="aif:I-node" property="aif:claimText">the observation</span> that prompts the <span resource="toulmin:claim" property="aif:Conclusion">claim</span>. The <em resource="toulmin:warrant" property="aif:Premise">WARRANT</em> 
+is <span about="toulmin:warrant" typeof="aif:I-node" property="aif:claimText">the assumption that the speaker would know the truth and report it faithfully</span>, and the <em>QUALIFIER</em> is that <span about="toulmin:qualifier" typeof="aif:I-node" property="aif:claimText">the speaker is presumably reliable</span>.
+</p>
+
+
+<p about="toulmin:infers">
+The <span>inference</span> is an example of the <em property="aif:fulfils" resource="aif:PositionToKnow_Scheme">Argument from Position to Know</em> 
+scheme for presumptive reasoning. This defines a <em>Lack of Reliability</em> exception.
+</p>
+
+<h4>Notes</h4>
+<!-- for explanatory notes - avoid adding any semantic mark-up  -->
+
+<p>
+An I-node that fulfils <em>aif:LackOfReliability_Desc</em> can be added to the argument if the speaker proves untrustworthy. We then need an inference rule so that any I-node that fulfils <em>aif:LackOfReliability_Desc</em> also contradicts <em>QUALIFIER</em>.
+</p>
+
+</article>
+
+</body>
+</html>
