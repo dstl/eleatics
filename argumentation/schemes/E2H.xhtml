@@ -6,6 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<link rel="stylesheet" href="schemes.css" />
 <meta name="DC.identifier" content="scheme/EVIDENCE" />
 <meta name="DC.date" content="2021-06-14" />
 <title>Evidence</title>
@@ -31,13 +32,26 @@ The <span>inference</span> is an example of the <em property="aif:fulfils" resou
 scheme for presumptive reasoning.
 </p>
 
-<h4>Notes</h4>
+<h4 class="ignore">Notes</h4>
 <!-- for explanatory notes - avoid adding any semantic mark-up  -->
 
-<p>
+<p class="ignore">
 Supporting evidence should be provided as one or more arguments (such as references to published scientific papers) that support <em>DATA</em>.
 </p>
+	
+<p class="ignore">
+There are some things to think about here. For example, is drawing a conclusion from an academic paper an <em>inference</em> (RA-node) or a <em>rephrase</em> (MA-node)?
+Is drawing such a conclusion a <em>locution</em>? Should the paper itself be considered a <em>locution</em> (or perhaps a <em>locution event</em>)? The details can be hidden under the covers of this template, so can make some assumptions for now, and firm up detail later in the light of experience.
+</p>
 
+<p class="ignore">
+Tentatively, we model support for <em>DATA</em> as an MA-node. The URI for a referenced academic paper should ideally be a DOI or something like it. A DOI can represent an I-node or an L-node (which is a sub-class of I-node). It can also be resolved to get any content, authors and dates that would be needed to construct a locution event. The scheme template just needs references as DOI's. Expansion into AIF could be part of some process that operates on the template (and might do different things in different circumstances).
+</p>
+
+<p class="ignore">
+It'll often be the case that drawing a particular conclusion from an academic paper is itself a presumptive inference (expert opinion say) that should be open to challenge. This gets into dialogue and dispute, and we need to think about how we can fit the dialogical modelling of AIF into scheme templates in general. For this specific scheme, we might have (or ask for) the <em>speaker</em>, and model that speaker as <em>asserting</em> the claim using a YA-node. This provides an anchor point for further dialogue.
+</p>
+	
 </article>
 
 </body>
