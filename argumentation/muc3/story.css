@@ -1,3 +1,5 @@
+@import "master.css";
+
 blockquote {
                font-family: Gerogia, serif;
                font-size: 14px;
@@ -55,7 +57,7 @@ p.claim {
 }
 
 p.claim:before {
-	color: black;
+	color: steelblue;
 	margin-left:1em;
 	content: "\275A";
 }
