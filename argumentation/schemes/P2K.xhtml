@@ -2,11 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 	xmlns:aif="http://www.arg.dundee.ac.uk/aif#"
+	xmlns:this="urn:eleatics:scheme:p2k:"
     xmlns:toulmin="urn:eleatics:toulmin:">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="schemes.css" />
 <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
-<meta name="DC.identifier" content="scheme/POsTIONTOKNOW" />
+<meta name="DC.identifier" content="scheme/P2K" />
 <meta name="DC.date" content="2021-08-24" />
 <title>Evidence</title>
 </head>
@@ -21,16 +23,32 @@ The <em resource="toulmin:data" property="aif:Premise">DATA</em> for the scheme 
 is <span about="toulmin:warrant" typeof="aif:I-node" property="aif:claimText">the assumption that the speaker would know the truth and report it faithfully</span>, and the <em>QUALIFIER</em> is that <span about="toulmin:qualifier" typeof="aif:I-node" property="aif:claimText">the speaker is presumably reliable</span>.
 </p>
 
-
 <p about="toulmin:infers">
 The <span>inference</span> is an example of the <em property="aif:fulfils" resource="aif:PositionToKnow_Scheme">Argument from Position to Know</em> 
 scheme for presumptive reasoning. This defines a <em>Lack of Reliability</em> exception.
 </p>
+	
+<p>
+The <em>critical questions</em> are:
+</p>
 
-<h4>Notes</h4>
+<ul about="toulmin:qualifier" rev="aif:IllocutionaryContent">
+
+<li about="this:YA1" typeof="aif:YA-node" rel="aif:Locution">
+<p about="this:q1" typeof="aif:L-node" property="aif:claimText">Is the claim from someone who is in a position to know?</p> 
+</li>
+
+<li about="this:YA2" typeof="aif:YA-node" rel="aif:Locution">
+<p about="this:q2" typeof="aif:L-node" property="aif:claimText">Can the person making the claim be trusted to report honestly and accurately?</p>
+</li>
+
+</ul>
+
+
+<h4 class="ignore">Notes</h4>
 <!-- for explanatory notes - avoid adding any semantic mark-up  -->
 
-<p>
+<p class="ignore">
 An I-node that fulfils <em>aif:LackOfReliability_Desc</em> can be added to the argument if the speaker proves untrustworthy. We then need an inference rule so that any I-node that fulfils <em>aif:LackOfReliability_Desc</em> also contradicts <em>QUALIFIER</em>.
 </p>
 
