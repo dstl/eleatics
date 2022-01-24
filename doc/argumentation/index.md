@@ -48,8 +48,3 @@ The first step in solving these issues is to adopt a modelling language that any
 An argument map has two basic types of nodes: *information nodes* and *structure nodes*. Information nodes (rectangles) represent premises, conclusions, facts, and claims in general. Structure nodes (lozenges) connect information nodes in relationships of support (green Rule Application lozenges) and conflict (red Conflict Application lozenges).
 
 [AIF+](https://dstl.github.io/eleatics/doc/grass-dialogue.html) extends core AIF to model dialogue and discourse. It extends information nodes to *locution nodes* that tie an argument to a speaker, and it extends structure nodes to capture transitions between locutions in a debate, and the illocutionary force that links the locution to a corresponding argument.
-
-
-
-
-
