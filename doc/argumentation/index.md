@@ -2,7 +2,7 @@
 
 Argumentation is the process of reasoning systematically in support of an idea. It supports *presumptive* reasoning; letting you construct an argument that infers a conclusion from premises regardless of whether that inference is correct or not (though you presume it is). One argument can be attacked by another that *undermines* its premise, *rebuts* its conclusion, or *undercuts* its inference. An attacked argument can be defended by attacking its attacker, and so it goes… 
  
-![An argument](images/arg1.jpg) 
+![An argument](images/arg1.png) 
  
 ## Mathematics
 
@@ -12,7 +12,7 @@ Any set of arguments taken from an argumentation framework is called an *extensi
 
 The key idea here is that we can take an argumentation framework, full of conflict and contradiction, and break it down into sets of coherent arguments (admissible extensions) that represent the conflicting viewpoints. For example, if we consider an argument about why the grass is wet ...
 
-![An argument about rain](images/arg2.jpg)
+![An argument about rain](images/arg2.png)
 
 ... then the only argument that is immediately acceptable is the claim that it is raining. The reason why is in dispute. Evaluating the framework produces two extensions with two arguments in each: either we can believe the grass is wet and it's raining, or we can believe the grass is wet and the sprinkler is on.
 
@@ -43,7 +43,7 @@ The mathematical models of argumentation translate directly into computer algori
 
 The first step in solving these issues is to adopt a modelling language that any argumentation model can use. This is the Argument Interchange Format (AIF). It represents arguments as graphs called *argument maps*:
 
-![AIF example](images/aifrain.jpg)
+![AIF example](images/aifrain.png)
 
 An argument map has two basic types of nodes: *information nodes* and *structure nodes*. Information nodes (rectangles) represent premises, conclusions, facts, and claims in general. Structure nodes (lozenges) connect information nodes in relationships of support (green Rule Application lozenges) and conflict (red Conflict Application lozenges).
 
