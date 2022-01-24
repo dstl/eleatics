@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="schemes.css" />
 <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
 <meta name="DC.identifier" content="scheme/C2E" />
-<meta name="DC.date" content="2021-08-24" />
+<meta name="DC.date" content="2022-01-24" />
 <title>Evidence</title>
 </head>
 <body>
@@ -18,14 +18,14 @@
 
 <h3>Cause to Effect</h3>
 
-<p about="toulmin:infers" typeof="aif:RA-node">This scheme asserts that a <em about="toulmin:claim" typeof="aif:I-node" property="aif:claimText">CLAIM</em> in an argument map is a <span>speaker</span> is consequent of .  
+<p about="toulmin:infers" typeof="aif:RA-node">This scheme asserts that a <em about="toulmin:claim" typeof="aif:I-node" property="aif:claimText">CLAIM</em> in an argument map is a <span>speaker</span> consequence of .  
 The <em resource="toulmin:data" property="aif:Premise">DATA</em> for the scheme is <span about="toulmin:data" typeof="aif:I-node" property="aif:claimText">the event or observation</span> that triggers the <span resource="toulmin:claim" property="aif:Conclusion">effect claimed</span>. The <em resource="toulmin:warrant" property="aif:Premise">WARRANT</em> 
 is <span about="toulmin:warrant" typeof="aif:I-node" property="aif:claimText">an explanation of the relevant mechanisms</span>, and the <em>QUALIFIER</em> is <span about="toulmin:qualifier" typeof="aif:I-node" property="aif:claimText"><em>presumably</em></span>.
 </p>
 
 <p about="toulmin:infers">
 The <span>inference</span> is an example of the <em property="aif:fulfils" resource="aif:CauseToEffect_Inference">Argument from Cause to Effect</em> 
-scheme for presumptive reasoning. This defines a <em>Lack of Reliability</em> exception.
+scheme for presumptive reasoning.
 </p>
 	
 <p>
@@ -35,26 +35,18 @@ The <em>critical questions</em> are:
 <ul about="toulmin:qualifier" rev="aif:IllocutionaryContent">
 
 <li about="this:YA1" typeof="aif:YA-node" rel="aif:Locution">
-<p about="this:q1" typeof="aif:L-node" property="aif:claimText">How strong is the causal generalization, if it is true at all?</p> 
+<p about="this:q1" typeof="aif:L-node" property="aif:claimText">Is the evidence strong enough justify the claimed effect?</p> 
 </li>
 
 <li about="this:YA2" typeof="aif:YA-node" rel="aif:Locution">
-<p about="this:q2" typeof="aif:L-node" property="aif:claimText">is the evidence strong enough to ?</p>
+<p about="this:q2" typeof="aif:L-node" property="aif:claimText">Are other causal factors involved?</p>
 </li>
 
 <li about="this:YA3" typeof="aif:YA-node" rel="aif:Locution">
-<p about="this:q3" typeof="aif:L-node" property="aif:claimText">Are other causal factors involved?</p>
+<p about="this:q3" typeof="aif:L-node" property="aif:claimText">Does the causal explanation warrant the claim?</p>
 </li>
 
 </ul>
-
-
-<h4 class="ignore">Notes</h4>
-<!-- for explanatory notes - avoid adding any semantic mark-up  -->
-
-<p class="ignore">
-An I-node that fulfils <em>aif:LackOfReliability_Desc</em> can be added to the argument if the speaker proves untrustworthy. We then need an inference rule so that any I-node that fulfils <em>aif:LackOfReliability_Desc</em> also contradicts <em>QUALIFIER</em>.
-</p>
 
 </article>
 
