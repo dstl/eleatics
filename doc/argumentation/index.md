@@ -4,7 +4,7 @@ Argumentation is the process of reasoning systematically in support of an idea. 
 ![An argument](images/arg1.png) 
  
 ## Mathematics
-Mathematically, argumentation can be modelled as a graph - with nodes representing arguments, and directed edges representing the attacks between them. This is the seminal *argumentation framework* proposed by Phan Minh Dung. Given a set of arguments, Dung deems that an individual argument is *acceptable* if it isn't attacked by any other members of the set, or if it is defended by successful attacks on its attackers.
+Mathematically, argumentation can be modelled as a graph - with nodes representing arguments, and directed edges representing the attacks between them. This is the seminal [*argumentation framework*](https://dstl.github.io/eleatics/doc/dung-framework.html) proposed by Phan Minh Dung. Given a set of arguments, Dung deems that an individual argument is *acceptable* if it isn't attacked by any other members of the set, or if it is defended by successful attacks on its attackers.
 
 Any set of arguments taken from an argumentation framework is called an *extension* of the framework. Evaluating an argumentation framework means finding extensions that have interesting properties. An argument in an extension is acceptable with respect to that extension if there are no arguments in the framework that attack it, or any arguments that do attack are themselves attacked by a member of the extension. An extension is *conflict-free* if it doesn't include any attacks. An extension that is both acceptable and conflict-free is *admissible*.
 
