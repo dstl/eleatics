@@ -1,0 +1,12 @@
+<project name="Eleatics: Argumentation" basedir=".">
+
+  <description>Intelligent infrastructure futures</description>
+
+  <property file="ant.properties"/>
+
+  <target name="IIF">
+	<xslt in="drivers.xhtml" out="output/drivers.txt" style="../../xsl-utils/rdfa-ntriples.xsl" force="yes"/>
+ </target>
+	
+</project>
+
