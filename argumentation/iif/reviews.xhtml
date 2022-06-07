@@ -1,7 +1,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml" 
       xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
       xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-      xmlns:reviews="https://dstl.github.io/eleatics/argumentation/iif/reviews.xhtml#">
+	  xmlns:aif="http://www.arg.dundee.ac.uk/aif#"
+      xmlns:reviews="https://dstl.github.io/eleatics/argumentation/iif/reviews.xhtml#"
+      xmlns:toulmin="urn:eleatics:toulmin:">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		<link rel="stylesheet" href="master.css"/>
@@ -14,18 +16,114 @@
     <p>The <a href="https://www.gov.uk/government/collections/intelligent-infrastructure-systems">intelligent infrastructure systems (IIS) project</a> commissioned a number of <a href="https://webarchive.nationalarchives.gov.uk/ukgwa/20140108150249/http://www.bis.gov.uk/foresight/our-work/projects/published-projects/intelligent-infrastructure-systems/reports-and-publications/project-outputs">research reviews</a>.
     </p>
     
-    <div>
+    <div about="aif:ExpertOpinion_Scheme" rev="aif:fulfils">
       
     <article id="pervasive" about="reviews:pervasive" typeof="skos:Concept">
       <h2 property="skos:prefLabel">Tagging, sensors and data collection</h2>
       <p property="skos:definition">We are increasingly surrounded by computing devices that are changing the way we live our lives. In future, devices will be embedded in everyday objects and connected to the Internet over wireless networks. The impact of this ‘pervasive computing’ on an intelligent infrastructure system could be at least as great as the mobile phone and the Internet.</p>
-      <p><a property="skos:related" href="https://webarchive.nationalarchives.gov.uk/ukgwa/20140108152750mp_/http://www.bis.gov.uk/assets/foresight/docs/intelligent-infrastructure-systems/tagging-sensors-data-collection.pdf">More ...</a></p>
+      <p><a typeof="toulmin:data" property="skos:related" href="https://webarchive.nationalarchives.gov.uk/ukgwa/20140108152750mp_/http://www.bis.gov.uk/assets/foresight/docs/intelligent-infrastructure-systems/tagging-sensors-data-collection.pdf">More ...</a></p>
     </article>
       
     <article id="environment" about="reviews:environment" typeof="skos:Concept">
       <h2 property="skos:prefLabel">Environmental factors in transport</h2>
       <p property="skos:definition">Increased road use highlights the problem of congestion, not only because it threatens economic growth but also as a contributor to poor air quality, noise and global warming. Vehicle technologies and intelligent transport systems can play an important role in addressing environmental problems in urban areas and in developing long-term sustainability of towns and cities.</p>
-       <p><a typeof="urn:eleatics:toulmin:data" property="skos:related" href="https://webarchive.nationalarchives.gov.uk/ukgwa/20140108152808mp_/http://www.bis.gov.uk/assets/foresight/docs/intelligent-infrastructure-systems/environmental-factors-in-transport.pdf">More ...</a></p>
+       <p><a typeof="toulmin:data" property="skos:related" href="https://webarchive.nationalarchives.gov.uk/ukgwa/20140108152808mp_/http://www.bis.gov.uk/assets/foresight/docs/intelligent-infrastructure-systems/environmental-factors-in-transport.pdf">More ...</a></p>
+    </article>
+      
+    <article id="social" about="reviews:social" typeof="skos:Concept">
+      <h2 property="skos:prefLabel">Social factors in travel</h2>
+      <p property="skos:definition">Numerous social factors influence travel and how we use transport networks. For example, how we travel depends upon whether people choose to go by car, bus or train, where they decide to live, and where businesses locate themselves. Policy traditionally aims to maximise access to transport by reducing the costs of travel and communication. The effect of this is to enable changes in social behaviour, for example, widening the areas accessible to commuters and shoppers, allowing businesses to serve larger markets and making it possible for people with specialist skills to travel to find employment.</p>
+       <p><a typeof="toulmin:data" property="skos:related" href="https://webarchive.nationalarchives.gov.uk/ukgwa/20140108152809mp_/http://www.bis.gov.uk/assets/foresight/docs/intelligent-infrastructure-systems/social-factors-in-travel.pdf">More ...</a></p>
+    </article>
+      
+    <article id="impact" about="reviews:impact" typeof="skos:Concept">
+      <h2 property="skos:prefLabel">The social impacts of intelligent infrastructure on transport</h2>
+      <p property="skos:definition">The social impacts of technologies reflect the interaction between the ‘drivers,’ the possibilities that those technologies can deliver and ‘user pulls,’ the needs that we would, knowingly or otherwise, like them to fulfil. Social science can bring insights to these impacts and can guide the design and development of technologies to minimise unanticipated outcomes.</p>
+       <p><a typeof="toulmin:data" property="skos:related" href="https://webarchive.nationalarchives.gov.uk/ukgwa/20140108152821mp_/http://www.bis.gov.uk/assets/foresight/docs/intelligent-infrastructure-systems/social-impacts.pdf">More ...</a></p>
+    </article>
+      
+    <article id="psychology" about="reviews:psychology" typeof="skos:Concept">
+      <h2 property="skos:prefLabel">The psychology of travel</h2>
+      <p property="skos:definition">Why we move around will have a significant influence on the future of transport. Reduced to basics, we move around because we can, because we have to and because we like to. Understanding these influences is important if we want to change travel behaviour and to devise intelligent infrastructure that helps to change travel behaviour.</p>
+       <p><a typeof="toulmin:data" property="skos:related" href="https://webarchive.nationalarchives.gov.uk/ukgwa/20140108152829mp_/http://www.bis.gov.uk/assets/foresight/docs/intelligent-infrastructure-systems/psychology-of-travel.pdf">More ...</a></p>
+    </article>
+      
+    <article id="decision" about="reviews:decision" typeof="skos:Concept">
+      <h2 property="skos:prefLabel">The role of information in decision making for transport</h2>
+      <p property="skos:definition">How and why individuals arrive at their decisions, and finding ways to influence them, lie at the heart of travel behaviour, giving rise to patterns of mobility and the demands upon our transport systems. The effectiveness of an IIS will depend, in part, on how it assembles and disseminates information that can influence our travel choices.</p>
+       <p><a typeof="toulmin:data" property="skos:related" href="https://webarchive.nationalarchives.gov.uk/ukgwa/20140108152757mp_/http://www.bis.gov.uk/assets/foresight/docs/intelligent-infrastructure-systems/role-of-information-in-decision-making-for-transport.pdf">More ...</a></p>
+    </article>
+      
+    <article id="risk" about="reviews:risk" typeof="skos:Concept">
+      <h2 property="skos:prefLabel">Risk Perception</h2>
+      <p property="skos:definition">The growing life expectancy of people in the developed world suggests that for this part of humanity, risk has never been farther away. But risk has become an increasing part of public debate. Much of this discussion centres upon the rapid pace of modern innovation, and increasingly divided opinions about how dangerous it might be. Other concerns arise from our increasing expectations of protection from disaster, crime and disease. The question of who should be responsible for managing risks is also raised with increasing frequency. Governments, employers, individuals or suppliers (in the case of product liability) can all have responsibility for risk.</p>
+       <p><a typeof="toulmin:data" property="skos:related" href="https://webarchive.nationalarchives.gov.uk/ukgwa/20140108152740mp_/http://www.bis.gov.uk/assets/foresight/docs/intelligent-infrastructure-systems/intelligent-infra-3rd.pdf">More ...</a></p>
+    </article>
+      
+    <article id="sustainable" about="reviews:sustainable" typeof="skos:Concept">
+      <h2 property="skos:prefLabel">Towards sustainable transport</h2>
+      <p property="skos:definition">Society faces a challenge as to how to promote and sustain economic growth while reducing the environmental impacts of transport. We will have to make large scale changes in transport – in technology, the built environment and social behaviour – if we want to achieve dramatic reductions in emissions.</p>
+       <p><a typeof="toulmin:data" property="skos:related" href="https://webarchive.nationalarchives.gov.uk/ukgwa/20140108152810mp_/http://www.bis.gov.uk/assets/foresight/docs/intelligent-infrastructure-systems/towards-sustainable-transport.pdf">More ...</a></p>
+    </article>
+      
+    <article id="design" about="reviews:design" typeof="skos:Concept">
+      <h2 property="skos:prefLabel">How to design a sustainable and fair built environment</h2>
+      <p property="skos:definition">Transport is an essential part of any city and is fundamental to a more sustainable and fair built environment. Providing transport has dominated city design: in future, it should also do more to improve the quality of life. Transport and information and communications technologies must work together to maintain and enhance the economic, environmental and social vitality of the city.</p>
+       <p><a typeof="toulmin:data" property="skos:related" href="https://webarchive.nationalarchives.gov.uk/ukgwa/20140108152739mp_/http://www.bis.gov.uk/assets/foresight/docs/intelligent-infrastructure-systems/how-to-design.pdf">More ...</a></p>
+    </article>
+      
+    <article id="users" about="reviews:users" typeof="skos:Concept">
+      <h2 property="skos:prefLabel">Users and services in intelligent networks</h2>
+      <p property="skos:definition">Technology and intelligent systems are of limited value if they bring no value to human users. Intelligent networks can improve communications, enhancing our cultural environment, health, transportation and social life. Through intelligent networks, users could ubiquitously and harmoniously connect to, offer or receive many services, including transport.</p>
+       <p><a typeof="toulmin:data" property="skos:related" href="https://webarchive.nationalarchives.gov.uk/ukgwa/20140108152752mp_/http://www.bis.gov.uk/assets/foresight/docs/intelligent-infrastructure-systems/users-and-services1.pdf">More ...</a></p>
+    </article>
+      
+    <article id="logistics" about="reviews:logistics" typeof="skos:Concept">
+      <h2 property="skos:prefLabel">Intelligent distribution and logistics</h2>
+      <p property="skos:definition">Supply chains seek to deliver the right products to the right place at the right time, more quickly and at lower cost. The importance of improving the speed and accuracy of information exchange within and between partners in the supply chain, and for improving the speed and cost of sourcing and distributing goods, have never been greater.</p>
+       <p><a typeof="toulmin:data" property="skos:related" href="https://webarchive.nationalarchives.gov.uk/ukgwa/20140108152803mp_/http://www.bis.gov.uk/assets/foresight/docs/intelligent-infrastructure-systems/intelligent-distribution-logistics.pdf">More ...</a></p>
+    </article>
+      
+    <article id="materials" about="reviews:materials" typeof="skos:Concept">
+      <h2 property="skos:prefLabel">Materials and infrastructure</h2>
+      <p property="skos:definition">Materials are an important aspect of infrastructure, be they structural materials in physical structures, or the functional materials that underpin the devices used in information technology, for example. New lighter and ‘smart’ materials will be important in the development of sustainable and safe intelligent infrastructure.</p>
+       <p><a typeof="toulmin:data" property="skos:related" href="https://webarchive.nationalarchives.gov.uk/ukgwa/20140108152727mp_/http://www.bis.gov.uk/assets/foresight/docs/intelligent-infrastructure-systems/materials-infrastructure.pdf">More ...</a></p>
+    </article>
+      
+    <article id="ai" about="reviews:ai" typeof="skos:Concept">
+      <h2 property="skos:prefLabel">Artificial intelligence in transport</h2>
+      <p property="skos:definition">Information will be at the heart of any intelligent infrastructure system. The sheer amount of data and complex nature of the information processing required will make it essential to use such techniques as artificial intelligence.</p>
+       <p><a typeof="toulmin:data" property="skos:related" href="https://webarchive.nationalarchives.gov.uk/ukgwa/20140108152722mp_/http://www.bis.gov.uk/assets/foresight/docs/intelligent-infrastructure-systems/artificial-intelligence.pdf">More ...</a></p>
+    </article>
+      
+    <article id="information" about="reviews:information" typeof="skos:Concept">
+      <h2 property="skos:prefLabel">Delivering information for transport management</h2>
+      <p property="skos:definition">Information is an integral part of any transport service. It contributes to the overall quality of the service by collecting and disseminating information on the status on the road networks, for example. Information for passengers on other modes of transport can make it easier for travellers to plan and execute trips. The right information can also improve the management of the transport infrastructure.</p>
+       <p><a typeof="toulmin:data" property="skos:related" href="https://webarchive.nationalarchives.gov.uk/ukgwa/20140108152723mp_/http://www.bis.gov.uk/assets/foresight/docs/intelligent-infrastructure-systems/delivering-information-transport-management.pdf">More ...</a></p>
+    </article>
+      
+    <article id="mining" about="reviews:mining" typeof="skos:Concept">
+      <h2 property="skos:prefLabel">Data mining, data fusion and information management</h2>
+      <p property="skos:definition">Inexpensive and ubiquitous information processing increasingly allows users to obtain information about the status of the transport network, using technologies such as radio-frequency identification devices, sensor networks and global positioning systems, to collect data. Making best use of that data will be essential for the effective use and management of the infrastructure.</p>
+       <p><a typeof="toulmin:data" property="skos:related" href="https://webarchive.nationalarchives.gov.uk/ukgwa/20140108152721mp_/http://www.bis.gov.uk/assets/foresight/docs/intelligent-infrastructure-systems/data-mining-data-fusion-information-management.pdf">More ...</a></p>
+    </article>
+      
+    <article id="economics" about="reviews:economics" typeof="skos:Concept">
+      <h2 property="skos:prefLabel">Economics and the future of transport</h2>
+      <p property="skos:definition">The relationship between demand and supply of facilities for movement is more complex and more volatile than much economic analysis suggests. Fundamental changes in policy will mean that information technology will affect transport in ways that will differ radically from what was expected. Technologies designed and introduced for one purpose will evolve to perform very different roles.</p>
+       <p><a typeof="toulmin:data" property="skos:related" href="https://webarchive.nationalarchives.gov.uk/ukgwa/20140108152744mp_/http://www.bis.gov.uk/assets/foresight/docs/intelligent-infrastructure-systems/economics-and-the-future.pdf">More ...</a></p>
+    </article>
+      
+    <article id="policy" about="reviews:policy" typeof="skos:Concept">
+      <h2 property="skos:prefLabel">Policy issues for intelligent infrastructure</h2>
+      <p property="skos:definition">Evolving technologies open up the possibility of intelligent transport that offers greater efficiency and an improved quality of life with reduced impacts. Policy will have to ensure that new technology satisfies social needs as well as market requirements.</p>
+       <p><a typeof="toulmin:data" property="skos:related" href="https://webarchive.nationalarchives.gov.uk/ukgwa/20140108152724mp_/http://www.bis.gov.uk/assets/foresight/docs/intelligent-infrastructure-systems/policy-issues.pdf">More ...</a></p>
+    </article>
+      
+    <article id="complexity" about="reviews:complexity" typeof="skos:Concept">
+      <h2 property="skos:prefLabel">Complexity that works</h2>
+      <p property="skos:definition">It is hard for designers of complex systems to be confident that the systems they design will have behave predictably. In addition, it is not possible to have central control of a complex system – as traditional engineering prefers – because such control would slow it to a halt.</p>
+       <p><a typeof="toulmin:data" property="skos:related" href="https://webarchive.nationalarchives.gov.uk/ukgwa/20140108152743mp_/http://www.bis.gov.uk/assets/foresight/docs/intelligent-infrastructure-systems/review-summary.pdf">More ...</a></p>
     </article>
     
     </div>

@@ -7,6 +7,7 @@
   <target name="IIF">
 	<xslt in="drivers.xhtml" out="output/drivers.txt" style="../../xsl-utils/rdfa-ntriples.xsl" force="yes"/>
 	<xslt in="goals.xhtml" out="output/goals.txt" style="../../xsl-utils/rdfa-ntriples.xsl" force="yes"/>
+	<xslt in="reviews.xhtml" out="output/reviews.txt" style="../../xsl-utils/rdfa-ntriples.xsl" force="yes"/>
  </target>
 	
 </project>
