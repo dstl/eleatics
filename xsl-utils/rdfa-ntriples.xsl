@@ -19,8 +19,8 @@
 
 
 <xsl:template match="*[@property]" mode="property">
-	<xsl:call-template name="expandIRI">
-		<xsl:with-param name="name" select="ancestor-or-self::*[@about][1]/@about"/>
+	<xsl:call-template name="callExpandIRI">
+		<xsl:with-param name="element" select="ancestor-or-self::*[@about|@href][1]"/>
 	</xsl:call-template>
 	<xsl:text> </xsl:text>
 	<xsl:call-template name="getProperty"/>
@@ -32,8 +32,8 @@
 
 <xsl:template match="*[@typeof]" mode="type">
 	<xsl:variable name="subject">
-		<xsl:call-template name="expandIRI">
-			<xsl:with-param name="name" select="ancestor-or-self::*[@about][1]/@about"/>
+		<xsl:call-template name="callExpandIRI">
+			<xsl:with-param name="element" select="ancestor-or-self::*[@about|@href][1]"/>
 		</xsl:call-template>
 	</xsl:variable>
 	<xsl:variable name="typelist">
@@ -54,8 +54,8 @@
 
 <xsl:template match="*[@rev]" mode="rev">
 	<xsl:variable name="object">
-		<xsl:call-template name="expandIRI">
-			<xsl:with-param name="name" select="@about"/>
+		<xsl:call-template name="callExpandIRI">
+			<xsl:with-param name="element" select="ancestor-or-self::*[@about|@href][1]"/>
 		</xsl:call-template>
 	</xsl:variable>
 	<xsl:text> </xsl:text>
@@ -119,23 +119,23 @@
 </xsl:template>
 
 
-<xsl:template match="*[@about]" mode="relobject">
+<xsl:template match="*[@about|@href]" mode="relobject">
 	<xsl:param name="subject"/>
 	<xsl:param name="property"/>
 	<xsl:value-of select="$subject"/>
 	<xsl:text> </xsl:text>
 	<xsl:value-of select="$property"/>
 	<xsl:text> </xsl:text>
-	<xsl:call-template name="expandIRI">
-		<xsl:with-param name="name" select="@about"/>
+	<xsl:call-template name="callExpandIRI">
+		<xsl:with-param name="element" select="."/>
 	</xsl:call-template>
 	<xsl:text> .&#13;</xsl:text>
 </xsl:template>
 
 
 <xsl:template match="*[@rel][@resource]" mode="rel">
-	<xsl:call-template name="expandIRI">
-		<xsl:with-param name="name" select="ancestor-or-self::*[@about][1]/@about"/>
+	<xsl:call-template name="callExpandIRI">
+		<xsl:with-param name="element" select="ancestor-or-self::*[@about|@href][1]"/>
 	</xsl:call-template>
 	<xsl:text> </xsl:text>
 	<xsl:call-template name="getProperty">
@@ -230,6 +230,24 @@
 			<xsl:value-of select="$name"/>
 		</xsl:otherwise>
 	</xsl:choose>
+</xsl:template>
+
+<xsl:template name="callExpandIRI">
+	<xsl:param name="element"/>
+	<xsl:param name="source" select="'_:'"/>
+	<xsl:variable name="name">
+		<xsl:choose>
+			<xsl:when test="$element/@about">
+				<xsl:value-of select="$element/@about"/>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:value-of select="$element/@href"/>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:variable>
+	<xsl:call-template name="expandIRI">
+		<xsl:with-param name="name" select="$name"/>
+	</xsl:call-template>
 </xsl:template>
 
 <xsl:template name="getProperty">
