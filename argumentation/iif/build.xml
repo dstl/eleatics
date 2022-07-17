@@ -10,6 +10,10 @@
 	<xslt in="reviews.xhtml" out="output/reviews.txt" style="../../xsl-utils/rdfa-ntriples.xsl" force="yes"/>
 	<xslt in="scenarios.xhtml" out="output/scenarios.txt" style="../../xsl-utils/rdfa-ntriples.xsl" force="yes"/>
  </target>
+
+  <target name="HMT">
+	<xslt in="hmt.graphml" out="output/hmt.txt" style="../xsl/graphml-to-aif.xsl" force="yes"/>
+ </target>
 	
 </project>
 
