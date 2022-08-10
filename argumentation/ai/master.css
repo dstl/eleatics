@@ -1,0 +1,52 @@
+.main-content {
+    max-width: 64rem;
+    padding: 2rem 6rem;
+    margin: 0 auto;
+    font-size: 1.1rem;
+}
+
+html, body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    max-width: 64rem;
+    padding: 2rem 6rem;
+    margin: 0 auto;
+    font-size: 1.1rem;
+}
+
+.definition {
+
+	background:lightgrey;
+}
+
+.question {
+
+	color: steelblue;
+	font-size: 1.5rem;
+	font-style: italic;
+}
+
+.claim {
+
+	color: teal;
+    font-size: 1.5rem;
+}
+
+.headmark, .subtitle {
+	
+	font-style: italic;
+}
+
+.examples {
+	
+	color: grey
+}
+
+.ignore {
+	border-style: solid;
+	border-color: lightgray;
+	border-width: 0px 5px 0px 0px;
+    margin: 5 auto;
+	padding-right: 5px;
+	color: grey;
+	font-size: 0.9rem;
+}
