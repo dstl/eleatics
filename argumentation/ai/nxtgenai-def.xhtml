@@ -1,0 +1,83 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:aif="http://www.arg.dundee.ac.uk/aif#"
+	  xmlns:scheme="urn:dstl:eleatics:"
+	  xmlns:this="http://www.example.com#"
+	  xmlns:dbr="https://dbpedia.org/resource/"
+      xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<link rel="stylesheet" href="master.css"/>
+	<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"/>
+	<meta name="DC.identifier" content="Ai workshop dialogue"/>
+	<meta name="DC.date" content="2022-07-26"/>
+	<title>AI S&amp;T</title>
+</head>
+<body>
+
+<h1 about="this:nextgenai" typeof="aif:I-node" property="aif:claimText">Next generation AI</h1>
+
+<article>
+<p about="this:q" typeof="aif:L-node" property="aif:claimText" class="question">What do you mean by "<span>next generation AI</span>"?</p>
+</article>
+
+<p>This question prompts the following answers:</p>
+
+<ol about="this:q" rev="aif:StartLocution" class="claim">
+
+<li about="_:1" typeof="aif:TA-node" rel="aif:EndLocution">
+<article about="this:agi" typeof="aif:L-node">
+<p class="claim" property="aif:claimText"><strong about="this:nextgenai">Next generation AI</strong> refers to <strong>artificial general intelligence</strong>.</p>
+</article>
+</li>
+
+<li about="_:2" typeof="aif:TA-node" rel="aif:EndLocution">
+<article about="this:intuition" typeof="aif:L-node">
+<p class="claim" property="aif:claimText"><strong about="this:nextgenai">Next generation AI</strong> refers to <strong>artificial intuition</strong>.</p>
+</article>
+</li>
+
+<li about="_:3" typeof="aif:TA-node" rel="aif:EndLocution">
+<article about="this:beyond" typeof="aif:L-node">
+<p class="claim" property="aif:claimText"><strong about="this:nextgenai">Next generation AI</strong> offers capabilities beyond predictive analytics and explainability.</p>
+</article>
+</li>
+
+<li about="_:4" typeof="aif:TA-node" rel="aif:EndLocution">
+<article about="this:advance" typeof="aif:L-node">
+<p class="claim" property="aif:claimText"><strong about="this:nextgenai">Next generation AI</strong> may be interpreted as any significant advance in the state-of-the-art that either provides capability not currently available, or solves a problem with current AI.</p>
+</article>
+</li>
+
+</ol>
+
+<p>(1) and (2) refer to Wikipedia definitions:</p>
+
+
+<article about="dbr:Artificial_general_intelligence" typeof="aif:L-node scheme:def">
+<p class="claim" property="aif:claimText"><span>Wikipedia: </span><strong>Artificial general intelligence</strong> (AGI) is the ability of an intelligent agent to understand or learn any intellectual task that a human being can. It is a primary goal of some artificial intelligence research and a common topic in science fiction and futures studies. AGI can also be referred to as strong AI, full AI, or general intelligent action, although some academic sources reserve the term "strong AI" for computer programs that experience sentience or consciousness.</p>
+</article>
+
+
+<article about="dbr:Artificial_intuition" typeof="aif:L-node scheme:def">
+<p class="claim" property="aif:claimText"><span>Wikipedia: </span><strong>Artificial intuition</strong> is a theoretical capacity of an artificial software to function similarly to human consciousness, specifically in the capacity of human consciousness known as intuition.</p>
+</article>
+
+
+<article about="this:isnotagi" typeof="aif:CA-node">
+<p><span resource="this:notagi" rel="aif:Premise">We rule out</span> <span resource="this:agi" rel="aif:Conclusion">the AGI definition</span>:</p>
+<p about="this:notagi" class="claim" typeof="aif:L-node" property="aif:claimText">AGI is more "ultimate generation" than it is "next generation", and there will be important stages in the development of AI that fall short of AGI.</p>
+</article>
+
+<article about="this:isnotintuition" typeof="aif:CA-node">
+<p><span resource="this:notaintuition" rel="aif:Premise">We rule out</span> <span resource="this:intuition" rel="aif:Conclusion">the artificial intuition definition</span>:</p>
+<p about="this:notintuition" class="claim" typeof="aif:L-node" property="aif:claimText">Artificial intuition is defined in terms of consciousness, and consciousness is not well-defined. This isn't a useful definition of "next" generation AI.</p>
+</article>
+
+<p about="_:rewrite" typeof="aif:MA-node">
+Answers <span resource="this:beyond" property="aif:Premise">(3)</span> and <span resource="this:advance" property="aif:Conclusion">(4)</span> are much the same if we take "predictive analytics and explainability" as the state-of-the-art. 
+</p>
+
+
+</body>
+</html>
