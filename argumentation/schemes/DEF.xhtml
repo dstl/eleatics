@@ -18,22 +18,26 @@
 
 <h3>Definition</h3>
 
-<p about="this:infers" typeof="aif:RA-node toulmin:infers">This scheme <span resource="this:warrant" property="aif:Premise">warrants</span> a <em about="this:claim" typeof="aif:I-node toulmin:claim" property="aif:claimText">CLAIM</em> as <span about="toulmin:warrant" typeof="aif:I-node toulmin:warrant" property="aif:claimText">the definition of a class or concept</span>.  
-There is no <em>DATA</em> or <em>QUALIFIER</em>. Its purpose is to bring to bear critical questions about the <span resource="this:claim" property="aif:Conclusion">definition</span>.
+<p about="this:infers" typeof="aif:RA-node toulmin:infers">This scheme <span resource="this:warrant" property="aif:Premise">warrants</span> a <em about="this:claim" typeof="aif:I-node toulmin:claim" property="aif:claimText">CLAIM</em> as <span about="this:warrant" typeof="aif:I-node toulmin:warrant" property="aif:claimText">the definition of a class or concept</span>.  
+<em>DATA</em> identifies the concept defined. Any <span>uncertainty about the definition, or information that qualifies the context in which it applies</span>, may be expressed as a <em>QUALIFIER</em>.
 </p>
 
 <p>
-The <em>critical questions</em> are:
+Its purpose is to bring to bear <em>critical questions</em> about <span resource="this:claim" property="aif:Conclusion">the definition</span>:
 </p>
 
 <ul about="this:warrant" rev="aif:StartLocution">
 
 <li about="this:TA1" typeof="aif:TA-node" rel="aif:EndLocution">
-<p about="this:q1" typeof="aif:L-node" property="aif:claimText">If the claim defines a class, are there any defining properties of that class?</p> 
+<p about="this:q1" typeof="aif:L-node" property="aif:claimText">If the claim defines a class, what are the defining properties of that class?</p> 
 </li>
 
 <li about="this:TA2" typeof="aif:TA-node" rel="aif:EndLocution">
 <p about="this:q2" typeof="aif:L-node" property="aif:claimText">Is there a test that something meeting this definition?</p>
+</li>
+
+<li about="this:TA3" typeof="aif:TA-node" rel="aif:EndLocution">
+<p about="this:q3" typeof="aif:L-node" property="aif:claimText">Can you give an example?</p>
 </li>
 
 </ul>
