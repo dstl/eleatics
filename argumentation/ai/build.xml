@@ -1,0 +1,11 @@
+<project name="Eleatics: Argumentation (AI)" basedir=".">
+
+  <description>Artificial Intelligence dialogue</description>
+
+  <target name="definition">
+  	<!-- What is next generation AI? -->
+	<xslt in="nxtgenai-def.xhtml" out="../output/ai/nxtgentai-def.txt" style="../../xsl-utils/rdfa-ntriples.xsl" force="yes"/>
+  </target>
+	
+</project>
+

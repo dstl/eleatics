@@ -2,7 +2,7 @@
       xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
       xmlns:aif="http://www.arg.dundee.ac.uk/aif#"
 	  xmlns:scheme="urn:dstl:eleatics:"
-	  xmlns:this="http://www.example.com#"
+	  xmlns:this="https://dstl.github.io/eleatics/argumentation/ai/nxtgenai-def.xhtml#"
 	  xmlns:dbr="https://dbpedia.org/resource/"
       xmlns:skos="http://www.w3.org/2004/02/skos/core#">
 <head>
@@ -11,11 +11,11 @@
 	<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"/>
 	<meta name="DC.identifier" content="Ai workshop dialogue"/>
 	<meta name="DC.date" content="2022-07-26"/>
-	<title>AI S&amp;T</title>
+	<title>next generation AI</title>
 </head>
 <body>
 
-<h1 about="this:nextgenai" typeof="aif:I-node" property="aif:claimText">Next generation AI</h1>
+<h1 about="this:nextgenai" typeof="skos:Concept" property="aif:prefLabel">Next generation AI</h1>
 
 <article>
 <p about="this:q" typeof="aif:L-node" property="aif:claimText" class="question">What do you mean by "<span>next generation AI</span>"?</p>
@@ -64,13 +64,15 @@
 </article>
 
 
-<article about="this:isnotagi" typeof="aif:CA-node">
-<p><span resource="this:notagi" rel="aif:Premise">We rule out</span> <span resource="this:agi" rel="aif:Conclusion">the AGI definition</span>:</p>
+<article>
+<p about="_:ta1" typeof="aif:TA-node">In <span property="aif:EndLocution" resource="this:notagi">response</span> to <span property="aif:StartLocution" resource="this:agi">(1)</span> ...</p>
+<p about="this:isnotagi" typeof="aif:CA-node"><span resource="this:notagi" rel="aif:Premise">We rule out</span> <span resource="this:agi" rel="aif:Conclusion">the AGI definition</span>:</p>
 <p about="this:notagi" class="claim" typeof="aif:L-node" property="aif:claimText">AGI is more "ultimate generation" than it is "next generation", and there will be important stages in the development of AI that fall short of AGI.</p>
 </article>
 
-<article about="this:isnotintuition" typeof="aif:CA-node">
-<p><span resource="this:notaintuition" rel="aif:Premise">We rule out</span> <span resource="this:intuition" rel="aif:Conclusion">the artificial intuition definition</span>:</p>
+<article>
+<p about="_:ta2" typeof="aif:TA-node">In <span property="aif:EndLocution" resource="this:notintuition">response</span> to <span property="aif:StartLocution" resource="this:intuition">(2)</span> ...</p>
+<p about="this:isnotintuition" typeof="aif:CA-node"><span resource="this:notintuition" rel="aif:Premise">We rule out</span> <span resource="this:intuition" rel="aif:Conclusion">the artificial intuition definition</span>:</p>
 <p about="this:notintuition" class="claim" typeof="aif:L-node" property="aif:claimText">Artificial intuition is defined in terms of consciousness, and consciousness is not well-defined. This isn't a useful definition of "next" generation AI.</p>
 </article>
 
