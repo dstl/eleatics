@@ -8,7 +8,7 @@ Consider Heur's **[worked example](https://dstl.github.io/eleatics/argumentation
 
 ## Semantic markup ##
 
-The example is [XHTML+RDFa](https://en.wikipedia.org/wiki/XHTML%2BRDFa), where [RDFa](http://rdfa.info/) provides the semantic markup that gives back linked data, and using [XHTML](en.wikipedia.org/wiki/XHTML) (rather than just HTML) brings XML manipulation utilities such as [XSLT](https://en.wikipedia.org/wiki/XSLT) into play. Tools like [RDFa Play](http://rdfa.info/play/) and [RDF Translator](http://rdf-translator.appspot.com/) will extract the RDF from the web page. For example, **RDF Translator** operates on [Heur's Iraq WMD example](https://dstl.github.io/eleatics/argumentation/examples/ach/heur.xhtml) to give this [RDF/XML](https://rdf-translator.appspot.com/convert/rdfa/xml/html/https%3A%2F%2Fdstl.github.io%2Feleatics%2Fargumentation%2Fexamples%2Fach%2Fheur.xhtml).
+The example is [XHTML+RDFa](https://en.wikipedia.org/wiki/XHTML%2BRDFa), where [RDFa](http://rdfa.info/) provides the semantic markup that gives back linked data, and using [XHTML](en.wikipedia.org/wiki/XHTML) (rather than just HTML) brings XML manipulation utilities such as [XSLT](https://en.wikipedia.org/wiki/XSLT) into play. Tools like [RDFa Play](http://rdfa.info/play/) and [EasyRdf](https://www.easyrdf.org/converter) can be used to  extract the RDF from the web page.
 
 There is a choice to be made about which RDF vocabularies to use in the RDFa markup. Ultimately, we're aiming at generating [Argument Interchange Format (AIF)](http://www.argumentinterchange.org/) and applying [argumentation](https://en.wikipedia.org/wiki/Argumentation_theory) - but we don't have to get there in one go. Instead, we might want to consider:
 
