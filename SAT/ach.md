@@ -27,6 +27,10 @@ The XSL stylesheet that does this is **[ach-to-aif.xsl](https://github.com/dstl/
 1. Make an **I-node** for each SKOS **Concept** in the web page. The _definition_ of the Concept becomes the _claimText_ of the I-node.
 
 1. Make an **S-node** for each cell in the ACH matrix. The _premise_ is the evidence marked up in the **th** element for the **tr** element containing the **td** element (matrix cell), and the _conclusion_ is the hypothesis marked up in **th** element for the relevant column. The HTML _@scope="col"_ attribute is used to label the **th** elements that are the hypotheses, and the offset of the matrix cell **td** element within a row is used to index the relevant hypothesis from a list of these column headers. The S-node created will be an **RA-node** if the evidence is consistent with the hypothesis, and a **CA-node** if it is inconsistent. Consistency or inconsistency is indicated by the class attribute on the **td** element that is the matrix cell (_@class="plus"_ and _@class="minus"_ respectively).
+
+We can create AIF for Heur's ACH example as explained above, then get GraphML from that by following the steps described on the [Argument Maps](https://github.com/dstl/eleatics/wiki/Argument-Maps) wiki page. The [result](heur.graphml) looks like this:
+
+![ACH argument map](heur.svg "Argument Map")
  
 ## The ACH method ##
 
@@ -40,6 +44,6 @@ A preferred extension in which a hypothesis is acceptable will also contain the 
 
 1. A plus or minus in a matrix cell translates simply to defeasible support or contradiction (and the double minus is just treated as a minus). Is this good enough? Heur offers a few alternatives for how the relationship between evidence and hypothesis might be recorded in the matrix. The suggestion here is that a simple translation to arguments is sufficient to generate the argument map, and that any extra information recorded in the ACH matrix cell can be used in sensitivity analysis and in drawing conclusions.
 
-1. Sensitivity analysis suggests that the linkage between the generated argumentation system and a knowledge base needs some thought. This linkage would be done by some notional analysis tool, but the point here is that generating axioms and ordinary premises needs to be separate for generating the argument map so that the former can be manipulated independently of the latter.
+1. Sensitivity analysis suggests that the linkage between the generated argumentation system and a knowledge base needs some thought. This linkage would be done by some notional analysis tool, but the point here is that generating axioms and ordinary premises needs to be separate from generating the argument map so that the former can be manipulated independently of the latter.
 
 1. Extension semantics can be exploited when expressing the certainty of conclusions, as can meta arguments about evidence and hypotheses. Machine agents that take different stances ("dove", "hawk", "devil's advocate", ...) might take a role in establishing conclusions. There is a lot to think about here.
