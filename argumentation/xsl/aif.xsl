@@ -10,6 +10,7 @@
 <xsl:variable name="inode"     select="concat('&lt;', $ns-aif, 'I-node', '&gt;')"/>
 <xsl:variable name="ranode"    select="concat('&lt;', $ns-aif, 'RA-node', '&gt;')"/>
 <xsl:variable name="canode"    select="concat('&lt;', $ns-aif, 'CA-node', '&gt;')"/>
+<xsl:variable name="manode"    select="concat('&lt;', $ns-aif, 'MA-node', '&gt;')"/>
 <xsl:variable name="claimtext" select="concat('&lt;', $ns-aif,'claimText', '&gt;')"/>
 
 <xsl:variable name="aif-premise"    select="concat('&lt;', $ns-aif,'Premise', '&gt;')"/>
@@ -57,6 +58,29 @@
 	<xsl:call-template name="aif-snode">
 		<xsl:with-param name="nodeid" select="$nodeid"/>
 		<xsl:with-param name="nodetype" select="$ranode"/>
+		<xsl:with-param name="claimText" select="$claimText"/>
+		<xsl:with-param name="graphName" select="$graphName"/>
+		<xsl:with-param name="premises" select="$premises"/>
+		<xsl:with-param name="conclusion" select="$conclusion"/>
+	</xsl:call-template>
+		
+</xsl:template>
+
+
+<xsl:template name="aif-manode">
+
+	<!-- Are MA-nodes part of the AIF ontology? (not in AIF.owl). If so, what are their properties? -->
+	<!-- For the moment, this is simply a copy of aif-ranode with a different nodetype in the call to the aif-snode template. -->
+
+	<xsl:param name="nodeid"/>
+	<xsl:param name="claimText"/>
+	<xsl:param name="graphName"/>
+	<xsl:param name="premises"/>
+	<xsl:param name="conclusion"/>
+	
+	<xsl:call-template name="aif-snode">
+		<xsl:with-param name="nodeid" select="$nodeid"/>
+		<xsl:with-param name="nodetype" select="$manode"/>
 		<xsl:with-param name="claimText" select="$claimText"/>
 		<xsl:with-param name="graphName" select="$graphName"/>
 		<xsl:with-param name="premises" select="$premises"/>
